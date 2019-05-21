@@ -1,0 +1,11 @@
+﻿User-agent: *
+Disallow: /*.xml
+Disallow: /search
+Allow: /
+Allow: /atom.xml$
+Allow: /rss.xml$
+Allow: /sitemap.xml$
+
+Sitemap: https://pashtitzky.github.io/atom.xml
+Sitemap: https://pashtitzky.github.io/rss.xml
+Sitemap: https://pashtitzky.github.io/sitemap.xml
