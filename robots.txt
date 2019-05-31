@@ -1,8 +1,5 @@
-﻿User-agent: *
+User-agent: *
 Disallow: /*.xml
 Allow: /
-Allow: /sitemap.xml$
-Allow: /feed.xml$
 
 Sitemap: https://pashtitzky.github.io/sitemap.xml
-Sitemap: https://pashtitzky.github.io/feed.xml
