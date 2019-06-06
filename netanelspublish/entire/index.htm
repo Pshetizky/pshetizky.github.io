@@ -6,6 +6,19 @@
 <link rel="apple-touch-icon" href="favicon.png">
 </head>
 <body>
-<img alt="hi" src="land1.png" widht="100%">
+<img alt="hi" src="land1.png">
+/* The animation code */
+@keyframes open{
+0%{transform:scale(1);}
+25%{transform:scale(1.5);}
+50%{transform:scale(18);}
+100%{transform:scale(20);}
+}
+
+/* The element to apply the animation to */
+div{
+animation-name:open;
+animation-duration:4s;
+} 
 </body>
 </html>
