@@ -1,5 +1,6 @@
 User-agent: *
-Disallow: /*.txt
+Disallow: /*sitemap*
+Allow: /sitemap.xml$
 Allow: /sitemap.txt$
 
-Sitemap: https://pashtitzky.github.io/sitemap.txt
+Sitemap: https://pashtitzky.github.io/sitemap.xml
