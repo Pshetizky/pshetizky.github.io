@@ -1,6 +1,5 @@
 User-agent: *
 Disallow: /*sitemap*
-Allow: /sitemap.xml$
 Allow: /sitemap.txt$
 
 Sitemap: https://pashtitzky.github.io/sitemap.xml
