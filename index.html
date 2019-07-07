@@ -20,7 +20,18 @@
 Start Comp1
  *****/
 
-#pro{
+#abc{
+background:url(comp1/abc.gif)repeat-x;
+height:46px;
+background-size:27em;
+background-color:white
+}
+
+/*!***********
+End Comp1
+ *****/
+
+img#pro{
 background-color:white;
 text-align:center;
 display:block;
@@ -35,12 +46,12 @@ text-align:center;
 color:#c4b8ba;
 text-decoration:none
 }
-#hello{
+a#hello{
 text-decoration:none;
 font-size:44vw;
 color:#c4b8ba
 }
-#links{
+a#links{
 text-align:justify;
 font-size:20vw;
 color:#c4b8ba;
@@ -48,49 +59,41 @@ background-color:white;
 text-decoration:none;
 text-justify:kashida
 }
-#trans{
+div#trans{
 transform:translate(-13.9em,-4.25em);
 font-size:5vw;
 color:white;
 width:0px
 }
-#abc{
-background:url(comp1/abc.gif)repeat-x;
-height:46px;
-background-size:27em;
-background-color:white
-}
-#tree{
+div#tree{
 background:url(comp1/tree.gif)repeat-x;
 height:2em;
 transform:translateY(-6.6vw);
 background-size:calc(8em + 1.3vw)
 }
-#empty{
+div#empty{
 height:90vh
 }
 
 /*!***********
-End Comp1
+End Comp2
  *****/
 
 </style>
 
-</head><body class="black">
+</head><body>
 
 <div id="abc"></div>
 
-<div id="pro"><img src="http://1.gravatar.com/avatar/c663a934f24a6db2546a8ec2fc309651?size=1600"></div>
+<img id="pro" src="http://1.gravatar.com/avatar/c663a934f24a6db2546a8ec2fc309651?size=1600"/>
 
-<div id="links" contenteditable="false">
 <a id="links" href="https://www.facebook.com/pashtitzky">פייסבוק</a>
-</div>
 
 <div class="comp1" contenteditable="true" style="font-size:26vw">פשטיצקי</div>
 
-<div class="comp1">
 <a id="hello" href="https://translate.google.com/translate?hl=&sl=iw&tl=en&u=https://pashtitzky.github.io">שלום</a>
-<p id="trans">translate</p></div>
+
+<div id="trans">translate</div>
 
 <div id="tree"></div>
 
