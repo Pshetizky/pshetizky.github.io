@@ -1,0 +1,25 @@
+@-webkit-keyframes opens{
+to{
+transform:translateY(70%);
+}
+}
+@-webkit-keyframes rotatea{
+from{
+transform:translateY(-100%) scaleY(1);
+filter:brightness(1)
+}
+to{
+transform:translateY(-50%) scaleY(0);
+filter:brightness(0.5)
+}
+}
+@-webkit-keyframes rotateb{
+from{
+transform:translateY(-50%) scaleY(0);
+filter:brightness(1.5)
+}
+to{
+transform:translateY(0%) scaleY(1);
+filter:brightness(1)
+}
+}
