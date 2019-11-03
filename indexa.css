@@ -23,7 +23,7 @@ animation:rotatea infinite 3s linear
 }
 @keyframes opens{
 to{
-transform:translateY(70%);
+transform:translateY(70%)
 }
 }
 @keyframes rotatea{
