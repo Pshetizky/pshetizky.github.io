@@ -1,3 +1,6 @@
+a#launcher:active{
+box-shadow:0px 0px 5px 2px black
+}
 a#linka{
 border-color:white;
 border-width:thin;
@@ -7,61 +10,47 @@ color:black;
 text-decoration:none
 }
 div#boxa{
-height:80px;
-width:calc(80px * 2);
-display: flex
+width:160px;
+height:160px
 }
 div#texta{
 }
-div#texta:hover{
-animation:drivea 100ms forwards
-}
-div#planea{
+div#planeb,div#planea{
 width:inherit;
 height:inherit;
-animation:rotatea infinite 10s linear;
 background-size:cover;
 background-image:url('http://1.gravatar.com/avatar/c663a934f24a6db2546a8ec2fc309651?size=1600')
 }
 div#planeb{
-width:inherit;
-height:inherit;
-animation:rotateb infinite 10s linear;
-background-size:cover;
-background-image:url('http://1.gravatar.com/avatar/c663a934f24a6db2546a8ec2fc309651?size=1600')
+animation:rotateb infinite 3s linear
 }
-div#boxa:hover{
-animation:ballona infinite 20s
+div#planea{
+animation:rotatea infinite 3s linear
 }
 @keyframes rotatea{
 0%{
-transform:translateX(0%) scaleX(1);
+transform:translateY(-100%) scaleY(1);
 }
 100%{
-transform:translateX(50%) scaleX(0);
+transform:translateY(-50%) scaleY(0);
 }
 }
 @keyframes rotateb{
 0%{
-transform:translateX(50%) scaleX(0);
+transform:translateY(-50%) scaleY(0);
 }
 100%{
-transform:translateX(100%) scaleX(1);
+transform:translateY(0%) scaleY(1);
 }
 }
 @keyframes ballona{
-0%{
+from{
 height:80px;
 width:calc(80px * 2)
 }
-100%{
+to{
 height:0px;
 width:calc(0px * 2)
-}
-}
-@keyframes drivea{
-100%{
-font-size:2em
 }
 }
 html{
