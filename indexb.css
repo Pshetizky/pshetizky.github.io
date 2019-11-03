@@ -1,6 +1,6 @@
 @-webkit-keyframes opens{
 to{
-transform:translateY(70%);
+transform:translateY(70%)
 }
 }
 @-webkit-keyframes rotatea{
