@@ -1,17 +1,26 @@
 a#linka:active{
-width:0px;
-height:0px
+filter:drop-shadow(2px 4px 6px black);
+}
+a#linkb{
+position:absolute
 }
 a#linka{
+animation:opens 1s ease-in infinite alternate
+}
+@-webkit-keyframes opens{
+to{
+transform:translateY(70%);
+}
+}
+a#linka{
+transform:translateY(-29%);
+position: absolute;
 width:250px;
 height:250px
 }
 div#boxa{
 width:inherit;
 height:inherit
-}
-div#boxb{
-padding:28%
 }
 div#planeb,div#planea{
 width:inherit;
