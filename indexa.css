@@ -1,19 +1,13 @@
 a#linkb{
 position:absolute
 }
-a#linka{
-filter:drop-shadow(2px 4px 6px black);
-animation:opens 1s ease-in infinite alternate
-}
-a#linka{
-transform:translateY(-29%);
-position: absolute;
-width:250px;
-height:250px
-}
 div#boxa{
-width:inherit;
-height:inherit
+animation:opens 1s ease-in infinite alternate;
+filter:drop-shadow(2px 4px 6px black);
+height:250px;
+position: absolute;
+transform:translateY(-29%);
+width:250px
 }
 div#planeb,div#planea{
 width:inherit;
