@@ -1,16 +1,9 @@
-a#linka:active{
-filter:drop-shadow(2px 4px 6px black);
-}
 a#linkb{
 position:absolute
 }
 a#linka{
+filter:drop-shadow(2px 4px 6px black);
 animation:opens 1s ease-in infinite alternate
-}
-@-webkit-keyframes opens{
-to{
-transform:translateY(70%);
-}
 }
 a#linka{
 transform:translateY(-29%);
@@ -33,6 +26,11 @@ animation:rotateb infinite 3s linear
 }
 div#planea{
 animation:rotatea infinite 3s linear
+}
+@keyframes opens{
+to{
+transform:translateY(70%);
+}
 }
 @keyframes rotatea{
 from{
