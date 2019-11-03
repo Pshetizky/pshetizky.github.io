@@ -1,19 +1,17 @@
-a#launcher:active{
-box-shadow:0px 0px 5px 2px black
+a#linka:active{
+width:0px;
+height:0px
 }
 a#linka{
-border-color:white;
-border-width:thin;
-border-style:solid none;
-background-color:silver;
-color:black;
-text-decoration:none
+width:250px;
+height:250px
 }
 div#boxa{
-width:160px;
-height:160px
+width:inherit;
+height:inherit
 }
-div#texta{
+div#boxb{
+padding:28%
 }
 div#planeb,div#planea{
 width:inherit;
@@ -28,29 +26,23 @@ div#planea{
 animation:rotatea infinite 3s linear
 }
 @keyframes rotatea{
-0%{
+from{
 transform:translateY(-100%) scaleY(1);
+filter:brightness(1)
 }
-100%{
+to{
 transform:translateY(-50%) scaleY(0);
+filter:brightness(0.5)
 }
 }
 @keyframes rotateb{
-0%{
-transform:translateY(-50%) scaleY(0);
-}
-100%{
-transform:translateY(0%) scaleY(1);
-}
-}
-@keyframes ballona{
 from{
-height:80px;
-width:calc(80px * 2)
+transform:translateY(-50%) scaleY(0);
+filter:brightness(1.5)
 }
 to{
-height:0px;
-width:calc(0px * 2)
+transform:translateY(0%) scaleY(1);
+filter:brightness(1)
 }
 }
 html{
