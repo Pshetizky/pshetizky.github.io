@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html dir="rtl" itemscope="" itemtype="http://schema.org/WebPage" xmlns="http://www.w3.org/1999/xhtml" lang="iw">
 <head>
-<title>פשטיצקי</title>
+<link href="https://pashtitzky.github.io/favicon.ico" rel="shortcut icon">
+<link href="https://pashtitzky.github.io/favicon.ico" rel="icon">
+<link href="https://pashtitzky.github.io/favicon.png" rel="apple-touch-icon">
 <meta content="#b6d491" name="msapplication-TileColor">
 <meta content="357CC87F3B626274FF7ACFD1D1C432C7" name="msvalidate.01">
 <meta content="d61d6a43267d585d" name="yandex-verification">
@@ -11,18 +13,26 @@
 <meta content="https://pashtitzky.github.io/favicon.png" itemprop="image">
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-<link href="https://pashtitzky.github.io/favicon.ico" rel="shortcut icon">
-<link href="https://pashtitzky.github.io/favicon.ico" rel="icon">
-<link href="https://pashtitzky.github.io/favicon.png" rel="apple-touch-icon">
-
+<title>פשטיצקי</title>
 <style>
-html{
-background: gray
+a#linka{
+color:black;
+text-decoration:none;
+border-bottom:solid;
+border-color:white !important;
+border-width:thin !important;
+border-top:solid;
+background-color:silver
 }
 div#boxa{
 height:80px;
 width:calc(80px * 2);
 display: flex
+}
+div#texta{
+}
+div#texta:active{
+animation:drivea 100ms forwards
 }
 div#planea{
 width:inherit;
@@ -30,6 +40,16 @@ height:inherit;
 animation:rotatea infinite 10s linear;
 background-size:cover;
 background-image:url('http://1.gravatar.com/avatar/c663a934f24a6db2546a8ec2fc309651?size=1600')
+}
+div#planeb{
+width:inherit;
+height:inherit;
+animation:rotateb infinite 10s linear;
+background-size:cover;
+background-image:url('http://1.gravatar.com/avatar/c663a934f24a6db2546a8ec2fc309651?size=1600')
+}
+div#boxa:active{
+animation:ballona infinite 20s
 }
 @keyframes rotatea{
 0%{
@@ -39,13 +59,6 @@ transform:translateX(0%) scaleX(1);
 transform:translateX(50%) scaleX(0);
 }
 }
-div#planeb{
-width:inherit;
-height:inherit;
-animation:rotateb infinite 10s linear;
-background-size:cover;
-background-image:url('http://1.gravatar.com/avatar/c663a934f24a6db2546a8ec2fc309651?size=1600')
-}
 @keyframes rotateb{
 0%{
 transform:translateX(50%) scaleX(0);
@@ -53,9 +66,6 @@ transform:translateX(50%) scaleX(0);
 100%{
 transform:translateX(100%) scaleX(1);
 }
-}
-div#boxa:active{
-animation:ballona infinite 20s
 }
 @keyframes ballona{
 0%{
@@ -67,43 +77,32 @@ height:0px;
 width:calc(0px * 2)
 }
 }
-a#linka{
-color:black;
-text-decoration:none;
-border-bottom:solid;
-border-color:white !important;
-border-width:thin !important;
-border-top:solid;
-background-color:silver
-}
-div#motexta{
-}
-div#motexta:active{
-animation:drivea 100ms forwards
-}
 @keyframes drivea{
 100%{
 font-size:2em
 }
 }
+html{
+background: gray
+}
 </style>
 </head>
 <body>
-<div id="motexta">
+<div id="texta">
 ניירת
 </div>
-<a id="linka" href="a.htm">
+<a id="linka" href="genpap.htm">
 בראשית
 </a>
 <br />
-<div id="motexta">
+<div id="texta">
 חרייטת
 </div>
-<a id="linka" href="b.htm">
+<a id="linka" href="genwoo.htm">
 בראשית
 </a>
 <br />
-<div id="motexta">
+<div id="texta">
  נתנאל פשטיצקי
 </div>
 <a id="linka" href="https://facebook.com/pashtitzky">
