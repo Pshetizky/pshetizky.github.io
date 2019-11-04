@@ -41,21 +41,54 @@ div#jd::after{
 content:'ויאמר אלהים יהי מארת ברקיע השמים להבדיל בין היום ובין הלילה והיו לאתת ולמועדים ולימים ושנים'
 }
 div#je::after{
-content:''
+content:'והיו למאורת ברקיע השמים להאיר על הארץ ויהי כן'
 }
 div#jf::after{
-content:''
+content:'ויעש אלהים את שני המארת הגדלים את המאור הגדל לממשלת היום ואת המאור הקטן לממשלת הלילה ואת הכוכבים'
 }
 div#jg::after{
-content:''
+content:'ויתן אתם אלהים ברקיע השמים להאיר על הארץ'
 }
 div#jh::after{
-content:''
+content:'ולמשל ביום ובלילה ולהבדיל בין האור ובין החשך וירא אלהים כי טוב'
 }
 div#ji::after{
-content:''
+content:'ויהי ערב ויהי בקר יום רביעי'
 }
 div#k::after{
+content:''
+}
+div#ka::after{
+content:''
+}
+div#kb::after{
+content:''
+}
+div#kc::after{
+content:''
+}
+div#kd::after{
+content:''
+}
+div#ke::after{
+content:''
+}
+div#kf::after{
+content:''
+}
+div#kg::after{
+content:''
+}
+div#kh::after{
+content:''
+}
+div#ki::after{
+content:''
+}
+div#l::after{
+content:''
+}
+div#la::after{
 content:''
 }
 div#ka::after{
