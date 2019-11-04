@@ -1,6 +1,6 @@
-@-webkit-keyframes opens{
+@-webkit-keyframes stara{
 to{
-transform:translateY(30%)
+transform:translate(-279%,264%) rotate(-48deg)
 }
 }
 @-webkit-keyframes rotatea{
@@ -10,16 +10,19 @@ filter:brightness(1)
 }
 to{
 transform:translateY(-50%) scaleY(0);
-filter:brightness(0.5)
+filter:brightness(0.7)
 }
 }
 @-webkit-keyframes rotateb{
 from{
 transform:translateY(-50%) scaleY(0);
-filter:brightness(1.5)
+filter:brightness(0.7)
 }
 to{
 transform:translateY(0%) scaleY(1);
 filter:brightness(1)
 }
+}
+html{
+background:gray
 }
