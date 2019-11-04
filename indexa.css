@@ -1,17 +1,16 @@
 *{
-font-size:larger
+font-size:xx-large;
 }
 a#linkb{
 position:absolute
 }
 div#boxa{
-animation:opens 1s ease-in infinite alternate;
+animation:stara 1.1s ease-in infinite alternate;
 filter:drop-shadow(2px 4px 6px black);
-height:360px;
-margin:0 28%;
-position: absolute;
-transform:translateY(-50%);
-width:360px
+height:32vw;
+position:fixed;
+transform:translate(60%,-235%) rotate(30deg);
+width:32vw
 }
 div#planeb,div#planea{
 width:inherit;
@@ -20,14 +19,14 @@ background-size:cover;
 background-image:url('http://1.gravatar.com/avatar/c663a934f24a6db2546a8ec2fc309651?size=1600')
 }
 div#planeb{
-animation:rotateb infinite 3s linear
+animation:rotateb infinite 1s linear
 }
 div#planea{
-animation:rotatea infinite 3s linear
+animation:rotatea infinite 1s linear
 }
-@keyframes opens{
+@keyframes stara{
 to{
-transform:translateY(30%)
+transform:translate(-279%,264%) rotate(-48deg)
 }
 }
 @keyframes rotatea{
@@ -37,13 +36,13 @@ filter:brightness(1)
 }
 to{
 transform:translateY(-50%) scaleY(0);
-filter:brightness(0.5)
+filter:brightness(0.7)
 }
 }
 @keyframes rotateb{
 from{
 transform:translateY(-50%) scaleY(0);
-filter:brightness(1.5)
+filter:brightness(0.7)
 }
 to{
 transform:translateY(0%) scaleY(1);
@@ -51,5 +50,5 @@ filter:brightness(1)
 }
 }
 html{
-background: gray
+background:gray
 }
