@@ -1,9 +1,10 @@
 div{
+background:white;
 border-color:silver;
 border-width:thin;
 border-style:solid none;
 color:black;
 direction:rtl;
-font-size:larger;
+margin-bottom:-1px;
 padding:0% 1%
 }
