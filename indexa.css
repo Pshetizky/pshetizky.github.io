@@ -7,10 +7,10 @@ position:absolute
 div#boxa{
 animation:stara 1.1s ease-in infinite alternate;
 filter:drop-shadow(2px 4px 6px black);
-height:32vw;
+height:250px;
 position:fixed;
 transform:translate(60%,-235%) rotate(30deg);
-width:32vw
+width:250px
 }
 div#planeb,div#planea{
 width:inherit;
@@ -19,10 +19,10 @@ background-size:cover;
 background-image:url('http://1.gravatar.com/avatar/c663a934f24a6db2546a8ec2fc309651?size=1600')
 }
 div#planeb{
-animation:rotateb infinite 1s linear
+animation:rotateb infinite 2s linear
 }
 div#planea{
-animation:rotatea infinite 1s linear
+animation:rotatea infinite 2s linear
 }
 @keyframes stara{
 to{
