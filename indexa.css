@@ -5,11 +5,10 @@ a#linkb{
 position:absolute
 }
 div#boxa{
-animation:stara 1.1s ease-in infinite alternate;
-filter:drop-shadow(2px 4px 6px black);
+animation:stara 3s ease-out infinite alternate;
 height:250px;
 position:fixed;
-transform:translate(60%,-235%) rotate(30deg);
+transform:translate(200%,-200%) rotate(-45deg) scale(1.5);
 width:250px
 }
 div#planeb,div#planea{
@@ -18,35 +17,43 @@ height:inherit;
 background-size:cover;
 background-image:url('http://1.gravatar.com/avatar/c663a934f24a6db2546a8ec2fc309651?size=1600')
 }
-div#planeb{
-animation:rotateb infinite 2s linear
-}
 div#planea{
 animation:rotatea infinite 2s linear
 }
+div#planeb{
+animation:rotateb infinite 2s linear
+}
 @keyframes stara{
 to{
-transform:translate(-279%,264%) rotate(-48deg)
+transform:translate(-200%,200%) rotate(-45deg) scale(0.5)
 }
 }
 @keyframes rotatea{
-from{
-transform:translateY(-100%) scaleY(1);
-filter:brightness(1)
-}
-to{
+0%{
 transform:translateY(-50%) scaleY(0);
-filter:brightness(0.7)
+filter:brightness(0)
+}
+50%{
+transform:translateY(-35%) scaleY(0.7);
+filter:brightness(0.5)
+}
+100%{
+transform:translateY(0%) scaleY(1);
+filter:brightness(1)
 }
 }
 @keyframes rotateb{
-from{
-transform:translateY(-50%) scaleY(0);
-filter:brightness(0.7)
-}
-to{
-transform:translateY(0%) scaleY(1);
+0%{
+transform:translateY(-100%) scaleY(1);
 filter:brightness(1)
+}
+50%{
+transform:translateY(-65%) scaleY(0.7);
+filter:brightness(0.5)
+}
+100%{
+transform:translateY(-50%) scaleY(0);
+filter:brightness(0)
 }
 }
 html{
