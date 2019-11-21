@@ -23,6 +23,13 @@ border-color:#ffffff;
 color:#000000
 }
 }
+@-webkit-keyframes splasha{
+100%{
+background:#ffffff;
+border-color:#ffffff;
+color:#000000
+}
+}
 a#wood div#polya{
 color:#806e00;
 border-color:#ffbf00;
