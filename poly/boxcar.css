@@ -1,0 +1,21 @@
+div#cara{
+background-image:url(boxcar.bmp);
+height:72px;
+width:156px;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: drivea;
+position:fixed;
+filter:contrast(2) blur(2px);
+transform:translate(-400%,0%) rotate(22deg);
+background-repeat:no-repeat
+}
+@keyframes drivea{
+100%{
+transform:translate(-100%,200%) rotate(8deg)
+}
