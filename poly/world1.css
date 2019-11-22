@@ -1,0 +1,42 @@
+div#car2,div#background2{
+ position: inherit;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-direction: normal;
+ animation-duration: 7s
+}
+div#background2{
+animation-name: background;
+filter: contrast(1.2);
+background-size: 100px;
+transform:rotate(0deg)
+}
+@keyframes background{
+25%{
+transform:rotate(60deg) translateY(25em)
+}
+50%{
+transform:rotate(-152deg) translateY(50em)
+}
+75%{
+transform:rotate(90deg) translateY(75em)
+}
+100%{
+transform:rotate(0deg) translateY(99em)
+}
+}
+div#car2{
+animation-name: drivea;
+transform:rotate(90deg)
+}
+@keyframes drivea{
+25%{
+transform:rotate(150deg)
+}
+50%{
+transform:rotate(-62deg)
+}
+75%{
+transform:rotate(180deg)
+}
+}
