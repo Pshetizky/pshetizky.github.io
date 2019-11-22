@@ -1,45 +1,22 @@
-html{
-background:$ffffff
+*{
+text-decoration:none
 }
 div#polyb{
 width:min-content;
 margin-bottom:-14.7em;
 transform:rotate(90deg)
 }
-*:active{
-animation-duration:200ms;
-animation-timing-function:linear;
-animation-delay:0s;
-animation-iteration-count:1;
-animation-direction:normal;
-animation-fill-mode:forwards;
-animation-play-state:running;
-animation-name:splasha
-}
-@keyframes splasha{
-100%{
-background:#ffffff;
-border-color:#ffffff;
-color:#000000
-}
-}
-@-webkit-keyframes splasha{
-100%{
-background:#ffffff;
-border-color:#ffffff;
-color:#000000
-}
-}
 a#wood div#polya{
-color:#806e00;
-border-color:#ffbf00;
-background:#ffbf00
+color:#212121;
+border-color:#ef6c00;
+background:#ef6c00
 }
 a#paper div#polya{
 color:#444444;
-border-color:#c0c0c0;
-background:#c0c0c0
+border-color:#9E9E9E;
+background:#9E9E9E
 }
 a#sep div#polya{
-filter:contrast(1.7)
+filter:brightness(0.5);
+color:white
 }
