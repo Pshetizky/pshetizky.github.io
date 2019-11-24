@@ -6,8 +6,7 @@ transform:translate(50%,-50%);
  position: inherit;
  width: 100000px
 }
-div#background3 {
- transform: translate(-320px, 320px);
+div#background3,div#car3 {
  position: fixed
 }
 div#car1{
@@ -18,8 +17,4 @@ height:72px;
 width:156px;
 filter:contrast(2) blur(2px);
 background-repeat:no-repeat
-}
-div#car3{
- transform: translate(-320px, 320px);
-position:fixed
 }
