@@ -1,22 +1,30 @@
 *{
 text-decoration:none
 }
-div#polyb{
+div#poly1 {
+height: 200px;
+margin: 14px 0px;
+font-size: 64px;
+transform: rotate(-90deg);
+border-style: solid;
+width: 200px
+}
+div#poly2{
 width:min-content;
-margin-bottom:-14.7em;
+margin-bottom:-437px;
 transform:rotate(90deg)
 }
-a#wood div#polya{
+a#wood div#poly1{
 color:#212121;
 border-color:#ef6c00;
 background:#ef6c00
 }
-a#paper div#polya{
+a#paper div#poly1{
 color:#444444;
 border-color:#9E9E9E;
 background:#9E9E9E
 }
-a#sep div#polya{
+a#sep div#poly1{
 filter:brightness(0.5);
 color:white
 }
