@@ -1,17 +1,15 @@
 div#frame{
-height:500px;
-width:500px;
-position:fixed;
-border-style:dashed
+margin-top:-460px;
+margin-right:-460px;
+position:fixed
 }
 div#background1{
 background-image:url(block.bmp);
-height:3000px;
-width:3000px;
+height:2000px;
+width:2000px;
 filter:contrast(1.2);
 background-size:100px;
-position:fixed;
-animation-name:background1;
+animation-name:texture;
 animation-timing-function:linear;
 animation-iteration-count:infinite;
 animation-direction:normal;
@@ -20,26 +18,23 @@ animation-duration:200ms
 div#car1{
 background-image:url(boxcar.bmp);
 height:72px;
-position:fixed;
 width:156px;
 filter:contrast(2) blur(2px);
 background-repeat:no-repeat;
 }
-div#background2{
-}
 div#car2{
-transform:rotateZ(90deg)
+transform:rotateZ(90deg) translateX(-1000px)
 }
-@keyframes background1{
+@keyframes texture{
 0%{
-transform:translate(1200px,-1297px)
+transform:translateY(-47px)
 }
 100%{
-transform:translate(1200px,-1200px)
+transform:translateY(50px)
 }
 }
 div#background2,div#car1{
-animation-duration: 60s;
+animation-duration: 10s;
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: infinite;
