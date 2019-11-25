@@ -1,30 +1,38 @@
 *{
 text-decoration:none
 }
-div#poly1 {
+div#poly1{
 height: 200px;
-margin: 14px 0px;
 font-size: 64px;
-transform: rotate(-90deg);
-border-style: solid;
-width: 200px
+box-shadow:inset 0px -14px 20px 0px #cccccc;
+border-radius:100px;
+width:200px;
+animation:auto2 50s ease infinite
 }
 div#poly2{
 width:min-content;
-margin-bottom:-437px;
-transform:rotate(90deg)
+margin-bottom:-400px;
+animation:auto3 50s ease infinite
 }
-a#wood div#poly1{
-color:#212121;
-border-color:#ef6c00;
-background:#ef6c00
+@keyframes auto3{
+0%{
+transform:rotateZ(95deg)
 }
-a#paper div#poly1{
-color:#444444;
-border-color:#9E9E9E;
-background:#9E9E9E
+50%{
+transform:rotateZ(85deg)
 }
-a#sep div#poly1{
-filter:brightness(0.5);
-color:white
+100%{
+transform:rotateZ(95deg)
+}
+}
+@keyframes auto2{
+0%{
+transform:rotateZ(-95deg);
+}
+50%{
+transform:rotateZ(-85deg);
+}
+100%{
+transform:rotateZ(-95deg)
+}
 }
