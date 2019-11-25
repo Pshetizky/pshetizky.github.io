@@ -5,9 +5,6 @@ width:-webkit-fill-available
 html{
 background:#c0c0c0
 }
-div#polyc{
-height:100px;
-width:100px;
-font-size:24px;
-background:#9E9E9E
+a div#poly1{
+animation:none
 }
