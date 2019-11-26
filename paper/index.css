@@ -6,5 +6,8 @@ html{
 background:#c0c0c0
 }
 a div#poly1{
+height:50px;
+width:50px;
+font-size:24px;
 animation:none
 }
