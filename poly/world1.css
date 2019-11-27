@@ -4,9 +4,9 @@ margin-right:-460px;
 position:fixed
 }
 div#background1{
-background-image:url(block.bmp);
-height:2000px;
-width:2000px;
+background-image:url(background1.png);
+height:3000px;
+width:3000px;
 filter:contrast(1.2);
 background-size:100px;
 animation-name:texture;
@@ -16,14 +16,15 @@ animation-direction:normal;
 animation-duration:200ms
 }
 div#car1{
-background-image:url(boxcar.bmp);
-height:72px;
-width:156px;
-filter:contrast(2) blur(2px);
+background-image:url(ren0002.gif);
+background-size:contain;
+height:362px;
+width:580px;
+filter:contrast(2);
 background-repeat:no-repeat;
 }
 div#car2{
-transform:rotateZ(90deg) translateX(-1000px)
+transform:rotateZ(270deg) translate(2400px,700px)
 }
 @keyframes texture{
 0%{
