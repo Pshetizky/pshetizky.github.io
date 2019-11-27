@@ -36,3 +36,25 @@ transform:rotateZ(-85deg);
 transform:rotateZ(-95deg)
 }
 }
+@-webkit-keyframes auto3{
+0%{
+transform:rotateZ(95deg)
+}
+50%{
+transform:rotateZ(85deg)
+}
+100%{
+transform:rotateZ(95deg)
+}
+}
+@-webkit-keyframes auto2{
+0%{
+transform:rotateZ(-95deg);
+}
+50%{
+transform:rotateZ(-85deg);
+}
+100%{
+transform:rotateZ(-95deg)
+}
+}
