@@ -7,12 +7,12 @@ div#background1{
 background-image:url(background1.png);
 height:3000px;
 width:3000px;
-background-size:100px;
+background-size:720px;
 animation-name:texture;
 animation-timing-function:linear;
 animation-iteration-count:infinite;
 animation-direction:normal;
-animation-duration:200ms
+animation-duration:2300ms
 }
 div#car1{
 background-image:url(ren0002.gif);
@@ -26,10 +26,10 @@ transform:rotateZ(270deg) translateX(1500px)
 }
 @keyframes texture{
 0%{
-transform:translateY(-47px)
+transform:translateY(0px)
 }
 100%{
-transform:translateY(50px)
+transform:translateY(720px)
 }
 }
 div#background2,div#car1{
