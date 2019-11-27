@@ -1,0 +1,49 @@
+div#poly1{
+position: fixed;
+height: 0px;
+width: 0px;
+border-radius: 100%;
+border-style: solid;
+padding:266px;
+   animation-duration: 60s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+transform:translate(10px, 10px);
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: auto1
+}
+@keyframes auto1{
+0%{
+transform:rotateZ(0deg)
+}
+100%{
+transform:rotateZ(360deg)
+}
+}
+@keyframes auto2{
+0%{
+transform:rotateZ(360deg) translate(17px, -12px)
+}
+100%{
+transform:rotateZ(0deg) translate(17px, -12px)
+}
+}
+div#poly2{
+padding:23px 0px
+}
+div#poly2,div#poly3{
+height: 0px;
+width: 0px;
+font-size:18px;
+   animation-duration: 60s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: auto2
+}
