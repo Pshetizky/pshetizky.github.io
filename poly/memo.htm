@@ -12,6 +12,59 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <title>שינון</title>
+<style>
+div#poly1{
+position:fixed;
+height:0px;
+width:0px;
+border-radius:100%;
+border-style:solid;
+padding:266px;
+animation:60s linear infinite auto1;
+transform:translate(10px, 10px)
+}
+@keyframes auto1{
+0%{
+transform:rotateZ(0deg)
+}
+100%{
+transform:rotateZ(360deg)
+}
+}
+@keyframes auto2{
+0%{
+transform:rotateZ(360deg) translate(17px, -12px)
+}
+100%{
+transform:rotateZ(0deg) translate(17px, -12px)
+}
+}
+@-webkit-keyframes auto1{
+0%{
+transform:rotateZ(0deg)
+}
+100%{
+transform:rotateZ(360deg)
+}
+}
+@keyframes auto2{
+0%{
+transform:rotateZ(360deg) translate(17px, -12px)
+}
+100%{
+transform:rotateZ(0deg) translate(17px, -12px)
+}
+}
+div#poly2{
+padding:23px 0px
+}
+div#poly2,div#poly3{
+height: 0px;
+width: 0px;
+font-size:18px;
+animation:60s linear infinite auto2
+}
+</style>
 </head>
 <body>
 <center>
