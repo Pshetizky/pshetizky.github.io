@@ -7,7 +7,6 @@ div#background1{
 background-image:url(background1.png);
 height:3000px;
 width:3000px;
-filter:contrast(1.2);
 background-size:100px;
 animation-name:texture;
 animation-timing-function:linear;
@@ -20,7 +19,6 @@ background-image:url(ren0002.gif);
 background-size:contain;
 height:362px;
 width:580px;
-filter:contrast(2);
 background-repeat:no-repeat;
 }
 div#car2{
