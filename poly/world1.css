@@ -1,6 +1,6 @@
 div#frame{
-margin-top:-460px;
-margin-right:-460px;
+margin-top:-1300px;
+margin-right:-1100px;
 position:fixed
 }
 div#background1{
@@ -24,7 +24,7 @@ filter:contrast(2);
 background-repeat:no-repeat;
 }
 div#car2{
-transform:rotateZ(270deg) translate(2400px,700px)
+transform:rotateZ(270deg) translateX(1500px)
 }
 @keyframes texture{
 0%{
