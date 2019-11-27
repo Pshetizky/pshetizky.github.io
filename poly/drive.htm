@@ -12,14 +12,21 @@
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <title>נהיגה</title>
 <style>
+html{
+background:#a6b750
+}
 div#frame{
-transform:translate(1210px,-1400px);
 position:fixed
+}
+div#background2{
+transform:translate(1750px, -1750px);
+width:0px;
+height:0px
 }
 div#background1{
 background-image:url(background1.png);
-height:3000px;
-width:3000px;
+height:3500px;
+width:3500px;
 background-size:720px;
 animation:texture linear infinite 2500ms
 }
@@ -30,24 +37,27 @@ height:362px;
 width:580px;
 background-repeat:no-repeat
 }
+div#car2,div#car3,div#car4,div#car5,div#car6{
+position:absolute
+}
 div#car2{
-transform:rotateZ(270deg) translate(1700px,240px) scale(0.2);
+transform:rotateZ(270deg) translate(-62px,65px) scale(0.2);
 filter:drop-shadow(-17px 14px 23px black)
 }
 div#car3{
-transform:rotateZ(270deg) translate(2020px,25px) scale(0.2);
+transform:rotateZ(270deg) translate(98px,-375px) scale(0.18);
 filter:hue-rotate(212deg) drop-shadow(-17px 14px 23px black)
 }
 div#car4{
-transform:rotateZ(270deg) translate(2250px,237px) scale(0.2);
+transform:rotateZ(270deg) translate(-70px,-153px) scale(0.22);
 filter:hue-rotate(143deg) drop-shadow(-17px 14px 23px black)
 }
 div#car5{
-transform:rotateZ(270deg) translate(2421px,123px) scale(0.2);
+transform:rotateZ(270deg) translate(-329px,117px) scale(0.2);
 filter:hue-rotate(262deg) drop-shadow(-17px 14px 23px black)
 }
 div#car6{
-transform:rotateZ(270deg) translate(2870px,-130px) scale(0.2);
+transform:rotateZ(270deg) translate(-280px,-390px) scale(0.21);
 filter:hue-rotate(321deg) drop-shadow(-17px 14px 23px black)
 }
 @keyframes texture{
@@ -58,8 +68,8 @@ transform:translateY(0px)
 transform:translateY(720px)
 }
 }
-div#background2,div#car1{
-animation:60s linear infinite auto1
+div#background3,div#car1{
+animation:120s linear infinite auto1
 }
 @keyframes auto1{
 0%{
@@ -98,10 +108,11 @@ transform:rotateZ(360deg)
 </style>
 </head>
 <body>
-<center>
 <div id="frame">
-	<div id="background2">
-		<div id="background1">
+	<div id="background3">
+		<div id="background2">
+			<div id="background1">
+			</div>
 		</div>
 	</div>
 	<div id="car2">
@@ -125,6 +136,5 @@ transform:rotateZ(360deg)
 		</div>
 	</div>
 </div>
-</center>
 </body>
 </html>
