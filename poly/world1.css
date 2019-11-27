@@ -1,18 +1,17 @@
 div#frame{
-margin-top:-1300px;
-margin-right:-1100px;
+margin:-1250px -1250px;
 position:fixed
 }
 div#background1{
 background-image:url(background1.png);
-height:3000px;
-width:3000px;
+height:5000px;
+width:5000px;
 background-size:720px;
 animation-name:texture;
 animation-timing-function:linear;
 animation-iteration-count:infinite;
 animation-direction:normal;
-animation-duration:2300ms
+animation-duration:370ms
 }
 div#car1{
 background-image:url(ren0002.gif);
@@ -22,7 +21,7 @@ width:580px;
 background-repeat:no-repeat;
 }
 div#car2{
-transform:rotateZ(270deg) translateX(1500px)
+transform:rotateZ(270deg) translate(3500px,800px)
 }
 @keyframes texture{
 0%{
