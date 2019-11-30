@@ -10,7 +10,7 @@ width:200px;
 animation:auto2 50s ease infinite
 }
 div#poly2{
-width:min-content;
+width:0px;
 margin:auto auto -400px;
 animation:auto3 50s ease infinite
 }
