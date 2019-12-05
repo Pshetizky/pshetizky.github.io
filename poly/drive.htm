@@ -60,6 +60,11 @@ div#car6{
 transform:rotateZ(270deg) translate(-280px,-390px) scale(0.21);
 filter:hue-rotate(321deg) drop-shadow(-17px 14px 23px black)
 }
+div#frame2{
+width:700px;
+height:700px;
+animation:60s linear infinite auto2
+}
 @keyframes texture{
 0%{
 transform:translateY(0px)
@@ -88,6 +93,14 @@ transform:rotateZ(150deg)
 transform:rotateZ(360deg)
 }
 }
+@keyframes auto2{
+0%{
+transform:rotateZ(360deg)
+}
+100%{
+transform:rotateZ(0deg)
+}
+}
 @-webkit-keyframes auto1{
 0%{
 transform:rotateZ(0deg)
@@ -105,10 +118,19 @@ transform:rotateZ(150deg)
 transform:rotateZ(360deg)
 }
 }
+@-webkit-keyframes auto2{
+0%{
+transform:rotateZ(360deg)
+}
+100%{
+transform:rotateZ(0deg)
+}
+}
 </style>
 </head>
 <body>
 <div id="frame">
+<div id="frame2">
 	<div id="background3">
 		<div id="background2">
 			<div id="background1">
@@ -135,6 +157,7 @@ transform:rotateZ(360deg)
 		<div id="car1">
 		</div>
 	</div>
+</div>
 </div>
 </body>
 </html>
