@@ -4,7 +4,6 @@ text-decoration:none
 div#poly1{
 height:200px;
 font-size:48px;
-box-shadow:inset 0px -14px 20px 0px #cccccc;
 border-radius:100px;
 width:200px;
 animation:auto2 50s ease infinite
@@ -58,9 +57,14 @@ transform:rotateZ(-85deg);
 transform:rotateZ(-95deg)
 }
 }
-div#poly1{
-filter:opacity(0.5)
+div#poly1:hover,.hovera{
+filter:contrast(0.5) brightness(2) !important;
+box-shadow:inset 0px 0px 20px 20px #00000087 !important
 }
-div#poly1:hover{
-filter:none !important
+.mini1{
+margin:-190px auto -358px auto !important
+}
+.mini{
+width:70px !important;
+height:70px !important
 }
