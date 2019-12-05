@@ -1,7 +1,7 @@
 *{
 text-decoration:none
 }
-div#poly1{
+div#poly1,div#wood,div#paper,div#default,div#mini{
 height:200px;
 font-size:48px;
 border-radius:100px;
@@ -57,14 +57,28 @@ transform:rotateZ(-85deg);
 transform:rotateZ(-95deg)
 }
 }
-div#poly1:hover,.hovera{
+div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#mini:hover,.hovera{
 filter:contrast(0.5) brightness(2) !important;
 box-shadow:inset 0px 0px 20px 20px #00000087 !important
 }
 .mini1{
 margin:-190px auto -358px auto !important
 }
-.mini{
+div#mini{
+color:#ffffff;
+background:#3a3a3a;
 width:70px !important;
 height:70px !important
+}
+div#default{
+color:#ffffff;
+background:#3a3a3a
+}
+div#paper{
+color:#000dad;
+background:#9E9E9E
+}
+div#wood{
+background:#ff9800;
+color:#0010d2
 }
