@@ -1,6 +1,3 @@
-center{
-max-width:75vw
-}
 *{
 text-decoration:none
 }
@@ -13,7 +10,7 @@ animation:auto2 50s ease infinite
 }
 div#poly2{
 width:200px;
-height:200px;
+margin:auto auto -400px auto;
 animation:auto3 50s ease infinite
 }
 @keyframes auto3{
@@ -67,7 +64,6 @@ box-shadow:inset 0px 0px 20px 20px rgba(0, 0, 0, 0.5)
 }
 div#poly3{
 animation:auto3 50s ease infinite;
-height:140px;
 width:70px
 }
 div#mini{
