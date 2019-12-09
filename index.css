@@ -1,7 +1,7 @@
 *{
 text-decoration:none
 }
-div#poly1,div#wood,div#paper,div#default{
+div#poly1,div#wood,div#paper,div#default,div#help{
 height:200px;
 font-size:48px;
 border-radius:100px;
@@ -57,13 +57,12 @@ transform:rotateZ(-85deg)
 transform:rotateZ(-95deg)
 }
 }
-div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#mini:hover,.hovera{
--webkit-filter:contrast(0.5) brightness(2);
-filter:contrast(0.5) brightness(2);
-box-shadow:inset 0px 0px 20px 20px rgba(0, 0, 0, 0.5)
+div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#mini:hover,div#help:hover,.hovera{
+box-shadow:inset 0px 20px 20px 0px rgba(255, 255, 255, 0.5)
 }
 div#poly3{
 animation:auto3 50s ease infinite;
+margin:200px auto auto auto;
 width:70px
 }
 div#mini{
@@ -86,4 +85,8 @@ background:#9E9E9E
 div#wood{
 background:#ff9800;
 color:#0010d2
+}
+div#help{
+background:#ff5757;
+color:#020098
 }
