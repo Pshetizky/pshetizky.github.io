@@ -5,6 +5,7 @@ https://pashtitzky.github.io/paper/semot.htm
 https://pashtitzky.github.io/paper/sidor.htm
 https://pashtitzky.github.io/poly/drive.htm
 https://pashtitzky.github.io/poly/game.htm
+https://pashtitzky.github.io/poly/help.htm
 https://pashtitzky.github.io/poly/memo.htm
 https://pashtitzky.github.io/wood/bersit.htm
 https://pashtitzky.github.io/wood/index.htm
