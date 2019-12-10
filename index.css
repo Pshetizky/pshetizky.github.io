@@ -1,7 +1,10 @@
-*{
-text-decoration:none
+center{
+margin:-170px auto auto auto
 }
-div#poly1,div#wood,div#paper,div#default,div#help{
+a,div a{
+text-decoration:blink
+}
+div#poly1,div#wood,div#paper,div#default,div#help,div#mov{
 height:200px;
 font-size:48px;
 border-radius:100px;
@@ -57,36 +60,39 @@ transform:rotateZ(-85deg)
 transform:rotateZ(-95deg)
 }
 }
-div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#mini:hover,div#help:hover,.hovera{
-box-shadow:inset 0px 20px 20px 0px rgba(255, 255, 255, 0.5)
+div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#mini:hover,div#help:hover,div#mov:hover,.hovera,
+div#mwood:hover,div#mpaper:hover,div#mdefault:hover,div#mmini:hover,div#mhelp:hover,div#mmov:hover{
+box-shadow:inset 0px 0px 20px 20px rgba(255, 255, 255, 0.5)
 }
 div#poly3{
 animation:auto3 50s ease infinite;
 margin:200px auto auto auto;
 width:70px
 }
-div#mini{
+div#mini,div#mwood,div#mpaper,div#mdefault,div#mmini,div#mhelp,div#mmov{
 height:70px;
 font-size:48px;
 border-radius:100px;
 width:70px;
-animation:auto2 50s ease infinite;
+animation:auto2 50s ease infinite
+}
+div#default,div#mdefault,div#mini{
 color:#ffffff;
 background:#3a3a3a
 }
-div#default{
-color:#ffffff;
-background:#3a3a3a
-}
-div#paper{
+div#paper,div#mpaper{
 color:#000dad;
 background:#9E9E9E
 }
-div#wood{
+div#wood,div#mwood{
 background:#ff9800;
 color:#0010d2
 }
-div#help{
+div#help,div#mhelp{
 background:#ff5757;
 color:#020098
+}
+div#mov,div#mmov{
+background:#90bcff;
+color:#920700
 }
