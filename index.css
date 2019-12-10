@@ -1,6 +1,9 @@
 center{
 margin:-170px auto auto auto
 }
+a,div a{
+text-decoration:blink
+}
 div#poly1,div#wood,div#paper,div#default,div#help,div#mov{
 height:200px;
 font-size:48px;
