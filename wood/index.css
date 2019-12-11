@@ -3,7 +3,7 @@ margin:unset
 }
 iframe{
 height:999999px;
-width:200px
+width:-webkit-fill-available
 }
 html{
 background:#ffc17f
