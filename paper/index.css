@@ -1,7 +1,9 @@
+center{
+margin:unset
+}
 iframe{
 height:999999px;
-width:600px;
-min-width:-webkit-fill-available
+width:200px
 }
 html{
 background:#dfdfdf
