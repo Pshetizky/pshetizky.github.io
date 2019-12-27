@@ -1,9 +1,9 @@
 center{
-margin:unset
+margin:0
 }
 iframe{
 height:999999px;
-width:-webkit-fill-available
+width:200px
 }
 html{
 background:#ffc17f
@@ -12,5 +12,6 @@ a div#poly1{
 height:50px;
 width:50px;
 font-size:24px;
+transform:none;
 animation:none
 }
