@@ -9,55 +9,33 @@ height:200px;
 font-size:48px;
 border-radius:100px;
 width:200px;
-animation:auto2 50s ease infinite
+transform:matrix(0.1, -1, 1, 0.1, 0, 0);
+animation:auto2 5s ease-in-out infinite alternate
 }
 div#poly2{
 width:200px;
+transform:matrix(0.1, 1, -1, 0.1, 0, 0);
 margin:auto auto -400px auto;
-animation:auto3 50s ease infinite
+animation:auto3 5s ease-in-out infinite alternate
 }
 @keyframes auto3{
-0%{
-transform:rotateZ(95deg)
-}
-50%{
-transform:rotateZ(85deg)
-}
 100%{
-transform:rotateZ(95deg)
+transform:matrix(-0.1, 1, -1, -0.1, 0, 0)
 }
 }
 @keyframes auto2{
-0%{
-transform:rotateZ(-95deg)
-}
-50%{
-transform:rotateZ(-85deg)
-}
 100%{
-transform:rotateZ(-95deg)
+transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
 }
 }
 @-webkit-keyframes auto3{
-0%{
-transform:rotateZ(95deg)
-}
-50%{
-transform:rotateZ(85deg)
-}
 100%{
-transform:rotateZ(95deg)
+transform:matrix(-0.1, 1, -1, -0.1, 0, 0)
 }
 }
-@-webkit-keyframes auto2{
-0%{
-transform:rotateZ(-95deg)
-}
-50%{
-transform:rotateZ(-85deg)
-}
+@@-webkit-keyframes auto2{
 100%{
-transform:rotateZ(-95deg)
+transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
 }
 }
 div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#mini:hover,div#help:hover,div#mov:hover,.hovera,
@@ -65,16 +43,18 @@ div#mwood:hover,div#mpaper:hover,div#mdefault:hover,div#mmini:hover,div#mhelp:ho
 box-shadow:inset 0px 0px 20px 20px rgba(255, 255, 255, 0.5)
 }
 div#poly3{
-animation:auto3 50s ease infinite;
+transform:matrix(0.1, 1, -1, 0.1, 0, 0);
+animation:auto3 5s ease-in-out infinite alternate;
 margin:200px auto auto auto;
 width:70px
 }
 div#mini,div#mwood,div#mpaper,div#mdefault,div#mmini,div#mhelp,div#mmov{
 height:70px;
 font-size:48px;
+transform:matrix(0.1, -1, 1, 0.1, 0, 0);
 border-radius:100px;
 width:70px;
-animation:auto2 50s ease infinite
+animation:auto2 5s ease-in-out infinite alternate
 }
 div#default,div#mdefault,div#mini{
 color:#ffffff;
