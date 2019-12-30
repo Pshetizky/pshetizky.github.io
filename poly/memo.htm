@@ -12,82 +12,429 @@
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <title>שינון</title>
 <style>
+div#poly0{
+animation:6s linear infinite auto1
+}
 div#poly1{
+animation:60s linear infinite auto1
+}
+div#poly4{
+animation:60s linear infinite auto6
+}
+div#poly2{
+animation:60s linear infinite auto2
+}
+div#poly3{
+animation:60s linear infinite auto3
+}
+div#poly5{
+animation:60s linear infinite auto5
+}
+div#poly6{
+animation:60s linear infinite auto7
+}
+div#poly7{
+animation:60s linear infinite auto8
+}
+div#poly0,div#poly1,div#poly4
+,div#poly2,div#poly3,div#poly5,div#poly6,div#poly7{
 position:fixed;
 height:0px;
 width:0px;
 border-radius:100%;
 border-style:solid;
-padding:266px;
-animation:60s linear infinite auto1;
+padding:440px;
 transform:translate(10px, 10px)
+}
+div#polya3{
+padding:16px 0px
+}
+div#polya5,div#polya6,div#polya1,div#polya7{
+padding:24px 0px
+div#polya2{
+padding:20px 0px
+}
+div#polya4,div#polya8{
+padding:28px 0px
+}
+div#polya3{
+animation:6s linear infinite autoa4
+}
+div#polya5{
+animation:60s linear infinite autoa4
+}
+div#polya1{
+animation:60s linear infinite autoa6
+}
+div#polya6{
+animation:60s linear infinite autoa2
+}
+div#polya7{
+animation:60s linear infinite autoa3
+}
+div#polya2{
+animation:60s linear infinite autoa5
+}
+div#polya4{
+animation:60s linear infinite autoa7
+}
+div#polya8{
+animation:60s linear infinite autoa8
+}
+div#polya5,div#polya3,div#polya1
+,div#polya6,div#polya7,div#polya2,div#polya4,div#polya8{
+height: 0px;
+width: 0px;
+font-size:18px
 }
 @keyframes auto1{
 0%{
-transform:rotateZ(0deg)
+transform:rotate(0deg)
 }
 100%{
-transform:rotateZ(360deg)
+transform:rotate(360deg)
 }
 }
 @keyframes auto2{
 0%{
-transform:rotateZ(360deg) translate(17px, -12px)
+transform:rotate(40deg)
 }
 100%{
-transform:rotateZ(0deg) translate(17px, -12px)
+transform:rotate(400deg)
+}
+}
+@keyframes auto3{
+0%{
+transform:rotate(120deg)
+}
+100%{
+transform:rotate(480deg)
+}
+}
+@keyframes auto5{
+0%{
+transform:rotate(160deg)
+}
+100%{
+transform:rotate(520deg)
+}
+}
+@keyframes auto6{
+0%{
+transform:rotate(220deg)
+}
+100%{
+transform:rotate(580deg)
+}
+}
+@keyframes auto7{
+0%{
+transform:rotate(280deg)
+}
+100%{
+transform:rotate(640deg)
+}
+}
+@keyframes auto8{
+0%{
+transform:rotate(320deg)
+}
+100%{
+transform:rotate(680deg)
+}
+}
+@keyframes autoa2{
+0%{
+transform:rotate(320deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(-40deg) translate(17px, -12px)
+}
+}
+@keyframes autoa3{
+0%{
+transform:rotate(240deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(-120deg) translate(17px, -12px)
+}
+}
+@keyframes autoa4{
+0%{
+transform:rotate(360deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(0deg) translate(17px, -12px)
+}
+}
+@keyframes autoa5{
+0%{
+transform:rotate(200deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(-160deg) translate(17px, -12px)
+}
+}
+@keyframes autoa6{
+0%{
+transform:rotate(140deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(-220deg) translate(17px, -12px)
+}
+}
+@keyframes autoa7{
+0%{
+transform:rotate(80deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(-280deg) translate(17px, -12px)
+}
+}
+@keyframes autoa8{
+0%{
+transform:rotate(40deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(-320deg) translate(17px, -12px)
 }
 }
 @-webkit-keyframes auto1{
 0%{
-transform:rotateZ(0deg)
+transform:rotate(0deg)
 }
 100%{
-transform:rotateZ(360deg)
+transform:rotate(360deg)
 }
 }
-@keyframes auto2{
+@-webkit-keyframes auto2{
 0%{
-transform:rotateZ(360deg) translate(17px, -12px)
+transform:rotate(40deg)
 }
 100%{
-transform:rotateZ(0deg) translate(17px, -12px)
+transform:rotate(400deg)
 }
 }
-div#poly2{
-padding:23px 0px
+@-webkit-keyframes auto3{
+0%{
+transform:rotate(120deg)
 }
-div#poly2,div#poly3{
-height: 0px;
-width: 0px;
-font-size:18px;
-animation:60s linear infinite auto2
+100%{
+transform:rotate(480deg)
+}
+}
+@-webkit-keyframes auto5{
+0%{
+transform:rotate(160deg)
+}
+100%{
+transform:rotate(520deg)
+}
+}
+@-webkit-keyframes auto6{
+0%{
+transform:rotate(220deg)
+}
+100%{
+transform:rotate(580deg)
+}
+}
+@-webkit-keyframes auto7{
+0%{
+transform:rotate(280deg)
+}
+100%{
+transform:rotate(640deg)
+}
+}
+@-webkit-keyframes auto8{
+0%{
+transform:rotate(320deg)
+}
+100%{
+transform:rotate(680deg)
+}
+}
+@-webkit-keyframes autoa2{
+0%{
+transform:rotate(320deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(-40deg) translate(17px, -12px)
+}
+}
+@-webkit-keyframes autoa3{
+0%{
+transform:rotate(240deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(-120deg) translate(17px, -12px)
+}
+}
+@-webkit-keyframes autoa4{
+0%{
+transform:rotate(360deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(0deg) translate(17px, -12px)
+}
+}
+@-webkit-keyframes autoa5{
+0%{
+transform:rotate(200deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(-160deg) translate(17px, -12px)
+}
+}
+@-webkit-keyframes autoa6{
+0%{
+transform:rotate(140deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(-220deg) translate(17px, -12px)
+}
+}
+@-webkit-keyframes autoa7{
+0%{
+transform:rotate(80deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(-280deg) translate(17px, -12px)
+}
+}
+@-webkit-keyframes autoa8{
+0%{
+transform:rotate(40deg) translate(17px, -12px)
+}
+100%{
+transform:rotate(-320deg) translate(17px, -12px)
+}
 }
 </style>
 </head>
 <body>
 <center>
+<div id="poly0">
+	<div id="polya3">
+כעת
+	</div>
+	<div id="polya3">
+בחיי
+	</div>
+</div>
 <div id="poly1">
-	<div id="poly3">
+	<div id="polya5"></div><div id="polya5"></div>
+	<div id="polya5">
+אותי
+	</div>
+	<div id="polya5">
+משמח
+	</div>
+	<div id="polya5">
 מה
 	</div>
-	<div id="poly2">
-יהוה
+</div>
+<div id="poly2">
+	<div id="polya6"></div><div id="polya6"></div>
+	<div id="polya6">
+אותי
 	</div>
-	<div id="poly2">
-לימד
+	<div id="polya6">
+מרגש
 	</div>
-	<div id="poly2">
-איים
+	<div id="polya6">
+מה
 	</div>
-	<div id="poly2">
-תיאהב
+</div>
+<div id="poly3">
+	<div id="polya7"></div><div id="polya7"></div>
+	<div id="polya7">
+תודה
 	</div>
-	<div id="poly2">
-עיבד
+	<div id="polya7">
+הכרת
 	</div>
-	<div id="poly2">
-שימר
+	<div id="polya7">
+בי
+	</div>
+	<div id="polya7">
+מעורר
+	</div>
+	<div id="polya7">
+מה
+	</div>
+</div>
+<div id="poly5">
+	<div id="polya2"></div><div id="polya2"></div><div id="polya2"></div>
+	<div id="polya2">
+אוהב
+	</div>
+	<div id="polya2">
+אני
+	</div>
+	<div id="polya2">
+מי
+	</div>
+	<div id="polya2">
+את
+	</div>
+</div>
+<div id="poly4">
+	<div id="polya1"></div><div id="polya1"></div>
+	<div id="polya1">
+אותי
+	</div>
+	<div id="polya1">
+אוהב
+	</div>
+	<div id="polya1">
+מי
+	</div>
+</div>
+<div id="poly6">
+	<div id="polya4"></div>
+	<div id="polya4">
+ליצור
+	</div>
+	<div id="polya4">
+מחויב/ת
+	</div>
+	<div id="polya4">
+אני
+	</div>
+	<div id="polya4">
+מחשבתי
+	</div>
+	<div id="polya4">
+הרגל
+	</div>
+	<div id="polya4">
+איזה
+	</div>
+</div>
+<div id="poly7">
+	<div id="polya8"></div>
+	<div id="polya8">
+ליצור
+	</div>
+	<div id="polya8">
+מחויב/ת
+	</div>
+	<div id="polya8">
+אני
+	</div>
+	<div id="polya8">
+הכרתית
+	</div>
+	<div id="polya8">
+תת
+	</div>
+	<div id="polya8">
+אמונה
+	</div>
+	<div id="polya8">
+איזו
 	</div>
 </div>
 </center>
