@@ -39,7 +39,7 @@ transform:matrix(0.1, 1, -1, 0.1, 0, 0)
 transform:matrix(-0.1, 1, -1, -0.1, 0, 0)
 }
 }
-@@-webkit-keyframes auto2{
+@-webkit-keyframes auto2{
 100%{
 transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
 }
