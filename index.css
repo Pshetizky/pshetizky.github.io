@@ -57,19 +57,14 @@ background:#90bcff;
 color:#920700
 }
 body{
-animation:700ms move1
+animation:2s forwards effect1
 }
-@keyframes move1{
+@keyframes effect1{
 0%{
-position:fixed;
-transform:matrix(1, 0, 0, 1, 1000, 0)
-}
-99%{
-position:fixed;
-transform:matrix(0.5, 0, 0, 1, -1000, 0)
+transform:rotate(-360deg)
 }
 100%{
-position:static
+transform:rotate(0deg)
 }
 }
 @keyframes auto3{
@@ -80,6 +75,14 @@ transform:matrix(-0.1, 1, -1, -0.1, 0, 0)
 @keyframes auto2{
 100%{
 transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
+}
+}
+@-webkit-keyframes effect1{
+0%{
+transform:rotate(-360deg)
+}
+100%{
+transform:rotate(0deg)
 }
 }
 @-webkit-keyframes auto3{
