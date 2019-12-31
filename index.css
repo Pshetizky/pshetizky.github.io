@@ -57,7 +57,7 @@ background:#90bcff;
 color:#920700
 }
 body{
-animation:2s forwards effect1
+animation:4s forwards effect1 cubic-bezier(0.18, 0.89, 0.32, 1.28)
 }
 @keyframes effect1{
 0%{
