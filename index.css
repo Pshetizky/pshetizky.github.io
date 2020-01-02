@@ -57,15 +57,12 @@ background:#90bcff;
 color:#920700
 }
 body{
-transform:rotate(-360deg);
-animation:4s forwards effect1 cubic-bezier(0.18, 0.89, 0.32, 1.28)
+transform:matrix(1, 0, 0, 1, 800, 0);
+animation:3500ms forwards effect1 cubic-bezier(0.18, 0.89, 0.32, 1.28)
 }
 @keyframes effect1{
-70%{
-transform:rotate(0deg)
-}
 100%{
-transform:rotate(0deg)
+transform:matrix(1, 0, 0, 1, 0, 0)
 }
 }
 @keyframes auto3{
@@ -79,11 +76,8 @@ transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
 }
 }
 @-webkit-keyframes effect1{
-70%{
-transform:rotate(0deg)
-}
 100%{
-transform:rotate(0deg)
+transform:matrix(1, 0, 0, 1, 0, 0)
 }
 }
 @-webkit-keyframes auto3{
