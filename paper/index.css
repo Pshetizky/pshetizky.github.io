@@ -1,21 +1,11 @@
 center{
-margin:unset
-}
-div#a1{
-transform:scale(3) translate(150px,333333px);
-width:0px
+margin:0
 }
 iframe{
+margin:400px auto auto auto;
 height:999999px;
 width:-webkit-fill-available
 }
 html{
-background:#dfdfdf
-}
-a div#poly1{
-height:50px;
-width:50px;
-font-size:24px;
-transform:none;
-animation:none
+background:#a9a9a9
 }
