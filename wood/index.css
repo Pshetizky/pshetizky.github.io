@@ -2,16 +2,10 @@ center{
 margin:0
 }
 iframe{
+margin:400px auto auto auto;
 height:999999px;
 width:-webkit-fill-available
 }
 html{
-background:#ffc17f
-}
-a div#poly1{
-height:50px;
-width:50px;
-font-size:24px;
-transform:none;
-animation:none
+background:#e69138
 }
