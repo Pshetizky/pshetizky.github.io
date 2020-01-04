@@ -6,6 +6,7 @@ text-decoration:blink
 }
 div#poly1,div#wood,div#paper,div#default,div#help,div#mov{
 height:200px;
+box-shadow:inset 0px -75px 100px -40px rgb(0, 0, 0);
 font-size:48px;
 border-radius:100px;
 width:200px;
@@ -18,9 +19,11 @@ transform:matrix(0.1, 1, -1, 0.1, -100, 0);
 margin:auto auto -400px auto;
 animation:auto3 5s ease-in-out infinite alternate
 }
-div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#mini:hover,div#help:hover,div#mov:hover,.hovera,
-div#mwood:hover,div#mpaper:hover,div#mdefault:hover,div#mmini:hover,div#mhelp:hover,div#mmov:hover{
-box-shadow:inset 0px 0px 20px 20px rgba(255, 255, 255, 0.5)
+div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#mini:hover,div#help:hover,div#mov:hover,.hovera{
+box-shadow:inset 0px -75px 100px -40px rgba(0, 0, 0, 0.5) !important
+}
+div#mwood:hover,div#mpaper:hover,div#mdefault:hover,div#mmini:hover,div#mhelp:hover,div#mmov:hover,.hoverb{
+box-shadow:inset 0px -75px 50px -40px rgba(0, 0, 0, 0.5) !important
 }
 div#poly3{
 transform:matrix(0.1, 1, -1, 0.1, -100, 0);
@@ -34,11 +37,12 @@ font-size:48px;
 transform:matrix(0.1, -1, 1, 0.1, 0, 0);
 border-radius:100px;
 width:70px;
+box-shadow:inset 0px -75px 50px -40px rgb(0, 0, 0);
 animation:auto2 5s ease-in-out infinite alternate
 }
 div#default,div#mdefault,div#mini{
 color:#ffffff;
-background:#3a3a3a
+background:#0014ff
 }
 div#paper,div#mpaper{
 color:#000dad;
