@@ -2,10 +2,12 @@ center{
 margin:0
 }
 iframe{
-margin:400px auto auto auto;
 height:999999px;
 width:-webkit-fill-available
 }
 html{
 background:#e69138
+}
+div#poly3{
+margin:auto
 }
