@@ -15,7 +15,7 @@ animation:auto2 5s ease-in-out infinite alternate
 }
 div#poly2{
 width:200px;
-transform:matrix(0.1, 1, -1, 0.1, -100, 0);
+transform:matrix(0.1, 1, -1, 0.1, -30, 0);
 margin:auto auto -400px auto;
 animation:auto3 5s ease-in-out infinite alternate
 }
@@ -26,14 +26,14 @@ div#mwood:hover,div#mpaper:hover,div#mdefault:hover,div#mmini:hover,div#mhelp:ho
 box-shadow:inset 0px -75px 50px -40px rgba(0, 0, 0, 0.5) !important
 }
 div#poly3{
-transform:matrix(0.1, 1, -1, 0.1, -100, 0);
+transform:matrix(0.1, 1, -1, 0.1, -30, 0);
 animation:auto3 5s ease-in-out infinite alternate;
 margin:200px auto auto auto;
 width:70px
 }
 div#mini,div#mwood,div#mpaper,div#mdefault,div#mmini,div#mhelp,div#mmov{
 height:70px;
-font-size:48px;
+font-size:36px;
 transform:matrix(0.1, -1, 1, 0.1, 0, 0);
 border-radius:100px;
 width:70px;
@@ -62,7 +62,7 @@ color:#920700
 }
 body{
 transform:matrix(1, 0, 0, 1, 800, 0);
-animation:3500ms forwards effect1 cubic-bezier(0.18, 0.89, 0.32, 1.28)
+animation:400ms forwards effect1
 }
 @keyframes effect1{
 100%{
@@ -71,7 +71,7 @@ transform:matrix(1, 0, 0, 1, 0, 0)
 }
 @keyframes auto3{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 100, 0)
+transform:matrix(-0.1, 1, -1, -0.1, 30, 0)
 }
 }
 @keyframes auto2{
@@ -86,7 +86,7 @@ transform:matrix(1, 0, 0, 1, 0, 0)
 }
 @-webkit-keyframes auto3{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 100, 0)
+transform:matrix(-0.1, 1, -1, -0.1, 30, 0)
 }
 }
 @-webkit-keyframes auto2{
