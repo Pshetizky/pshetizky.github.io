@@ -1,51 +1,49 @@
-center{
-margin:-170px auto auto auto
-}
 a,div a{
 text-decoration:blink
 }
 div#poly1,div#wood,div#paper,div#default,div#help,div#mov{
-height:200px;
-box-shadow:inset 0px -75px 100px -40px rgb(0, 0, 0);
-font-size:48px;
-border-radius:100px;
-width:200px;
+height:300px;
+box-shadow:inset 0px -120px 100px -40px rgb(0, 0, 0);
+font-size:72px;
+border-radius:150px;
+width:300px;
 transform:matrix(0.1, -1, 1, 0.1, 0, 0);
-animation:auto2 5s ease-in-out infinite alternate
+animation:auto1 20s ease-in-out infinite alternate
 }
 div#poly2{
+height:900px;
 width:200px;
-transform:matrix(0.1, 1, -1, 0.1, -30, 0);
-margin:auto auto -400px auto;
-animation:auto3 5s ease-in-out infinite alternate
+transform:matrix(0.1, 1, -1, 0.1, -20, 170);
+margin:-600px auto auto auto;
+animation:auto2 20s ease-in-out infinite alternate
 }
-div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#mini:hover,div#help:hover,div#mov:hover,.hovera{
-box-shadow:inset 0px -75px 100px -40px rgba(0, 0, 0, 0.5) !important
+div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#help:hover,div#mov:hover,.hovera{
+box-shadow:inset 0px -120px 100px -40px rgba(0, 0, 0, 0.5) !important
 }
-div#mwood:hover,div#mpaper:hover,div#mdefault:hover,div#mmini:hover,div#mhelp:hover,div#mmov:hover,.hoverb{
-box-shadow:inset 0px -75px 50px -40px rgba(0, 0, 0, 0.5) !important
+div#mini:hover,div#mwood:hover,div#mpaper:hover,div#mdefault:hover,div#mmini:hover,div#mhelp:hover,div#mmov:hover,.hoverb{
+box-shadow:inset 0px -70px 53px -40px rgba(0, 0, 0, 0.7) !important
 }
 div#poly3{
-transform:matrix(0.1, 1, -1, 0.1, -30, 0);
-animation:auto3 5s ease-in-out infinite alternate;
-margin:200px auto auto auto;
-width:70px
+transform:matrix(0.1, 1, -1, 0.1, -20, -210);
+animation:auto3 20s ease-in-out infinite alternate;
+height:350px;
+width:120px
 }
 div#mini,div#mwood,div#mpaper,div#mdefault,div#mmini,div#mhelp,div#mmov{
-height:70px;
-font-size:36px;
+height:120px;
+font-size:48px;
 transform:matrix(0.1, -1, 1, 0.1, 0, 0);
 border-radius:100px;
-width:70px;
-box-shadow:inset 0px -75px 50px -40px rgb(0, 0, 0);
-animation:auto2 5s ease-in-out infinite alternate
+width:120px;
+box-shadow:inset 0px -70px 53px -40px rgb(0, 0, 0);
+animation:auto1 20s ease-in-out infinite alternate
 }
 div#default,div#mdefault,div#mini{
 color:#ffffff;
 background:#0014ff
 }
 div#paper,div#mpaper{
-color:#000dad;
+color:#ffffff;
 background:#9E9E9E
 }
 div#wood,div#mwood{
@@ -61,36 +59,50 @@ background:#90bcff;
 color:#920700
 }
 body{
+animation:1600ms forwards enter;
 transform:matrix(1, 0, 0, 1, 800, 0);
-animation:400ms forwards effect1
+margin:230px auto auto auto
 }
-@keyframes effect1{
+html{
+background:#000000
+}
+@keyframes enter{
 100%{
 transform:matrix(1, 0, 0, 1, 0, 0)
 }
 }
-@keyframes auto3{
+@keyframes auto1{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 30, 0)
+transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
 }
 }
 @keyframes auto2{
 100%{
-transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
+transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
 }
 }
-@-webkit-keyframes effect1{
+@keyframes auto3{
+100%{
+transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
+}
+}
+@-webkit-keyframes enter{
 100%{
 transform:matrix(1, 0, 0, 1, 0, 0)
 }
 }
-@-webkit-keyframes auto3{
+@-webkit-keyframes auto1{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 30, 0)
+transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
 }
 }
 @-webkit-keyframes auto2{
 100%{
-transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
+transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
+}
+}
+@-webkit-keyframes auto3{
+100%{
+transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
 }
 }
