@@ -1,13 +1,15 @@
-center{
-margin:0
-}
 iframe{
 height:999999px;
 width:-webkit-fill-available
 }
 html{
+animation:unset !important;
 background:#a9a9a9
 }
-div#poly3{
-margin:auto
+body{
+margin:unset
+}
+div#poly3,div#mwood,div#mpaper{
+transform:matrix(1, 0, 0, 1, 0, 40);
+animation:unset
 }
