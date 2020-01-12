@@ -75,6 +75,10 @@ background:#90bcff;
 color:#920700
 }
 body{
+-webkit-animation:1600ms forwards enter;
+-moz-animation:1600ms forwards enter;
+-ms-animation:1600ms forwards enter;
+-o-animation:1600ms forwards enter;
 animation:1600ms forwards enter;
 margin:230px auto auto auto
 }
