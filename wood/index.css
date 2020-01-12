@@ -11,5 +11,9 @@ margin:unset
 }
 div#poly3,div#mwood,div#mpaper{
 transform:matrix(1, 0, 0, 1, 0, 40);
+-webkit-animation:unset;
+-moz-animation:unset;
+-ms-animation:unset;
+-o-animation:unset;
 animation:unset
 }
