@@ -3,6 +3,10 @@ height:999999px;
 width:-webkit-fill-available
 }
 html{
+-webkit-animation:unset !important;
+-moz-animation:unset !important;
+-ms-animation:unset !important;
+-o-animation:unset !important;
 animation:unset !important;
 background:#e69138
 }
