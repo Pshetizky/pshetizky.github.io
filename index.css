@@ -60,7 +60,6 @@ color:#920700
 }
 body{
 animation:1600ms forwards enter;
-transform:matrix(1, 0, 0, 1, 800, 0);
 margin:230px auto auto auto
 }
 html{
