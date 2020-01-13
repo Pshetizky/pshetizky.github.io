@@ -2,11 +2,11 @@ a,div a{
 text-decoration:blink
 }
 div#poly1,div#wood,div#paper,div#default,div#help,div#mov{
-height:300px;
+height:280px;
 box-shadow:inset 0px -120px 100px -40px rgb(0, 0, 0);
 font-size:72px;
 border-radius:150px;
-width:300px;
+width:280px;
 transform:matrix(0.1, -1, 1, 0.1, 0, 0);
 -webkit-animation:auto1 20s ease-in-out infinite alternate;
 -moz-animation:auto1 20s ease-in-out infinite alternate;
@@ -15,15 +15,21 @@ transform:matrix(0.1, -1, 1, 0.1, 0, 0);
 animation:auto1 20s ease-in-out infinite alternate
 }
 div#poly2{
-height:900px;
+height:840px;
 width:200px;
 transform:matrix(0.1, 1, -1, 0.1, -20, 170);
-margin:-600px auto auto auto;
+margin:-560px auto auto auto;
 -webkit-animation:auto2 20s ease-in-out infinite alternate;
 -moz-animation:auto2 20s ease-in-out infinite alternate;
 -ms-animation:auto2 20s ease-in-out infinite alternate;
 -o-animation:auto2 20s ease-in-out infinite alternate;
 animation:auto2 20s ease-in-out infinite alternate
+}
+.right{
+box-shadow:inset -40px -120px 100px -40px rgb(0, 0, 0) !important
+}
+.left{
+box-shadow:inset 40px -120px 100px -40px rgb(0, 0, 0) !important
 }
 div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#help:hover,div#mov:hover,.hovera{
 box-shadow:inset 0px -120px 100px -40px rgba(0, 0, 0, 0.5) !important
