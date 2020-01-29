@@ -8,10 +8,6 @@ font-size:72px;
 border-radius:150px;
 width:280px;
 transform:matrix(0.1, -1, 1, 0.1, 0, 0);
--webkit-animation:auto1 20s ease-in-out infinite alternate;
--moz-animation:auto1 20s ease-in-out infinite alternate;
--ms-animation:auto1 20s ease-in-out infinite alternate;
--o-animation:auto1 20s ease-in-out infinite alternate;
 animation:auto1 20s ease-in-out infinite alternate
 }
 div#poly2{
@@ -19,10 +15,6 @@ height:840px;
 width:200px;
 transform:matrix(0.1, 1, -1, 0.1, -20, 170);
 margin:-560px auto auto auto;
--webkit-animation:auto2 20s ease-in-out infinite alternate;
--moz-animation:auto2 20s ease-in-out infinite alternate;
--ms-animation:auto2 20s ease-in-out infinite alternate;
--o-animation:auto2 20s ease-in-out infinite alternate;
 animation:auto2 20s ease-in-out infinite alternate
 }
 .right{
@@ -39,10 +31,6 @@ box-shadow:inset 0px -70px 53px -40px rgba(0, 0, 0, 0.7) !important
 }
 div#poly3{
 transform:matrix(0.1, 1, -1, 0.1, -20, -210);
--webkit-animation:auto3 20s ease-in-out infinite alternate;
--moz-animation:auto3 20s ease-in-out infinite alternate;
--ms-animation:auto3 20s ease-in-out infinite alternate;
--o-animation:auto3 20s ease-in-out infinite alternate;
 animation:auto3 20s ease-in-out infinite alternate;
 height:350px;
 width:120px
@@ -54,10 +42,6 @@ transform:matrix(0.1, -1, 1, 0.1, 0, 0);
 border-radius:100px;
 width:120px;
 box-shadow:inset 0px -70px 53px -40px rgb(0, 0, 0);
--webkit-animation:auto1 20s ease-in-out infinite alternate;
--moz-animation:auto1 20s ease-in-out infinite alternate;
--ms-animation:auto1 20s ease-in-out infinite alternate;
--o-animation:auto1 20s ease-in-out infinite alternate;
 animation:auto1 20s ease-in-out infinite alternate
 }
 div#default,div#mdefault,div#mini{
@@ -81,95 +65,11 @@ background:#90bcff;
 color:#920700
 }
 body{
--webkit-animation:1300ms forwards enter;
--moz-animation:1300ms forwards enter;
--ms-animation:1300ms forwards enter;
--o-animation:1300ms forwards enter;
-animation:1300ms forwards enter;
+animation:1300ms ease-in-out 2 alternate-reverse forwards enter;
 margin:230px auto auto auto
 }
 html{
 background:#000000
-}
-@-webkit-keyframes enter{
-100%{
-transform:matrix(1, 0, 0, 1, 0, 0)
-}
-}
-@-webkit-keyframes auto1{
-100%{
-transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
-}
-}
-@-webkit-keyframes auto2{
-100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
-}
-}
-@-webkit-keyframes auto3{
-100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
-}
-}
-@-moz-keyframes enter{
-100%{
-transform:matrix(1, 0, 0, 1, 0, 0)
-}
-}
-@-moz-keyframes auto1{
-100%{
-transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
-}
-}
-@-moz-keyframes auto2{
-100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
-}
-}
-@-moz-keyframes auto3{
-100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
-}
-}
-@-ms-keyframes enter{
-100%{
-transform:matrix(1, 0, 0, 1, 0, 0)
-}
-}
-@-ms-keyframes auto1{
-100%{
-transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
-}
-}
-@-ms-keyframes auto2{
-100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
-}
-}
-@-ms-keyframes auto3{
-100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
-}
-}
-@-o-keyframes enter{
-100%{
-transform:matrix(1, 0, 0, 1, 0, 0)
-}
-}
-@-o-keyframes auto1{
-100%{
-transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
-}
-}
-@-o-keyframes auto2{
-100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
-}
-}
-@-o-keyframes auto3{
-100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
-}
 }
 @keyframes enter{
 100%{
