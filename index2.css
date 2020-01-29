@@ -1,0 +1,110 @@
+div#poly1,div#wood,div#paper,div#default,div#help,div#mov{
+-webkit-animation:auto1 20s ease-in-out infinite alternate;
+-moz-animation:auto1 20s ease-in-out infinite alternate;
+-ms-animation:auto1 20s ease-in-out infinite alternate;
+-o-animation:auto1 20s ease-in-out infinite alternate
+}
+div#poly2{
+-webkit-animation:auto2 20s ease-in-out infinite alternate;
+-moz-animation:auto2 20s ease-in-out infinite alternate;
+-ms-animation:auto2 20s ease-in-out infinite alternate;
+-o-animation:auto2 20s ease-in-out infinite alternate
+}
+div#poly3{
+-webkit-animation:auto3 20s ease-in-out infinite alternate;
+-moz-animation:auto3 20s ease-in-out infinite alternate;
+-ms-animation:auto3 20s ease-in-out infinite alternate;
+-o-animation:auto3 20s ease-in-out infinite alternate
+}
+div#mini,div#mwood,div#mpaper,div#mdefault,div#mmini,div#mhelp,div#mmov{
+-webkit-animation:auto1 20s ease-in-out infinite alternate;
+-moz-animation:auto1 20s ease-in-out infinite alternate;
+-ms-animation:auto1 20s ease-in-out infinite alternate;
+-o-animation:auto1 20s ease-in-out infinite alternate
+}
+body{
+-webkit-animation:1300ms ease-in-out 2 alternate-reverse forwards enter;
+-moz-animation:1300ms ease-in-out 2 alternate-reverse forwards enter;
+-ms-animation:1300ms ease-in-out 2 alternate-reverse forwards enter;
+-o-animation:1300ms ease-in-out 2 alternate-reverse forwards enter
+}
+@-webkit-keyframes enter{
+100%{
+transform:matrix(1, 0, 0, 1, 0, 0)
+}
+}
+@-webkit-keyframes auto1{
+100%{
+transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
+}
+}
+@-webkit-keyframes auto2{
+100%{
+transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
+}
+}
+@-webkit-keyframes auto3{
+100%{
+transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
+}
+}
+@-moz-keyframes enter{
+100%{
+transform:matrix(1, 0, 0, 1, 0, 0)
+}
+}
+@-moz-keyframes auto1{
+100%{
+transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
+}
+}
+@-moz-keyframes auto2{
+100%{
+transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
+}
+}
+@-moz-keyframes auto3{
+100%{
+transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
+}
+}
+@-ms-keyframes enter{
+100%{
+transform:matrix(1, 0, 0, 1, 0, 0)
+}
+}
+@-ms-keyframes auto1{
+100%{
+transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
+}
+}
+@-ms-keyframes auto2{
+100%{
+transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
+}
+}
+@-ms-keyframes auto3{
+100%{
+transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
+}
+}
+@-o-keyframes enter{
+100%{
+transform:matrix(1, 0, 0, 1, 0, 0)
+}
+}
+@-o-keyframes auto1{
+100%{
+transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
+}
+}
+@-o-keyframes auto2{
+100%{
+transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
+}
+}
+@-o-keyframes auto3{
+100%{
+transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
+}
+}
