@@ -65,7 +65,7 @@ background:#90bcff;
 color:#920700
 }
 body{
-animation:1300ms ease-in-out 2 alternate-reverse forwards enter;
+animation:650ms ease-in-out 2 alternate-reverse forwards enter;
 margin:230px auto auto auto
 }
 html{
