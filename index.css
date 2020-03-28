@@ -45,7 +45,7 @@ box-shadow:inset 0px -70px 53px -40px rgb(0, 0, 0);
 animation:auto1 20s ease-in-out infinite alternate
 }
 div#default,div#mdefault,div#mini{
-color:#ffffff;
+color:#E3F2FD;
 background:#0014ff
 }
 div#paper,div#mpaper{
@@ -54,15 +54,15 @@ background:#9E9E9E
 }
 div#wood,div#mwood{
 background:#ff9800;
-color:#0010d2
+color:#FFF8E1
 }
 div#help,div#mhelp{
 background:#ff5757;
-color:#020098
+color#FFEBEE
 }
 div#mov,div#mmov{
 background:#90bcff;
-color:#920700
+color:#e0f7fa
 }
 body{
 animation:650ms ease-in-out 2 alternate-reverse forwards enter;
