@@ -13,7 +13,7 @@ background:#a9a9a9
 body{
 margin:unset
 }
-div#poly3,div#mwood,div#mpaper{
+div#poly3,div#mini,div#mwood,div#mpaper,div#mdefault,div#mmini,div#mhelp,div#mmov{
 transform:matrix(1, 0, 0, 1, 0, 40);
 -webkit-animation:unset;
 -moz-animation:unset;
