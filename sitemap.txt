@@ -2,14 +2,15 @@ https://pashtitzky.github.io/index.html
 https://pashtitzky.github.io/index1.htm
 https://pashtitzky.github.io/index2.htm
 https://pashtitzky.github.io/mov/index.htm
-https://pashtitzky.github.io/mov/index2.htm
-https://pashtitzky.github.io/mov/semot6.htm
+https://pashtitzky.github.io/mov/index1.htm
 https://pashtitzky.github.io/mov/semot5.htm
+https://pashtitzky.github.io/mov/semot6.htm
 https://pashtitzky.github.io/paper/bersit.htm
 https://pashtitzky.github.io/paper/index.htm
+https://pashtitzky.github.io/paper/index1.htm
 https://pashtitzky.github.io/paper/semot.htm
 https://pashtitzky.github.io/paper/sidor.htm
-https://pashtitzky.github.io/paper/index1.htm
+https://pashtitzky.github.io/paper/בבלי%20ברכות.htm
 https://pashtitzky.github.io/poly/abarbanel.htm
 https://pashtitzky.github.io/poly/drive.htm
 https://pashtitzky.github.io/poly/game.htm
@@ -18,6 +19,7 @@ https://pashtitzky.github.io/poly/help1.htm
 https://pashtitzky.github.io/poly/memo.htm
 https://pashtitzky.github.io/wood/bersit.htm
 https://pashtitzky.github.io/wood/index.htm
+https://pashtitzky.github.io/wood/index1.htm
 https://pashtitzky.github.io/wood/semot.htm
 https://pashtitzky.github.io/wood/sidor.htm
-https://pashtitzky.github.io/wood/index2.htm
+https://pashtitzky.github.io/wood/בבלי%20ברכות.htm
