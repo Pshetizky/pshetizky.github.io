@@ -68,9 +68,6 @@ body{
 animation:650ms ease-in-out 2 alternate-reverse forwards enter;
 margin:230px auto auto auto
 }
-html{
-background:#000000
-}
 @keyframes enter{
 100%{
 transform:matrix(1, 0, 0, 1, 0, 0)
