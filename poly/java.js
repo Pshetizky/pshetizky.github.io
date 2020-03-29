@@ -42,3 +42,6 @@ var starts = [
 ];
 var random_starts = starts[Math.floor(Math.random() * starts.length)];
 document.getElementById("body").style.transform = random_starts;
+var colors = ["#3E2723","#880E4F","#1A237E","#0d47a1","#1b5e20","#212121","#827717","#263238","#ff6f00","#004d40"];
+var backgrounds = colors[Math.floor(Math.random() * colors.length)];
+document.getElementById("setup").style.background = backgrounds;
