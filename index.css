@@ -2,47 +2,47 @@ a,div a{
 text-decoration:blink
 }
 div#poly1,div#wood,div#paper,div#default,div#help,div#mov{
-height:280px;
-box-shadow:inset 0px -120px 100px -40px rgb(0, 0, 0);
-font-size:72px;
+animation:auto1 20s ease-in-out infinite alternate;
 border-radius:150px;
-width:280px;
+box-shadow:inset 0px -120px 100px -40px #00000080;
+font-size:72px;
+height:280px;
 transform:matrix(0.1, -1, 1, 0.1, 0, 0);
-animation:auto1 20s ease-in-out infinite alternate
+width:280px
 }
 div#poly2{
+animation:auto2 20s ease-in-out infinite alternate;
 height:840px;
-width:200px;
-transform:matrix(0.1, 1, -1, 0.1, -20, 170);
 margin:-560px auto auto auto;
-animation:auto2 20s ease-in-out infinite alternate
+transform:matrix(0.1, 1, -1, 0.1, -20, 170);
+width:200px
 }
 .right{
-box-shadow:inset -40px -120px 100px -40px rgb(0, 0, 0) !important
+box-shadow:inset -40px -120px 100px -40px #00000080 !important
 }
 .left{
-box-shadow:inset 40px -120px 100px -40px rgb(0, 0, 0) !important
+box-shadow:inset 40px -120px 100px -40px #00000080 !important
 }
 div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#help:hover,div#mov:hover,.hovera{
-box-shadow:inset 0px -120px 100px -40px rgba(0, 0, 0, 0.5) !important
+box-shadow:unset !important
 }
 div#mini:hover,div#mwood:hover,div#mpaper:hover,div#mdefault:hover,div#mmini:hover,div#mhelp:hover,div#mmov:hover,.hoverb{
-box-shadow:inset 0px -70px 53px -40px rgba(0, 0, 0, 0.7) !important
+box-shadow:unset !important
 }
 div#poly3{
-transform:matrix(0.1, 1, -1, 0.1, -20, -210);
 animation:auto3 20s ease-in-out infinite alternate;
 height:350px;
+transform:matrix(0.1, 1, -1, 0.1, -20, -210);
 width:120px
 }
 div#mini,div#mwood,div#mpaper,div#mdefault,div#mmini,div#mhelp,div#mmov{
-height:120px;
-font-size:48px;
-transform:matrix(0.1, -1, 1, 0.1, 0, 0);
+animation:auto1 20s ease-in-out infinite alternate;
 border-radius:100px;
-width:120px;
-box-shadow:inset 0px -70px 53px -40px rgb(0, 0, 0);
-animation:auto1 20s ease-in-out infinite alternate
+box-shadow:inset 0px -70px 53px -40px #00000080;
+font-size:48px;
+height:120px;
+transform:matrix(0.1, -1, 1, 0.1, 0, 0);
+width:120px
 }
 div#default,div#mdefault,div#mini{
 color:#E3F2FD;
@@ -53,16 +53,16 @@ color:#ffffff;
 background:#9E9E9E
 }
 div#wood,div#mwood{
-background:#ff9800;
-color:#FFF8E1
+color:#FFF8E1;
+background:#ff9800
 }
 div#help,div#mhelp{
-background:#ff5757;
-color:#FFEBEE
+color:#FFEBEE;
+background:#ff5757
 }
 div#mov,div#mmov{
-background:#90bcff;
-color:#e0f7fa
+color:#e0f7fa;
+background:#90bcff
 }
 body{
 animation:650ms ease-in-out 2 alternate-reverse forwards enter;
