@@ -23,10 +23,10 @@ div#mini,div#mwood,div#mpaper,div#mdefault,div#mmini,div#mhelp,div#mmov{
 -o-animation:auto1 20s ease-in-out infinite alternate
 }
 body{
--webkit-animation:650ms ease-in-out 2 alternate-reverse forwards enter;
--moz-animation:650ms ease-in-out 2 alternate-reverse forwards enter;
--ms-animation:650ms ease-in-out 2 alternate-reverse forwards enter;
--o-animation:650ms ease-in-out 2 alternate-reverse forwards enter
+-webkit-animation:250ms ease-in-out 2 alternate-reverse forwards enter;
+-moz-animation:250ms ease-in-out 2 alternate-reverse forwards enter;
+-ms-animation:250ms ease-in-out 2 alternate-reverse forwards enter;
+-o-animation:250ms ease-in-out 2 alternate-reverse forwards enter
 }
 @-webkit-keyframes enter{
 100%{
