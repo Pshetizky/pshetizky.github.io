@@ -1,3 +1,6 @@
+html{
+font-family: sans-serif
+}
 a,div a{
 text-decoration:blink
 }
@@ -5,17 +8,17 @@ div#poly1,div#wood,div#paper,div#default,div#help,div#mov{
 animation:auto1 20s ease-in-out infinite alternate;
 border-radius:150px;
 box-shadow:inset 0px -120px 100px -40px #00000080;
-font-size:72px;
-height:280px;
+font-size:48px;
+height:240px;
 transform:matrix(0.1, -1, 1, 0.1, 0, 0);
-width:280px
+width:240px
 }
 div#poly2{
 animation:auto2 20s ease-in-out infinite alternate;
-height:840px;
-margin:-560px auto auto auto;
-transform:matrix(0.1, 1, -1, 0.1, -20, 170);
-width:200px
+height:720px;
+margin:-480px auto;
+transform:matrix(0.1, 1, -1, 0.1, 0, 40);
+width:240px
 }
 .right{
 box-shadow:inset -40px -120px 100px -40px #00000080 !important
@@ -23,23 +26,20 @@ box-shadow:inset -40px -120px 100px -40px #00000080 !important
 .left{
 box-shadow:inset 40px -120px 100px -40px #00000080 !important
 }
-div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#help:hover,div#mov:hover,.hovera{
-box-shadow:unset !important
-}
-div#mini:hover,div#mwood:hover,div#mpaper:hover,div#mdefault:hover,div#mmini:hover,div#mhelp:hover,div#mmov:hover,.hoverb{
+div#poly1:hover,div#wood:hover,div#paper:hover,div#default:hover,div#help:hover,div#mov:hover,.hovera,div#mini:hover,div#mwood:hover,div#mpaper:hover,div#mdefault:hover,div#mmini:hover,div#mhelp:hover,div#mmov:hover,.hoverb{
 box-shadow:unset !important
 }
 div#poly3{
 animation:auto3 20s ease-in-out infinite alternate;
-height:350px;
-transform:matrix(0.1, 1, -1, 0.1, -20, -210);
+height:360px;
+transform:matrix(0.1, 1, -1, 0.1, 0, 170);
 width:120px
 }
 div#mini,div#mwood,div#mpaper,div#mdefault,div#mmini,div#mhelp,div#mmov{
 animation:auto1 20s ease-in-out infinite alternate;
 border-radius:100px;
 box-shadow:inset 0px -70px 53px -40px #00000080;
-font-size:48px;
+font-size:32px;
 height:120px;
 transform:matrix(0.1, -1, 1, 0.1, 0, 0);
 width:120px
@@ -80,11 +80,11 @@ transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
 }
 @keyframes auto2{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
+transform:matrix(-0.1, 1, -1, -0.1, 0, 40)
 }
 }
 @keyframes auto3{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
+transform:matrix(-0.1, 1, -1, -0.1, 0, 170)
 }
 }
