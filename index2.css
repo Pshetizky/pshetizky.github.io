@@ -40,12 +40,12 @@ transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
 }
 @-webkit-keyframes auto2{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
+transform:matrix(-0.1, 1, -1, -0.1, 0, 40)
 }
 }
 @-webkit-keyframes auto3{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
+transform:matrix(-0.1, 1, -1, -0.1, 0, 170)
 }
 }
 @-moz-keyframes enter{
@@ -60,12 +60,12 @@ transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
 }
 @-moz-keyframes auto2{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
+transform:matrix(-0.1, 1, -1, -0.1, 0, 40)
 }
 }
 @-moz-keyframes auto3{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
+transform:matrix(-0.1, 1, -1, -0.1, 0, 170)
 }
 }
 @-ms-keyframes enter{
@@ -80,12 +80,12 @@ transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
 }
 @-ms-keyframes auto2{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
+transform:matrix(-0.1, 1, -1, -0.1, 0, 40)
 }
 }
 @-ms-keyframes auto3{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
+transform:matrix(-0.1, 1, -1, -0.1, 0, 170)
 }
 }
 @-o-keyframes enter{
@@ -100,11 +100,11 @@ transform:matrix(-0.1, -1, 1, -0.1, 0, 0)
 }
 @-o-keyframes auto2{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, 170)
+transform:matrix(-0.1, 1, -1, -0.1, 0, 40)
 }
 }
 @-o-keyframes auto3{
 100%{
-transform:matrix(-0.1, 1, -1, -0.1, 20, -210)
+transform:matrix(-0.1, 1, -1, -0.1, 0, 170)
 }
 }
