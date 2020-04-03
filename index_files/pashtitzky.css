@@ -1,0 +1,5 @@
+*{cursor:default}a.icon001{text-decoration:blink;width:52px}div.icon001{color:#ffffff;;font-size:15px;margin-bottom:10px;text-align:center;width:inherit}html, a:not(.icon001):not(.icon002){background-color:var(--color001);color:var(--theme);font-family:sans-serif;text-shadow:0px 1px 2px black}img.icon001{width:inherit}img.icon002{background-color:var(--color007);width:30px}
+
+.a001,.a002,.a003,.a004,.a005{border:solid;border-width:1px;box-shadow:0 0 10px black}.a001{background-color:var(--color006);margin:var(--margin001);padding:var(--padding001)}.a002{background-color:var(--color002);margin:var(--margin002);padding:var(--padding002)}.a003{background-color:var(--color003);margin:var(--margin003);padding:var(--padding003)}.a004{background-color:var(--color004);margin:var(--margin004);padding:var(--padding004)}.a005{background-color:var(--color005);margin:var(--margin005);padding:var(--padding005)}
+
+@media all and (max-width: 1024px){img.icon002{width:52px}}
