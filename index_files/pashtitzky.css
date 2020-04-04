@@ -2,6 +2,6 @@
 
 .a001,.a002,.a003,.a004,.a005{border:solid;border-width:1px;box-shadow:0 0 10px black}.a001{background-color:var(--color006);margin:var(--margin001);padding:var(--padding001)}.a002{background-color:var(--color002);margin:var(--margin002);padding:var(--padding002)}.a003{background-color:var(--color003);margin:var(--margin003);padding:var(--padding003)}.a004{background-color:var(--color004);margin:var(--margin004);padding:var(--padding004)}.a005{background-color:var(--color005);margin:var(--margin005);padding:var(--padding005)}
 
-@media all and (min-height: 600px) and (min-width: 600px){a.icon001{width:150px}div.icon001{font-size:24px}html{font-size:24px}img.icon002{width:50px}}
+@media all and (min-height: 900px), (min-width: 900px){a.icon001{width:150px}div.icon001{font-size:24px}html{font-size:24px}img.icon002{width:50px}}
 
-@media all and (min-height: 800px) and (min-width: 800px){a.icon001{width:52px}div.icon001{font-size:15px}html{font-size:16px}img.icon002{width:30px}}
+@media all and (min-height: 1500px), (min-width: 1500px){a.icon001{width:52px}div.icon001{font-size:15px}html{font-size:16px}img.icon002{width:30px}}
