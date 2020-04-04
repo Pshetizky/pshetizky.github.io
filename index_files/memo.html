@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html dir="rtl" style="background:var(--color001)">
 <head>
-<meta content="initial-scale=0.4" name="viewport">
 <link rel="stylesheet" href="../index_files/pashtitzky.css" />
 <link rel="stylesheet" href="./memo2.css" />
 <link rel="stylesheet" href="./memo3.css" />
 <title>שינונית</title>
 <style>
+div.view{transform:matrix(0.4, 0, 0, 0.4, 0, 0)}
+
+@media all and (min-height: 600px) and (min-width: 600px){div.view{transform:matrix(0.5, 0, 0, 0.5, 0, 0)}}
+
+@media all and (min-height: 800px) and (min-width: 800px){div.view{transform:matrix(0.8, 0, 0, 0.8, 0, 0)}}
 div#poly0{
 animation:6s linear infinite auto1
 }
@@ -205,7 +209,7 @@ transform:rotate(-306deg) translate(17px, -12px)
 <body>
 <a class="icon002" href="../index.html">
 <img class="icon002" src="../index_files/icon005.png"></img></a><br />
-<div style="transform:matrix(0.8, 0, 0, 0.8, 0, 0)">
+<div class="view">
 <div id="poly0">
 	<div id="polya3"></div><div id="polya3"></div><div id="polya3"></div><div id="polya3"></div><div id="polya3"></div><div id="polya3"></div><div id="polya3"></div><div id="polya3"></div><div id="polya3"></div><div id="polya3"></div><div id="polya3"></div><div id="polya3"></div>
 	<div id="polya3">
