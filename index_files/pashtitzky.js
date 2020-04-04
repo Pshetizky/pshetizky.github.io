@@ -32,7 +32,7 @@ document.documentElement.style.setProperty('--color005', getColors());
 document.documentElement.style.setProperty('--color006', getColors());
 document.documentElement.style.setProperty('--color007', getColors());
 // array 002 wallpapers
-var walls = ["url('./index_files/wallpaper001.jpg')","url('./index_files/wallpaper002.jpg')","url('./index_files/wallpaper003.jpg')"];
+var walls = ["url('./index_files/wallpaper001.png')","url('./index_files/wallpaper002.jpg')","url('./index_files/wallpaper003.jpg')"];
 function getWalls() {
 	return walls[
 		Math.floor(Math.random() * walls.length)
