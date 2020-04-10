@@ -27,10 +27,6 @@ function getColors() {
 document.documentElement.style.setProperty('--color001', getColors());
 document.documentElement.style.setProperty('--color002', getColors());
 document.documentElement.style.setProperty('--color003', getColors());
-document.documentElement.style.setProperty('--color004', getColors());
-document.documentElement.style.setProperty('--color005', getColors());
-document.documentElement.style.setProperty('--color006', getColors());
-document.documentElement.style.setProperty('--color007', getColors());
 // array 002 wallpapers
 var walls = ["url('./index_files/wallpaper001.png')","url('./index_files/wallpaper002.png')"];
 function getWalls() {
@@ -38,7 +34,7 @@ function getWalls() {
 		Math.floor(Math.random() * walls.length)
 	];
 }
-document.documentElement.style.setProperty('--walla', getWalls());
+document.documentElement.style.setProperty('--walla001', getWalls());
 // array 003 themes
 var themes = ["#fafafa","#212121"];
 function getThemes() {
@@ -46,7 +42,7 @@ function getThemes() {
 		Math.floor(Math.random() * themes.length)
 	];
 }
-document.documentElement.style.setProperty('--theme', getThemes());
+document.documentElement.style.setProperty('--theme001', getThemes());
 // array 004
 var paddings = [
 "72px 10px",
@@ -60,22 +56,23 @@ function getPaddings() {
 	];
 }
 document.documentElement.style.setProperty('--padding001', getPaddings());
-document.documentElement.style.setProperty('--padding002', getPaddings());
-document.documentElement.style.setProperty('--padding003', getPaddings());
-document.documentElement.style.setProperty('--padding004', getPaddings());
-document.documentElement.style.setProperty('--padding005', getPaddings());
 // array 005
 var margins = [
-"120px 10px",
-"80px 5px",
-"50px 0px"];
+"50px 90px",
+"90px 50px",
+"30px 110px",
+"110px 30px",
+"30px 100px",
+"100px 30px",
+"80px 60px",
+"60px 80px",
+"75px 75px",
+"130px 10px",
+"10px 130px",
+"10px 10px"];
 function getMargins() {
 	return margins[
 		Math.floor(Math.random() * margins.length)
 	];
 }
 document.documentElement.style.setProperty('--margin001', getMargins());
-document.documentElement.style.setProperty('--margin002', getMargins());
-document.documentElement.style.setProperty('--margin003', getMargins());
-document.documentElement.style.setProperty('--margin004', getMargins());
-document.documentElement.style.setProperty('--margin005', getMargins());
