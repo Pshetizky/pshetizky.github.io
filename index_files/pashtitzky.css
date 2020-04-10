@@ -1,8 +1,42 @@
-*{cursor:default}a.icon001{text-decoration:blink}.a001,.a002,.a003,.a004,.a005{border:solid;border-width:1px}.a001{background-color:var(--color006);margin:var(--margin001);padding:var(--padding001)}.a002{background-color:var(--color002);margin:var(--margin002);padding:var(--padding002)}.a003{background-color:var(--color003);margin:var(--margin003);padding:var(--padding003)}.a004{background-color:var(--color004);margin:var(--margin004);padding:var(--padding004)}.a005{background-color:var(--color005);margin:var(--margin005);padding:var(--padding005)}a.icon002{text-decoration:blink;background-color:var(--color007);padding:4px 20px}div.icon001{margin-bottom:10px;text-align:center;width:inherit}div, a{color:var(--theme);font-family:sans-serif}img.icon001{width:inherit}
-
-@media screen and (min-height: 1px), (min-width: 1px){a.icon001{width:64px}div, a{font-size:16px;filter:drop-shadow(-2px 2px 6px black)}}
-@media screen and (min-height: 666px), (min-width: 666px){a.icon001{width:99px}div, a{font-size:24px;filter:drop-shadow(-2px 2px 6px black)}}
-@media screen and (min-height: 999px), (min-width: 999px){a.icon001{width:133px}div, a{font-size:28px}}
-@media screen and (min-height: 1333px), (min-width: 1333px){a.icon001{width:166px}div, a{font-size:36px;filter:drop-shadow(1px 2px 2px black)}}
-@media screen and (min-height: 1666px), (min-width: 1666px){a.icon001{width:199px}div, a{font-size:48px}}
-@media screen and (min-height: 1999px), (min-width: 1999px){a.icon001{width:256px}div, a{font-size:72px;filter:drop-shadow(0px 3px 4px black)}}
+*{
+color:var(--theme001);cursor:default;text-decoration:blink;font-family:sans-serif
+}
+a.icon002{
+background-color:var(--color002);position:fixed;z-index:1;
+}
+.a001{
+background-color:var(--color003)
+}
+.icon001{
+margin-bottom:10px;text-align:center;width:inherit
+}
+img.icon001{
+width:inherit
+}
+@media screen and (min-height: 1px), (min-width: 1px){
+a.icon001{
+width:64px
+}
+}
+@media screen and (min-height: 666px), (min-width: 666px){
+a.icon001{
+width:99px
+}
+a.icon002{
+padding:2px 17px
+}
+.a001, .icon001, a.icon002{
+font-size:24px;filter:drop-shadow(-2px 2px 6px black)
+}
+.a001{
+border:solid;border-width:1px;margin:var(--margin001);padding:var(--padding001)
+}
+}
+@media screen and (min-height: 999px), (min-width: 999px){
+a.icon001{
+width:256px
+}
+.a001, .icon001, a.icon002{
+font-size:72px
+}
+}
