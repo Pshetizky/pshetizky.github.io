@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /*txt*
-Allow: /sitemap.txt$
+Disallow:
 
 Sitemap: https://pashtitzky.github.io/sitemap.txt
