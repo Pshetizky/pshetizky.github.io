@@ -34,7 +34,7 @@ function getWalls() {
 		Math.floor(Math.random() * walls.length)
 	];
 }
-document.documentElement.style.setProperty('--walla001', getWalls());
+document.documentElement.style.setProperty('--wall001', getWalls());
 // array 003 themes
 var themes = ["#fafafa","#212121"];
 function getThemes() {
