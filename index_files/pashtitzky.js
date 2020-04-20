@@ -56,7 +56,7 @@ function getPaddings() {
 	];
 }
 document.documentElement.style.setProperty('--padding001', getPaddings());
-// array 005
+// array 005 margins
 var margins = [
 "50px 90px",
 "90px 50px",
@@ -76,3 +76,13 @@ function getMargins() {
 	];
 }
 document.documentElement.style.setProperty('--margin001', getMargins());
+// array 006 Houses
+var houses = [
+'"סגור"','"X"','"יציאה"','"בית"','"כבה"'
+];
+function getHouses() {
+	return houses[
+		Math.floor(Math.random() * houses.length)
+	];
+}
+document.documentElement.style.setProperty('--houses001', getHouses());
