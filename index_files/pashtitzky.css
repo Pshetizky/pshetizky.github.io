@@ -2,7 +2,10 @@
 color:var(--theme001);cursor:default;text-decoration:blink;font-family:sans-serif
 }
 a.icon002{
-background-color:var(--color002);position:fixed;z-index:1;
+background-color:var(--color002);position:fixed;z-index:1
+}
+a.icon002::after{
+content:var(--houses001)
 }
 .a001{
 background-color:var(--color003)
