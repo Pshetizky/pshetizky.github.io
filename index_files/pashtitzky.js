@@ -27,7 +27,7 @@ function getColors() {
 document.documentElement.style.setProperty('--color001', getColors());
 document.documentElement.style.setProperty('--color002', getColors());
 // array 002 wallpapers
-var walls = ["url('./index_files/wallpaper001.png')","url('./index_files/wallpaper002.png')"];
+var walls = ["url('https://pashtitzky.github.io/index_files/wallpaper001.png')","url('https://pashtitzky.github.io/index_files/wallpaper002.png')"];
 function getWalls() {
 	return walls[
 		Math.floor(Math.random() * walls.length)
