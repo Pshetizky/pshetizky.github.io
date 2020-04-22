@@ -26,7 +26,6 @@ function getColors() {
 }
 document.documentElement.style.setProperty('--color001', getColors());
 document.documentElement.style.setProperty('--color002', getColors());
-document.documentElement.style.setProperty('--color003', getColors());
 // array 002 wallpapers
 var walls = ["url('./index_files/wallpaper001.png')","url('./index_files/wallpaper002.png')"];
 function getWalls() {
@@ -78,7 +77,7 @@ function getMargins() {
 document.documentElement.style.setProperty('--margin001', getMargins());
 // array 006 Houses
 var houses = [
-'"סגור"','"X"','"יציאה"','"בית"','"כבה"'
+'"סגור"','"X"','"יציאה"','"הביתה"','"כיבוי"','"אחורה"','"ביטול"'
 ];
 function getHouses() {
 	return houses[
