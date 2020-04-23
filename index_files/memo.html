@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="./memo001.css" />
 <title>שינונית</title>
 <style>
+@media screen and (min-height: 10px) and (min-width: 10px){.view{font-size:8px}}
 @media screen and (min-height: 666px) and (min-width: 666px){.view{font-size:12px}}
 @media screen and (min-height: 999px) and (min-width: 999px){.view{font-size:16px}}
 @media screen and (min-height: 1333px) and (min-width: 1333px){.view{font-size:22px}}
@@ -12,10 +13,10 @@
 @media screen and (min-height: 1999px) and (min-width: 1999px){.view{font-size:36px}}
 @media screen and (min-height: 2333px) and (min-width: 2333px){.view{font-size:42px}}
 .view{
-font-size:8px;margin:50%
+margin:50%
 }
 .a001{
-display:grid
+display:grid;margin:unset;padding:unset
 }
 div#poly001,div#poly002,div#poly003,div#poly004,div#poly005,div#poly006,div#poly007,div#poly008{
 height:0px;
@@ -28,73 +29,131 @@ height:0px;
 position:sticky;
 width:0px
 }
-div#polya001,div#polya005,div#polya006{padding:4em 0}
-div#polya002{padding:3em 0}
-div#polya003{padding:1em 0}
-div#polya004,div#polya008{padding:1.6em 0}
-div#polya007{padding:2.2em 0}
+div#polya006,div#polya002,div#polya003{padding:4em 0}
+div#polya005{padding:3em 0}
+div#polya001{padding:1em 0}
+div#polya007,div#polya008{padding:1.6em 0}
+div#polya004{padding:2.2em 0}
 
-div#poly001{animation:6s linear infinite auto001}
-div#poly002{animation:60s linear infinite auto002}
-div#poly003{animation:60s linear infinite auto003}
-div#poly004{animation:60s linear infinite auto004}
-div#poly005{animation:60s linear infinite auto005}
-div#poly006{animation:60s linear infinite auto006}
-div#poly007{animation:60s linear infinite auto007}
-div#poly008{animation:60s linear infinite auto001}
-
-div#polya001{animation:60s linear infinite autoa001}
-div#polya002{animation:60s linear infinite autoa002}
-div#polya003{animation:6s linear infinite autoa003}
-div#polya004{animation:60s linear infinite autoa004}
-div#polya005{animation:60s linear infinite autoa005}
-div#polya006{animation:60s linear infinite autoa006}
-div#polya007{animation:60s linear infinite autoa007}
-div#polya008{animation:60s linear infinite autoa003}
+div#poly001{animation:20s linear 0s infinite auto001}
+div#poly002{animation:10s linear 0s infinite auto001}
+div#poly003{animation:10s linear 1.4s infinite auto001}
+div#poly004{animation:10s linear 2.8s infinite auto001}
+div#poly005{animation:10s linear 4.2s infinite auto001}
+div#poly006{animation:10s linear 5.7s infinite auto001}
+div#poly007{animation:10s linear 7.1s infinite auto001}
+div#poly008{animation:10s linear 8.5s infinite auto001}
+div#polya001{animation:20s linear 0s infinite auto002}
+div#polya002{animation:10s linear 0s infinite auto002}
+div#polya003{animation:10s linear 1.4s infinite auto002}
+div#polya004{animation:10s linear 2.8s infinite auto002}
+div#polya005{animation:10s linear 4.2s infinite auto002}
+div#polya006{animation:10s linear 5.7s infinite auto002}
+div#polya007{animation:10s linear 7.1s infinite auto002}
+div#polya008{animation:10s linear 8.5s infinite auto002}
 
 @keyframes auto001{
 0%{transform:rotate(0deg)}
 100%{transform:rotate(360deg)}}
 @keyframes auto002{
-0%{transform:rotate(54deg)}
-100%{transform:rotate(414deg)}}
-@keyframes auto003{
-0%{transform:rotate(102deg)}
-100%{transform:rotate(462deg)}}
-@keyframes auto004{
-0%{transform:rotate(153deg)}
-100%{transform:rotate(513deg)}}
-@keyframes auto005{
-0%{transform:rotate(204deg)}
-100%{transform:rotate(564deg)}}
-@keyframes auto006{
-0%{transform:rotate(255deg)}
-100%{transform:rotate(615deg)}}
-@keyframes auto007{
-0%{transform:rotate(306deg)}
-100%{transform:rotate(666deg)}}
-
-@keyframes autoa001{
-0%{transform:rotate(105deg)}
-100%{transform:rotate(-255deg)}}
-@keyframes autoa002{
-0%{transform:rotate(156deg)}
-100%{transform:rotate(-204deg)}}
-@keyframes autoa003{
 0%{transform:rotate(360deg)}
 100%{transform:rotate(0deg)}}
-@keyframes autoa004{
-0%{transform:rotate(54deg)}
-100%{transform:rotate(-306deg)}}
-@keyframes autoa005{
-0%{transform:rotate(306deg)}
-100%{transform:rotate(-54deg)}}
-@keyframes autoa006{
-0%{transform:rotate(258deg)}
-100%{transform:rotate(-102deg)}}
-@keyframes autoa007{
-0%{transform:rotate(207deg)}
-100%{transform:rotate(-153deg)}}
+
+div#poly001{-webkit-animation:20s linear 0s infinite auto001}
+div#poly002{-webkit-animation:10s linear 0s infinite auto001}
+div#poly003{-webkit-animation:10s linear 1.4s infinite auto001}
+div#poly004{-webkit-animation:10s linear 2.8s infinite auto001}
+div#poly005{-webkit-animation:10s linear 4.2s infinite auto001}
+div#poly006{-webkit-animation:10s linear 5.7s infinite auto001}
+div#poly007{-webkit-animation:10s linear 7.1s infinite auto001}
+div#poly008{-webkit-animation:10s linear 8.5s infinite auto001}
+div#polya001{-webkit-animation:20s linear 0s infinite auto002}
+div#polya002{-webkit-animation:10s linear 0s infinite auto002}
+div#polya003{-webkit-animation:10s linear 1.4s infinite auto002}
+div#polya004{-webkit-animation:10s linear 2.8s infinite auto002}
+div#polya005{-webkit-animation:10s linear 4.2s infinite auto002}
+div#polya006{-webkit-animation:10s linear 5.7s infinite auto002}
+div#polya007{-webkit-animation:10s linear 7.1s infinite auto002}
+div#polya008{-webkit-animation:10s linear 8.5s infinite auto002}
+
+div#poly001{-moz-animation:20s linear 0s infinite auto001}
+div#poly002{-moz-animation:10s linear 0s infinite auto001}
+div#poly003{-moz-animation:10s linear 1.4s infinite auto001}
+div#poly004{-moz-animation:10s linear 2.8s infinite auto001}
+div#poly005{-moz-animation:10s linear 4.2s infinite auto001}
+div#poly006{-moz-animation:10s linear 5.7s infinite auto001}
+div#poly007{-moz-animation:10s linear 7.1s infinite auto001}
+div#poly008{-moz-animation:10s linear 8.5s infinite auto001}
+div#polya001{-moz-animation:20s linear 0s infinite auto002}
+div#polya002{-moz-animation:10s linear 0s infinite auto002}
+div#polya003{-moz-animation:10s linear 1.4s infinite auto002}
+div#polya004{-moz-animation:10s linear 2.8s infinite auto002}
+div#polya005{-moz-animation:10s linear 4.2s infinite auto002}
+div#polya006{-moz-animation:10s linear 5.7s infinite auto002}
+div#polya007{-moz-animation:10s linear 7.1s infinite auto002}
+div#polya008{-moz-animation:10s linear 8.5s infinite auto002}
+
+div#poly001{-ms-animation:20s linear 0s infinite auto001}
+div#poly002{-ms-animation:10s linear 0s infinite auto001}
+div#poly003{-ms-animation:10s linear 1.4s infinite auto001}
+div#poly004{-ms-animation:10s linear 2.8s infinite auto001}
+div#poly005{-ms-animation:10s linear 4.2s infinite auto001}
+div#poly006{-ms-animation:10s linear 5.7s infinite auto001}
+div#poly007{-ms-animation:10s linear 7.1s infinite auto001}
+div#poly008{-ms-animation:10s linear 8.5s infinite auto001}
+div#polya001{-ms-animation:20s linear 0s infinite auto002}
+div#polya002{-ms-animation:10s linear 0s infinite auto002}
+div#polya003{-ms-animation:10s linear 1.4s infinite auto002}
+div#polya004{-ms-animation:10s linear 2.8s infinite auto002}
+div#polya005{-ms-animation:10s linear 4.2s infinite auto002}
+div#polya006{-ms-animation:10s linear 5.7s infinite auto002}
+div#polya007{-ms-animation:10s linear 7.1s infinite auto002}
+div#polya008{-ms-animation:10s linear 8.5s infinite auto002}
+
+div#poly001{-o-animation:20s linear 0s infinite auto001}
+div#poly002{-o-animation:10s linear 0s infinite auto001}
+div#poly003{-o-animation:10s linear 1.4s infinite auto001}
+div#poly004{-o-animation:10s linear 2.8s infinite auto001}
+div#poly005{-o-animation:10s linear 4.2s infinite auto001}
+div#poly006{-o-animation:10s linear 5.7s infinite auto001}
+div#poly007{-o-animation:10s linear 7.1s infinite auto001}
+div#poly008{-o-animation:10s linear 8.5s infinite auto001}
+div#polya001{-o-animation:20s linear 0s infinite auto002}
+div#polya002{-o-animation:10s linear 0s infinite auto002}
+div#polya003{-o-animation:10s linear 1.4s infinite auto002}
+div#polya004{-o-animation:10s linear 2.8s infinite auto002}
+div#polya005{-o-animation:10s linear 4.2s infinite auto002}
+div#polya006{-o-animation:10s linear 5.7s infinite auto002}
+div#polya007{-o-animation:10s linear 7.1s infinite auto002}
+div#polya008{-o-animation:10s linear 8.5s infinite auto002}
+
+@-webkit-keyframes auto001{
+0%{transform:rotate(0deg)}
+100%{transform:rotate(360deg)}}
+@-webkit-keyframes auto002{
+0%{transform:rotate(360deg)}
+100%{transform:rotate(0deg)}}
+
+@-moz-keyframes auto001{
+0%{transform:rotate(0deg)}
+100%{transform:rotate(360deg)}}
+@-moz-keyframes auto002{
+0%{transform:rotate(360deg)}
+100%{transform:rotate(0deg)}}
+
+@-ms-keyframes auto001{
+0%{transform:rotate(0deg)}
+100%{transform:rotate(360deg)}}
+@-ms-keyframes auto002{
+0%{transform:rotate(360deg)}
+100%{transform:rotate(0deg)}}
+
+@-o-keyframes auto001{
+0%{transform:rotate(0deg)}
+100%{transform:rotate(360deg)}}
+@-o-keyframes auto002{
+0%{transform:rotate(360deg)}
+100%{transform:rotate(0deg)}}
 </style>
 </head>
 <body>
@@ -102,95 +161,95 @@ div#polya008{animation:60s linear infinite autoa003}
 <div class="a001">
 <div class="view">
 <div id="poly001">
-	<div id="polya003"></div><div id="polya003"></div><div id="polya003"></div><div id="polya003"></div><div id="polya003"></div><div id="polya003"></div><div id="polya003"></div><div id="polya003"></div><div id="polya003"></div><div id="polya003"></div><div id="polya003"></div><div id="polya003"></div>
-	<div id="polya003">
+	<div id="polya001"></div><div id="polya001"></div><div id="polya001"></div><div id="polya001"></div><div id="polya001"></div><div id="polya001"></div><div id="polya001"></div><div id="polya001"></div><div id="polya001"></div><div id="polya001"></div><div id="polya001"></div><div id="polya001"></div>
+	<div id="polya001">
 בחיי
 	</div>
-	<div id="polya003">
+	<div id="polya001">
 כעת
 	</div>
 </div>
 <div id="poly002">
-	<div id="polya005">
+	<div id="polya002">
 מה
 	</div>
-	<div id="polya005">
+	<div id="polya002">
 משמח
 	</div>
-	<div id="polya005">
+	<div id="polya002">
 אותי
 	</div>
 </div>
 <div id="poly003">
-	<div id="polya006">
+	<div id="polya003">
 מה
 	</div>
-	<div id="polya006">
+	<div id="polya003">
 מרגש
 	</div>
-	<div id="polya006">
+	<div id="polya003">
 אותי
 	</div>
 </div>
 <div id="poly004">
-	<div id="polya007">
+	<div id="polya004">
 מה
 	</div>
-	<div id="polya007">
+	<div id="polya004">
 מעורר
 	</div>
-	<div id="polya007">
+	<div id="polya004">
 בי
 	</div>
-	<div id="polya007">
+	<div id="polya004">
 הכרת
 	</div>
-	<div id="polya007">
+	<div id="polya004">
 תודה
 	</div>
 </div>
 <div id="poly005">
-	<div id="polya002">
+	<div id="polya005">
 את
 	</div>
-	<div id="polya002">
+	<div id="polya005">
 מי
 	</div>
-	<div id="polya002">
+	<div id="polya005">
 אני
 	</div>
-	<div id="polya002">
+	<div id="polya005">
 אוהב
 	</div>
 </div>
 <div id="poly006">
-	<div id="polya001">
+	<div id="polya006">
 מי
 	</div>
-	<div id="polya001">
+	<div id="polya006">
 אוהב
 	</div>
-	<div id="polya001">
+	<div id="polya006">
 אותי
 	</div>
 </div>
 <div id="poly007">
-	<div id="polya004"></div><div id="polya004">
+	<div id="polya007"></div><div id="polya007">
 איזה
 	</div>
-	<div id="polya004">
+	<div id="polya007">
 הרגל
 	</div>
-	<div id="polya004">
+	<div id="polya007">
 מחשבתי
 	</div>
-	<div id="polya004">
+	<div id="polya007">
 אני
 	</div>
-	<div id="polya004">
+	<div id="polya007">
 מחויב/ת
 	</div>
-	<div id="polya004">
+	<div id="polya007">
 ליצור
 	</div>
 </div>
