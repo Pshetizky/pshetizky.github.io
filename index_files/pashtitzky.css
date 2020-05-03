@@ -2,7 +2,7 @@
 color:var(--theme001);cursor:default;text-decoration:blink;font-family:sans-serif
 }
 html:not(.blank){
-background-attachment:fixed;background-color:var(--color001);background-image:var(--wall001);background-position-y:bottom;background-position-x:center;background-repeat:no-repeat
+background-attachment:local;background-color:var(--color001);background-image:var(--wall001);background-position-y:bottom;background-position-x:center;background-repeat:no-repeat
 }
 a.icon002{
 background-color:var(--color002);position:fixed;bottom:0px;z-index:1
