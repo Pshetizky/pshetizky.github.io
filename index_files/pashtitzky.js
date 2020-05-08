@@ -77,7 +77,7 @@ function getMargins() {
 document.documentElement.style.setProperty('--margin001', getMargins());
 // array 006 Houses
 var houses = [
-'"סגור"','"X"','"יציאה"','"הביתה"','"כיבוי"','"אחורה"','"ביטול"'
+'"תסגור"','"X"','"יציאה"','"הביתה"','"לכבה"','"אחורה"','"לבטל"'
 ];
 function getHouses() {
 	return houses[
