@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
 <head>
 <link rel="stylesheet" href="../../index_files/pashtitzky.css" />
 <title>الأعداد</title>
 <style>
 .a001:not(#no){
-display:table-caption;
+float:right;
 margin:unset;
 width:min-content
 }
-.a100{
-column-count:4
+.row:after{
+content:"";
+display:table;
+clear:both
 }
 </style>
 </head>
@@ -19,22 +21,12 @@ column-count:4
 <div id="no" class="a001">
 الأعداد
 </div>
-<center>
-<div class="a100">
-<div class="a001">
-رسالة
+
+<div id="no" class="a001">
+رسالة مطلق ترتيبي انخفاض
 </div>
-<div class="a001">
-مطلق
-</div>
-<div class="a001">
-ترتيبي
-</div>
-<div class="a001">
-انخفاض
-</div>
-</div>
-<div class="a100">
+
+<div class="row">
 <div class="a001">
 ا ب ت ث ج ح خ د ذ. ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه. و ي
 </div>
@@ -48,7 +40,6 @@ column-count:4
 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1
 </div>
 </div>
-</center>
 <script src="../../ar/index_files/pashtitzky.js"></script>
 </body>
 </html>
