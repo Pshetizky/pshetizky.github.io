@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://pashtitzky.github.io/sitemap.xml
