@@ -21,7 +21,7 @@ position:sticky;
 width:0px
 }
 
-div#poly001{animation:5s linear -31s infinite auto002}
+div#poly001{animation:63s linear -31s infinite auto002}
 div#poly002{animation:63s linear 0s infinite auto001}
 div#poly003{animation:63s linear -9s infinite auto001}
 div#poly004{animation:63s linear -18s infinite auto001}
@@ -29,7 +29,7 @@ div#poly005{animation:63s linear -27s infinite auto001}
 div#poly006{animation:63s linear -36s infinite auto001}
 div#poly007{animation:63s linear -45s infinite auto001}
 div#poly008{animation:63s linear -54s infinite auto001}
-div#polya001{animation:5s linear -31s infinite auto001}
+div#polya001{animation:63s linear -31s infinite auto001}
 div#polya002{animation:63s linear 0s infinite auto002}
 div#polya003{animation:63s linear -9s infinite auto002}
 div#polya004{animation:63s linear -18s infinite auto002}
@@ -45,7 +45,7 @@ div#polya008{animation:63s linear -54s infinite auto002}
 0%{transform:rotate(360deg)}
 100%{transform:rotate(0deg)}}
 
-div#poly001{-webkit-animation:5s linear -31s infinite auto002}
+div#poly001{-webkit-animation:63s linear -31s infinite auto002}
 div#poly002{-webkit-animation:63s linear 0s infinite auto001}
 div#poly003{-webkit-animation:63s linear -9s infinite auto001}
 div#poly004{-webkit-animation:63s linear -18s infinite auto001}
@@ -53,7 +53,7 @@ div#poly005{-webkit-animation:63s linear -27s infinite auto001}
 div#poly006{-webkit-animation:63s linear -36s infinite auto001}
 div#poly007{-webkit-animation:63s linear -45s infinite auto001}
 div#poly008{-webkit-animation:63s linear -54s infinite auto001}
-div#polya001{-webkit-animation:5s linear -31s infinite auto001}
+div#polya001{-webkit-animation:63s linear -31s infinite auto001}
 div#polya002{-webkit-animation:63s linear 0s infinite auto002}
 div#polya003{-webkit-animation:63s linear -9s infinite auto002}
 div#polya004{-webkit-animation:63s linear -18s infinite auto002}
