@@ -1,0 +1,12 @@
+.b001::before{
+content:var(--sets001)
+}
+.b002::before{
+content:var(--sets002)
+}
+.b003::before{
+content:var(--sets003)
+}
+.b004::before{
+content:var(--sets004)
+}
