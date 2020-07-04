@@ -4,46 +4,55 @@ color:var(--theme001);cursor:default;text-decoration:blink;font-family:sans-seri
 html:not(.blank){
 background-attachment:local;background-color:var(--color001);background-image:var(--wall001);background-position-y:bottom;background-position-x:center;background-repeat:no-repeat
 }
-a.icon002{
+a.a003,a.a004,a.a005,a.a006{
 background-color:var(--color002);position:fixed;bottom:100px;z-index:1
 }
-a.icon002::after{
+a.a003::after{
 content:var(--houses001)
 }
-.a001{
+a.a004::after{
+content:var(--houses002)
+}
+a.a005::after{
+content:var(--houses003)
+}
+a.a006::after{
+content:var(--houses004)
+}
+.a002{
 background-color:var(--color002)
 }
-.icon001{
+.a001{
 margin-bottom:10px;text-align:center;width:inherit
 }
-img.icon001{
+img.a001{
 width:inherit
 }
 @media screen and (min-height: 1px), (min-width: 1px){
-a.icon001{
+a.a001{
 width:64px
 }
 }
 @media screen and (min-height: 666px), (min-width: 666px){
-a.icon001{
+a.a001{
 width:99px
 }
-a.icon002{
+a.a003,a.a004,a.a005,a.a006{
 padding:10px 50px;
 margin:0 50%
 }
-.a001, .icon001, a.icon002{
+.a001,.a002,a.a003,a.a004,a.a005,a.a006{
 font-size:24px;filter:drop-shadow(-2px 2px 6px black)
 }
-.a001{
+.a002{
 border:solid;border-width:1px;margin:var(--margin001);padding:var(--padding001)
 }
 }
 @media screen and (min-height: 999px), (min-width: 999px){
-a.icon001{
+a.a001{
 width:256px
 }
-.a001, .icon001, a.icon002{
+.a001,.a002,a.a003,a.a004,a.a005,a.a006{
 font-size:72px
 }
 }
