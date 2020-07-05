@@ -1,0 +1,13 @@
+#c001{display:flex}
+.b001::after{content:var(--let001)}.b002::after{content:var(--let002)}.b003::after{content:var(--let003)}
+.b004::after{content:var(--let004)}.b005::after{content:var(--let005)}.b006::after{content:var(--let006)}
+.b007::after{content:var(--let007)}.b008::after{content:var(--let008)}.b009::after{content:var(--let009)}
+.b010::after{content:var(--let010)}.b011::after{content:var(--let011)}.b012::after{content:var(--let012)}
+
+.c001::after{content:var(--se001)}.c002::after{content:var(--se002)}.c003::after{content:var(--se003)}
+.c004::after{content:var(--se004)}.c005::after{content:var(--se005)}.c006::after{content:var(--se006)}
+.c007::after{content:var(--se007)}.c008::after{content:var(--se008)}.c009::after{content:var(--se009)}
+.c010::after{content:var(--se010)}.c011::after{content:var(--se011)}.c012::after{content:var(--se012)}
+.c013::after{content:var(--se013)}.c014::after{content:var(--se014)}.c015::after{content:var(--se015)}
+.c016::after{content:var(--se016)}.c017::after{content:var(--se017)}.c018::after{content:var(--se018)}
+.c019::after{content:var(--se019)}.c020::after{content:var(--se020)}
