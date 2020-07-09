@@ -1,5 +1,5 @@
 *{
-color:var(--theme001);cursor:default;text-decoration:blink;font-family:sans-serif
+color:var(--theme001);cursor:default;text-decoration:blink;font-family:Gisha ,sans-serif
 }
 html:not(.blank){
 background-attachment:local;background-color:var(--color001);background-image:var(--wall001);background-position-y:bottom;background-position-x:center;background-repeat:no-repeat
