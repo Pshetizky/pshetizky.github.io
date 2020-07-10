@@ -5,7 +5,7 @@ html:not(.blank){
 background-attachment:local;background-color:var(--color001);background-image:var(--wall001);background-position-y:bottom;background-position-x:center;background-repeat:no-repeat
 }
 a.a003,a.a004,a.a005,a.a006{
-background-color:var(--color002);position:fixed;bottom:100px;z-index:1
+background-color:var(--color003);position:fixed;bottom:100px;z-index:1
 }
 a.a003::after{
 content:var(--houses001)
@@ -26,7 +26,8 @@ background-color:var(--color002)
 margin-bottom:10px;text-align:center;width:inherit
 }
 img.a001{
-width:inherit;background-image:var(--grads001);border-radius:var(--radius001)var(--radius002)
+width:inherit;background-image:var(--grads001);
+border-radius:var(--radius001)var(--radius002)var(--radius003)var(--radius004)
 }
 @media screen and (min-width: 1px), (min-height: 1px){
 a.a001{
