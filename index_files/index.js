@@ -1,5 +1,5 @@
 // array 001 colors
-var chromee = [
+var colors001 = [
 "#f44336",
 "#e91e63",
 "#9c27b0",
@@ -20,8 +20,8 @@ var chromee = [
 "#9e9e9e",
 "#607d8b"];
 function getColors() {
-	return chromee[
-		Math.floor(Math.random() * chromee.length)
+	return colors001[
+		Math.floor(Math.random() * colors001.length)
 	];
 }
 document.documentElement.style.setProperty('--color001', getColors());
@@ -115,3 +115,39 @@ function getHouses() {
 	];
 }
 document.documentElement.style.setProperty('--houses004', getHouses());
+// array 010 gradient001
+var gradient001 = [
+"linear-gradient(#F44336, #B71C1C)",
+"linear-gradient(#E91E63, #880E4F)",
+"linear-gradient(#9C27B0, #4A148C)",
+"linear-gradient(#3f51b5, #1A237E)",
+"linear-gradient(#2196F3, #0D47A1)",
+"linear-gradient(#03A9F4, #01579B)",
+"linear-gradient(#00bcd4, #006064)",
+"linear-gradient(#009688, #004D40)",
+"linear-gradient(#4CAF50, #1B5E20)",
+"linear-gradient(#8BC34A, #33691E)",
+"linear-gradient(#CDDC39, #827717)",
+"linear-gradient(#FFEB3B, #F57F17)",
+"linear-gradient(#ffc107, #FF6F00)",
+"linear-gradient(#FF9800, #E65100)",
+"linear-gradient(#FF5722, #BF360C)",
+"linear-gradient(#795548, #3e2723)",
+"linear-gradient(#9E9E9E, #212121)",
+"linear-gradient(#607D8B, #263238)"];
+function getGradient001() {
+	return gradient001[
+		Math.floor(Math.random() * gradient001.length)
+	];
+}
+document.documentElement.style.setProperty('--grads001', getGradient001());
+// array 011 radius001
+var radius001 = [
+"20%","30%","10%","6%"];
+function getRadius001() {
+	return radius001[
+		Math.floor(Math.random() * radius001.length)
+	];
+}
+document.documentElement.style.setProperty('--radius001', getRadius001());
+document.documentElement.style.setProperty('--radius002', getRadius001());
