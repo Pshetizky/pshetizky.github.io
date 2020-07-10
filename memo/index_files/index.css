@@ -1,8 +1,8 @@
-@media screen and (min-width: 10px){.view{font-size:6px}}
-@media screen and (min-width: 999px){.view{font-size:8px}}
-@media screen and (min-width: 1333px){.view{font-size:13px}}
-@media screen and (min-width: 1666px){.view{font-size:16px}}
-@media screen and (min-width: 1999px){.view{font-size:24px}}
+@media screen and (min-width: 1px), (min-height: 1px){.view{font-size:6px}}
+@media screen and (min-width: 999px), (min-height: 999px){.view{font-size:8px}}
+@media screen and (min-width: 1333px), (min-height: 1333px){.view{font-size:13px}}
+@media screen and (min-width: 1666px), (min-height: 1666px){.view{font-size:16px}}
+@media screen and (min-width: 1999px), (min-height: 1999px){.view{font-size:24px}}
 .view{
 margin:50%
 }
