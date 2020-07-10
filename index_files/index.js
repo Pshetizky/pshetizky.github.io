@@ -26,6 +26,7 @@ function getColors() {
 }
 document.documentElement.style.setProperty('--color001', getColors());
 document.documentElement.style.setProperty('--color002', getColors());
+document.documentElement.style.setProperty('--color003', getColors());
 // array 002 wallpapers
 var walls = ["url('../index_files/wallpaper001.png')","url('../index_files/wallpaper002.png')"];
 function getWalls() {
@@ -143,7 +144,7 @@ function getGradient001() {
 document.documentElement.style.setProperty('--grads001', getGradient001());
 // array 011 radius001
 var radius001 = [
-"20%","30%","10%","6%"];
+"10%","13%","16%","19%"];
 function getRadius001() {
 	return radius001[
 		Math.floor(Math.random() * radius001.length)
@@ -151,3 +152,5 @@ function getRadius001() {
 }
 document.documentElement.style.setProperty('--radius001', getRadius001());
 document.documentElement.style.setProperty('--radius002', getRadius001());
+document.documentElement.style.setProperty('--radius003', getRadius001());
+document.documentElement.style.setProperty('--radius004', getRadius001());
