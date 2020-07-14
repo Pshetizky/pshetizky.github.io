@@ -1,5 +1,6 @@
-#c001{display:flex;padding:0;margin:0}
-textarea.a002{width:-webkit-fill-available;height:-webkit-fill-available}
+::after{font-family:serif}
+div#c001{display:flex;padding:0;margin:auto}
+textarea.a002{width:-webkit-fill-available;height:-webkit-fill-available;margin:auto}
 .b001::after{content:var(--b001)}.b002::after{content:var(--b002)}.b003::after{content:var(--b003)}
 .b004::after{content:var(--b004)}.b005::after{content:var(--b005)}.b006::after{content:var(--b006)}
 .b007::after{content:var(--b007)}.b008::after{content:var(--b008)}.b009::after{content:var(--b009)}
