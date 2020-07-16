@@ -129,3 +129,9 @@ document.documentElement.style.setProperty('--d017', getD001());
 document.documentElement.style.setProperty('--d018', getD001());
 document.documentElement.style.setProperty('--d019', getD001());
 document.documentElement.style.setProperty('--d020', getD001());
+
+document.documentElement.style.setProperty('--e001', getD001());
+document.documentElement.style.setProperty('--e002', getD001());
+document.documentElement.style.setProperty('--e003', getD001());
+document.documentElement.style.setProperty('--e004', getD001());
+document.documentElement.style.setProperty('--e005', getD001());
