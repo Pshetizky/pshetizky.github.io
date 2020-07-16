@@ -1,0 +1,14 @@
+textarea.a002{width:-webkit-fill-available;height:-webkit-fill-available;
+padding:unset;margin:unset;border:unset}
+#b001::before{
+content:var(--a001)
+}
+#b002::before{
+content:var(--a002)
+}
+#b003::before{
+content:var(--a003)
+}
+#b004::before{
+content:var(--a004)
+}
