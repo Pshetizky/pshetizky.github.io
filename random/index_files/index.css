@@ -1,6 +1,8 @@
 ::after{font-family:serif}
 div#c001{display:flex;padding:0;margin:auto}
 textarea.a002{width:-webkit-fill-available;height:-webkit-fill-available;margin:auto}
+.f001::after,.f002::after{content:"-"}.f001{color:transparent}
+
 .b001::after{content:var(--b001)}.b002::after{content:var(--b002)}.b003::after{content:var(--b003)}
 .b004::after{content:var(--b004)}.b005::after{content:var(--b005)}.b006::after{content:var(--b006)}
 .b007::after{content:var(--b007)}.b008::after{content:var(--b008)}.b009::after{content:var(--b009)}
@@ -20,3 +22,6 @@ textarea.a002{width:-webkit-fill-available;height:-webkit-fill-available;margin:
 .d010::after{content:var(--d010)}.d011::after{content:var(--d011)}.d012::after{content:var(--d012)}
 .d013::after{content:var(--d013)}.d014::after{content:var(--d014)}.d015::after{content:var(--d015)}
 .d016::after{content:var(--d016)}
+
+.e001::after{content:var(--e001)}.e002::after{content:var(--e002)}.e003::after{content:var(--e003)}
+.e004::after{content:var(--e004)}.e005::after{content:var(--e005)}
