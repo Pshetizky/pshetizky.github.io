@@ -1,7 +1,7 @@
 ::after{font-family:serif}
-div#c001{display:flex;padding:0;margin:auto}
-textarea.a002{width:-webkit-fill-available;height:-webkit-fill-available;margin:auto}
-.f001::after,.f002::after{content:"-"}.f001{color:transparent}
+div#c001{display:flex;padding:unset;margin:unset;border:unset}
+textarea.a002{width:-webkit-fill-available;height:-webkit-fill-available;margin:unset;padding:unset;border:unset}
+.f001::after,.f002::after{content:"-"}.f001{color:transparent}.f003::after{content:"-"}
 
 .b001::after{content:var(--b001)}.b002::after{content:var(--b002)}.b003::after{content:var(--b003)}
 .b004::after{content:var(--b004)}.b005::after{content:var(--b005)}.b006::after{content:var(--b006)}
