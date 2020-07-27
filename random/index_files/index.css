@@ -1,4 +1,4 @@
-::after{font-family:serif}
+::after{font-family:monospace}
 div#c001{display:flex;padding:unset;margin:unset;border:unset}
 textarea.a002{width:-webkit-fill-available;height:-webkit-fill-available;margin:unset;padding:unset;border:unset}
 .f001::after,.f002::after{content:"-"}.f001{color:transparent}.f003::after{content:"-"}
