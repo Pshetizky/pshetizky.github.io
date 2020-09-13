@@ -1,49 +1,80 @@
-https://pshetizy.github.io/ar/
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-https://pshetizy.github.io/drive/
-https://pshetizy.github.io/drive/ar/
-https://pshetizy.github.io/drive/he/
-https://pshetizy.github.io/drive/ru/
+	<url>
+		<loc>https://pshetizy.github.io/</loc>
+		<xhtml:link href="https://pshetizy.github.io/" hreflang="x-default" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/ar/" hreflang="ar" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/he/" hreflang="he" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/ru/" hreflang="ru" rel="alternate"/>
+	</url>
 
-https://pshetizy.github.io/genesis/
-https://pshetizy.github.io/genesis/ar/
-https://pshetizy.github.io/genesis/he/
-https://pshetizy.github.io/genesis/ru/
+	<url>
+		<loc>https://pshetizy.github.io/drive/</loc>
+		<xhtml:link href="https://pshetizy.github.io/drive/" hreflang="x-default" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/drive/ar/" hreflang="ar" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/drive/he/" hreflang="he" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/drive/ru/" hreflang="ru" rel="alternate"/>
+	</url>
 
-https://pshetizy.github.io/he/
+	<url>
+		<loc>https://pshetizy.github.io/genesis/</loc>
+		<xhtml:link href="https://pshetizy.github.io/genesis/" hreflang="x-default" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/genesis/ar/" hreflang="ar" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/genesis/he/" hreflang="he" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/genesis/ru/" hreflang="ru" rel="alternate"/>
+	</url>
 
-https://pshetizy.github.io/mazuz/
+	<url>
+		<loc>https://pshetizy.github.io/mazuz</loc>
+	</url>
 
-https://pshetizy.github.io/memo/
-https://pshetizy.github.io/memo/ar/
-https://pshetizy.github.io/memo/he/
-https://pshetizy.github.io/memo/ru/
+	<url>
+		<loc>https://pshetizy.github.io/memo/</loc>
+		<xhtml:link href="https://pshetizy.github.io/memo/" hreflang="x-default" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/memo/ar/" hreflang="ar" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/memo/he/" hreflang="he" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/memo/ru/" hreflang="ru" rel="alternate"/>
+	</url>
 
-https://pshetizy.github.io/memod/
-https://pshetizy.github.io/memod/ar/
-https://pshetizy.github.io/memod/he/
-https://pshetizy.github.io/memod/ru/
+	<url>
+		<loc>https://pshetizy.github.io/memod/</loc>
+		<xhtml:link href="https://pshetizy.github.io/memod/" hreflang="x-default" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/memod/ar/" hreflang="ar" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/memod/he/" hreflang="he" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/memod/ru/" hreflang="ru" rel="alternate"/>
+	</url>
 
-https://pshetizy.github.io/num/
-https://pshetizy.github.io/num/ar/
-https://pshetizy.github.io/num/he/
-https://pshetizy.github.io/num/ru/
+	<url>
+		<loc>https://pshetizy.github.io/num/</loc>
+		<xhtml:link href="https://pshetizy.github.io/num/" hreflang="x-default" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/num/ar/" hreflang="ar" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/num/he/" hreflang="he" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/num/ru/" hreflang="ru" rel="alternate"/>
+	</url>
 
-https://pshetizy.github.io/p34WSpccfO2/
-https://pshetizy.github.io/p34WSpccfO2/ar/
-https://pshetizy.github.io/p34WSpccfO2/he/
-https://pshetizy.github.io/p34WSpccfO2/ru/
+	<url>
+		<loc>https://pshetizy.github.io/p34WSpccfO2/</loc>
+		<xhtml:link href="https://pshetizy.github.io/p34WSpccfO2/" hreflang="x-default" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/p34WSpccfO2/ar/" hreflang="ar" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/p34WSpccfO2/he/" hreflang="he" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/p34WSpccfO2/ru/" hreflang="ru" rel="alternate"/>
+	</url>
 
-https://pshetizy.github.io/random/
-https://pshetizy.github.io/random/ar/
-https://pshetizy.github.io/random/he/
-https://pshetizy.github.io/random/ru/
+	<url>
+		<loc>https://pshetizy.github.io/random/</loc>
+		<xhtml:link href="https://pshetizy.github.io/random/" hreflang="x-default" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/random/ar/" hreflang="ar" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/random/he/" hreflang="he" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/random/ru/" hreflang="ru" rel="alternate"/>
+	</url>
 
-https://pshetizy.github.io/ru/
+	<url>
+		<loc>https://pshetizy.github.io/soul/</loc>
+		<xhtml:link href="https://pshetizy.github.io/soul/" hreflang="x-default" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/soul/ar/" hreflang="ar" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/soul/he/" hreflang="he" rel="alternate"/>
+		    <xhtml:link href="https://pshetizy.github.io/soul/ru/" hreflang="ru" rel="alternate"/>
+	</url>
 
-https://pshetizy.github.io/soul/
-https://pshetizy.github.io/soul/ar/
-https://pshetizy.github.io/soul/he/
-https://pshetizy.github.io/soul/ru/
-
-https://pshetizy.github.io/
+</urlset>
