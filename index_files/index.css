@@ -25,6 +25,7 @@ background-color:var(--color002)
 .a001{
 margin-bottom:10px;text-align:center;width:inherit
 }
+div.a001{margin-bottom:1em}
 img.a001{
 width:inherit;background-image:var(--grads001);
 border-radius:var(--radius001)var(--radius002)var(--radius003)var(--radius004)
