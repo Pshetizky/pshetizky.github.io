@@ -26,7 +26,11 @@
 	</url>
 
 	<url>
-		<loc>https://pshetizky.github.io/maso/he/</loc>
+		<loc>https://pshetizky.github.io/maso/</loc>
+		<xhtml:link href="https://pshetizky.github.io/maso/" hreflang="x-default" rel="alternate"/>
+		<xhtml:link href="https://pshetizky.github.io/maso/ar/" hreflang="ar" rel="alternate"/>
+		<xhtml:link href="https://pshetizky.github.io/maso/he/" hreflang="he" rel="alternate"/>
+		<xhtml:link href="https://pshetizky.github.io/maso/ru/" hreflang="ru" rel="alternate"/>
 	</url>
 
 	<url>
@@ -78,3 +82,4 @@
 	</url>
 
 </urlset>
+
