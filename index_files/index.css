@@ -30,9 +30,28 @@ img.a001{
 width:inherit;background-image:var(--grads001);
 border-radius:var(--radius001)var(--radius002)var(--radius003)var(--radius004)
 }
+snap.a001,.pic002{
+position:absolute
+}
 @media screen and (min-width: 1px), (min-height: 1px){
 a.a001{
-width:64px
+width:64px;
+}
+.a001,.a002,a.a003,a.a004,a.a005,a.a006,.pic002{
+font-size:16px
+}
+img.a001{
+margin:auto 40px 50px
+}
+snap.a001{
+margin:83px -110px auto
+}
+
+.pic001{
+max-width:165px;max-height:165px;margin:auto 40px 100px
+}
+.pic002{
+margin:201px -174px auto
 }
 }
 @media screen and (min-width: 666px), (min-height: 666px){
@@ -43,18 +62,44 @@ a.a003,a.a004,a.a005,a.a006{
 padding:10px 50px;
 margin:0 50%
 }
-.a001,.a002,a.a003,a.a004,a.a005,a.a006{
-font-size:24px
+.a001,.a002,a.a003,a.a004,a.a005,a.a006,.pic002{
+font-size:18px
 }
 .a002{
 border:solid;border-width:1px;margin:var(--margin001);padding:var(--padding001)
 }
+img.a001{
+margin:auto 60px 70px
+}
+snap.a001{
+margin:125px -166px auto
+}
+
+.pic001{
+max-width:300px;max-height:300px;margin:auto 40px 180px
+}
+.pic002{
+margin:306px -243px auto
+}
 }
 @media screen and (min-width: 999px), (min-height: 999px){
 a.a001{
-width:256px
+width:256px;
 }
-.a001,.a002,a.a003,a.a004,a.a005,a.a006{
-font-size:72px
+.a001,.a002,a.a003,a.a004,a.a005,a.a006,.pic002{
+font-size:32px
+}
+img.a001{
+margin:auto 120px 160px
+}
+snap.a001{
+margin:325px -380px auto
+}
+
+.pic001{
+max-width:640px;max-height:640px;margin:auto 70px 290px
+}
+.pic002{
+margin:690px -460px auto
 }
 }
