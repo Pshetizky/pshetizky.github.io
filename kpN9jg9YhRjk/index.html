@@ -1,19 +1,21 @@
+<!-- saved from url=(0058)https://www.cssscript.com/demo/digital-clock-progress-bar/ -->
+<!-- saved from url=(0062)https://www.cssscript.com/demo/digital-clock-countdown-circle/ -->
 <html>
 <head>
 <title>Preview</title>
 <style>
 .a001{
 font-family: sans-serif;
-animation:anim001 10s infinite linear alternate;
-font-weight: bold;
+animation: anim001 10s infinite linear alternate;
 position: absolute;
-top: 41px;
-left: 68px;
+top: 32px;
+left: 46px;
+font-size: 12px;
 color: #E76F6F
 }
 .a002{
 width: 149px;
-animation:anim001 10s infinite linear alternate;
+animation: anim001 10s infinite linear alternate;
 position: absolute
 }
 @keyframes anim001{
@@ -24,12 +26,46 @@ filter: hue-rotate(0deg)
 filter: hue-rotate(360deg)
 }
 }
+.a003{
+margin: 0px -3px
+}
 </style>
 </head>
 <body>
 <img class="a002" src="./preview.png">
-<snap class="a001">
-</snap>
 </img>
+<snap class="a001">
+<span id="hour">
+13
+</span>
+<span class="a003">
+:
+</span>
+<span id="minute">
+50
+</span>
+<span>
+פשטיצקי
+</span>
+</snap>
+<script>
+const hour=document.getElementById('hour');
+const minute=document.getElementById('minute');
+const second=document.getElementById('second');
+const progress=document.getElementById('progress');
+function showCurrentTime(){
+let date=new Date();
+let hr=date.getHours();
+let min=date.getMinutes();
+let sec=date.getSeconds();
+hr=(hr<10)?'0'+hr:hr;
+min=(min<10)?'0'+min:min;
+hour.textContent=hr;
+minute.textContent=min;
+second.textContent=sec;
+progress.style.width=(sec/60)*100+'%'
+}
+setInterval(showCurrentTime,1000)
+</script>
 </body>
 </html>
