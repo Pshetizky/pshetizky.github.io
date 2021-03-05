@@ -4,21 +4,33 @@
 <style>
 .a001{
 font-family: sans-serif;
-animation:anim001 10s infinite linear alternate
+animation:anim001 10s infinite linear alternate;
+font-weight: bold;
+position: absolute;
+top: 49px;
+left: 76px;
+color: #E76F6F
+}
+.a002{
+width: 200px;
+animation:anim001 10s infinite linear alternate;
+position: absolute
 }
 @keyframes anim001{
 0%{
-color:#ffffff
+filter: hue-rotate(0deg)
 }
 100%{
-color:#000000
+filter: hue-rotate(360deg)
 }
 }
 </style>
 </head>
 <body>
+<img class="a002" src="./preview.png">
 <snap class="a001">
 פשטיצקי
 </snap>
+</img>
 </body>
 </html>
