@@ -1,7 +1,11 @@
-<!-- saved from url=(0058)https://www.cssscript.com/demo/digital-clock-progress-bar/ -->
-<!-- saved from url=(0062)https://www.cssscript.com/demo/digital-clock-countdown-circle/ -->
-<!-- saved from url=(0062)https://www.kirupa.com/html5/accessing_your_webcam_in_html5.htm/ -->
-<!-- saved from url=(0062)https://web.dev/css-masking/ -->
+<!---
+Thanks to all support me
+CSS Script https://www.cssscript.com/demo/digital-clock-progress-bar/ Adding a local clock to web page with java script
+And https://www.cssscript.com/demo/digital-clock-countdown-circle/
+KIRUPA https://www.kirupa.com/html5/accessing_your_webcam_in_html5.htm Power on camera on html with the help of java script of course
+Web dev https://web.dev/css-masking/ Masking with PNG everything
+Damon OEHLMAN https://gist.github.com/DamonOehlman/7329833 --use-fake-ui-for-media-stream Enabling permission for camera devices for Twitch Studio and OBS and etc
+--->
 <html>
 <head>
 <title>Preview</title>
@@ -158,6 +162,11 @@ video.srcObject = stream;
 console.log("Something went wrong!");
 });
 }
+</script>
+<script>
+navigator.permissions.query({name: "camera"})
+.then(({state}) => console.log(state),
+      e => console.log(e.name +": "+ e.message));
 </script>
 </body>
 </html>
