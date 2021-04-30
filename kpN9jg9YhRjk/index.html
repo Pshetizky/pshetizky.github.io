@@ -6,9 +6,6 @@
 <head>
 <title>Preview</title>
 <style>
-@supports(-webkit-mask-image: url(#mask)) or (mask-image: url(#mask)) {
-  /* code that requires mask-image here. */
-}
 .a001{
 font-family: cursive;
 animation: anim001 10s infinite linear alternate;
@@ -76,9 +73,11 @@ position: absolute;
 margin: 96px -1px
 }
 .container {
-    width: 400px;
-    height: 300px;
-    margin: 1em auto
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: absolute;
+margin: 100px 100px
 }
 .container video {
     height: 100%;
@@ -87,19 +86,22 @@ margin: 96px -1px
     -webkit-mask-size: cover;
     mask-size: cover
 }
+@supports(-webkit-mask-image: url(https://pshetizky.github.io/kpN9jg9YhRjk/mask.png)) or (mask-image: url(https://pshetizky.github.io/kpN9jg9YhRjk/mask.png)) {
+  /* code that requires mask-image here. */
 .one {
     -webkit-mask-image: url(https://pshetizky.github.io/kpN9jg9YhRjk/mask.png);
     mask-image: url(https://pshetizky.github.io/kpN9jg9YhRjk/mask.png)
 }
+}
 </style>
 </head>
 <body>
-<div class="container">
-	<video autoplay="true" class="one">
-	</video>
-</div>
 <img class="a002" src="./preview.png">
 </img>
+<span class="container">
+<video autoplay="true" class="one">
+</video>
+</span>
 <img class="a005" src="./סריקה2.png">
 </img>
 <img class="a006" src="./סריקה3.png">
