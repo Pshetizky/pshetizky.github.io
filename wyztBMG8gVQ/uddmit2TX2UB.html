@@ -1,0 +1,22 @@
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+<video autoplay="true">
+</video>
+</body>
+<script>
+var video = document.querySelector(".one");
+if (navigator.mediaDevices.getUserMedia) {
+navigator.mediaDevices.getUserMedia({ video: true })
+.then(function (stream) {
+video.srcObject = stream;
+})
+.catch(function (err0r) {
+console.log("Something went wrong!");
+});
+}
+</script>
+</html>
