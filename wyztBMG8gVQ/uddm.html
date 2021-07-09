@@ -5,8 +5,8 @@
 background-color:blue;
 width: 640px;
     height: 480px;
-    animation-duration: 500ms;
-    animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    animation-duration: 400ms;
+    animation-timing-function: cubic-bezier(1, -100, 0, 100);
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -35,7 +35,7 @@ mask-image: url(https://pshetizky.github.io/wyztBMG8gVQ/SH9g.png)
 </video>
 </body>
 <script>
-var video = document.querySelector(".VOEs");
+var video = document.querySelector(".VOE");
 if (navigator.mediaDevices.getUserMedia) {
 navigator.mediaDevices.getUserMedia({ video: true })
 .then(function (stream) {
