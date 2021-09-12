@@ -4,6 +4,9 @@ content:var(--sets001)
 .b002::before{
 content:var(--sets002)
 }
+.c002::before{
+content:var(--ans002)
+}
 .b003::before{
 content:var(--sets003)
 }

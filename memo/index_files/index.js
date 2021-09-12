@@ -16,8 +16,8 @@ function getSets() {
 document.documentElement.style.setProperty('--sets001', getSets());
 // array 002 name002 hebrew
 var sets = [
-'"איך אגיד לה יותר טוב?"',
-'"איך אני ארדם?"'
+'"איך אומר לה את זה יותר יפה?"',
+'"מה יתן לי לישון?"'
 ];
 function getNames() {
 	return sets[
@@ -27,8 +27,8 @@ function getNames() {
 document.documentElement.style.setProperty('--sets002', getSets());
 // array 002 answer 002 hebrew
 var sets = [
-'"אגיד לה כן ודי"',
-'"לא יודעת"'
+'"על ידי זה שאומר לה כן"',
+'"לא יודע"'
 ];
 function getNames() {
 	return sets[
