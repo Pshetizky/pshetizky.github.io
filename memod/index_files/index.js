@@ -16,8 +16,14 @@ function getSets() {
 document.documentElement.style.setProperty('--sets001', getSets());
 // array 002 name002 hebrew
 var sets = [
-'"איך אגיד לה יותר טוב?"',
-'"איך אני ארדם?"'
+'"מה עושה אותי שמחה עכשיו"',
+'"מה אני אעשה כדי שאני ארדם"',
+'"אני שמחה ממה שאני עושה"',
+'"אני אוהבת את כולם"',
+'"אני מאוד נרגשת"',
+'"תודה אני אומרת"',
+'"זה ההרגל שלי"',
+'"זאת אמונתי"'
 ];
 function getNames() {
 	return sets[
@@ -25,17 +31,6 @@ function getNames() {
 	];
 }
 document.documentElement.style.setProperty('--sets002', getSets());
-// array 002 answer 002 hebrew
-var sets = [
-'"אגיד לה כן ודי"',
-'"לא יודעת"'
-];
-function getNames() {
-	return sets[
-		Math.floor(Math.random() * sets.length)
-	];
-}
-document.documentElement.style.setProperty('--ans002', getSets());
 // array 003 name003 arabic
 var sets = [
 '"ما الذي يجعلني سعيدا في حياتي الآن؟"',
