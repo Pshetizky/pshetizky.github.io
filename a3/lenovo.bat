@@ -1,3 +1,4 @@
+This lines help peoples oh owners Lenovo laptop do update thier Bios
 start "" https://download.lenovo.com/consumer/mobiles/a2cn01ww.exe
 start "" https://download.lenovo.com/consumer/mobiles/a2cn02ww.exe
 start "" https://download.lenovo.com/consumer/mobiles/a2cn03ww.exe
