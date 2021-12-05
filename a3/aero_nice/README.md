@@ -1,0 +1,1 @@
+This is 4 files with the default Windows 11 mouse cursor that have been brighten down because by default brighten light can’t be see nicely with another light, For example when you jump the pointer from one place to another
