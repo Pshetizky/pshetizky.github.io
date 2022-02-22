@@ -1,7 +1,10 @@
-::after{font-family:monospace}
-div#c001{display:flex;padding:unset;margin:unset;border:unset}
+span::after{font-family:monospace}
+#yadar{display:flex;padding:unset;margin:unset;border:unset;direction:rtl}
 textarea.a002{width:-webkit-fill-available;height:-webkit-fill-available;margin:unset;padding:unset;border:unset}
 .f001::after,.f002::after{content:"-"}.f001{color:transparent}.f003::after{content:"-"}
+#halash{display:flex;padding:unset;margin:unset;border:unset;direction:ltr}
+hr{border-style:solid}
+span.kaffi{text-shadow:3px 3px var(--theme001),-3px -3px var(--theme001)}
 
 .b001::after{content:var(--b001)}.b002::after{content:var(--b002)}.b003::after{content:var(--b003)}
 .b004::after{content:var(--b004)}.b005::after{content:var(--b005)}.b006::after{content:var(--b006)}
@@ -12,3 +15,23 @@ textarea.a002{width:-webkit-fill-available;height:-webkit-fill-available;margin:
 .c004::after{content:var(--c004)}.c005::after{content:var(--c005)}.c006::after{content:var(--c006)}
 .c007::after{content:var(--c007)}.c008::after{content:var(--c008)}.c009::after{content:var(--c009)}
 .c010::after{content:var(--c010)}.c011::after{content:var(--c011)}.c012::after{content:var(--c012)}
+
+.kaf1::after{content:var(--kaf1)}.kaf2::after{content:var(--kaf2)}.kaf3::after{content:var(--kaf3)}
+.kaf4::after{content:var(--kaf4)}.kaf5::after{content:var(--kaf5)}.kaf6::after{content:var(--kaf6)}
+.kaf7::after{content:var(--kaf7)}.kaf8::after{content:var(--kaf8)}.kaf9::after{content:var(--kaf9)}
+.kaf10::after{content:var(--kaf10)}.kaf11::after{content:var(--kaf11)}.kaf12::after{content:var(--kaf12)}
+
+.yahel1::after{content:var(--yahel1)}.yahel2::after{content:var(--yahel2)}.yahel3::after{content:var(--yahel3)}
+.yahel4::after{content:var(--yahel4)}.yahel5::after{content:var(--yahel5)}.yahel6::after{content:var(--yahel6)}
+.yahel7::after{content:var(--yahel7)}.yahel8::after{content:var(--yahel8)}.yahel9::after{content:var(--yahel9)}
+.yahel10::after{content:var(--yahel10)}.yahel11::after{content:var(--yahel11)}.yahel12::after{content:var(--yahel12)}
+
+.thashat1::after{content:var(--thashat1)}.thashat2::after{content:var(--thashat2)}.thashat3::after{content:var(--thashat3)}
+.thashat4::after{content:var(--thashat4)}.thashat5::after{content:var(--thashat5)}.thashat6::after{content:var(--thashat6)}
+.thashat7::after{content:var(--thashat7)}.thashat8::after{content:var(--thashat8)}.thashat9::after{content:var(--thashat9)}
+.thashat10::after{content:var(--thashat10)}.thashat11::after{content:var(--thashat11)}.thashat12::after{content:var(--thashat12)}
+
+.shaii1::after{content:var(--shaii1)}.shaii2::after{content:var(--shaii2)}.shaii3::after{content:var(--shaii3)}
+.shaii4::after{content:var(--shaii4)}.shaii5::after{content:var(--shaii5)}.shaii6::after{content:var(--shaii6)}
+.shaii7::after{content:var(--shaii7)}.shaii8::after{content:var(--shaii8)}.shaii9::after{content:var(--shaii9)}
+.shaii10::after{content:var(--shaii10)}.shaii11::after{content:var(--shaii11)}.shaii12::after{content:var(--shaii12)}
