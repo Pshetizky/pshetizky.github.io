@@ -1,8 +1,8 @@
-// array 001 colors
+// Array 001 Colors
 var colors001 = [
 "#f44336",
 "#e91e63",
-"#9c27b0",
+"#ba68c8",
 "#673ab7",
 "#3f51b5",
 "#2196f3",
@@ -11,9 +11,9 @@ var colors001 = [
 "#009688",
 "#4caf50",
 "#8bc34a",
-"#cddc39",
-"#fbc02d",
-"#ffc107",
+"#afb42b",
+"#f57f17",
+"#ff8f00",
 "#ff9800",
 "#ff5722",
 "#795548",
@@ -35,15 +35,15 @@ function getWalls() {
 	];
 }
 document.documentElement.style.setProperty('--wall001', getWalls());
-// array 003 themes
-var themes = ["#fafafa","#212121"];
+// Array 003 Themes
+var themes = ["#e5e5e5","#000000"];
 function getThemes() {
 	return themes[
 		Math.floor(Math.random() * themes.length)
 	];
 }
 document.documentElement.style.setProperty('--theme001', getThemes());
-// array 004
+// Array 004 Padding
 var paddings = [
 "72px 10px",
 "54px 24px",
@@ -56,7 +56,7 @@ function getPaddings() {
 	];
 }
 document.documentElement.style.setProperty('--padding001', getPaddings());
-// array 005 margins
+// Array 005 Margins
 var margins = [
 "50px 90px",
 "90px 50px",
@@ -76,7 +76,7 @@ function getMargins() {
 	];
 }
 document.documentElement.style.setProperty('--margin001', getMargins());
-// array 006 Houses english
+// Array 006 Exit engish
 var houses = [
 '"Close"','"X"','"Exit"','"Home"','"Off"','"Backwards"','"Cancel"'
 ];
@@ -86,7 +86,7 @@ function getHouses() {
 	];
 }
 document.documentElement.style.setProperty('--houses001', getHouses());
-// array 007 Houses hebrew
+// Array 007 Exit Hebrew
 var houses = [
 '"תסגור"','"X"','"יציאה"','"הביתה"','"לכבה"','"אחורה"','"לבטל"'
 ];
@@ -96,7 +96,7 @@ function getHouses() {
 	];
 }
 document.documentElement.style.setProperty('--houses002', getHouses());
-// array 008 Houses arabic
+// Array 008 Exit Arabic
 var houses = [
 '"قريب"','"X"','"إلغاء"','"إلى الوراء"','"إيقاف"','"الصفحة الرئيسية"','"خروج"'
 ];
@@ -106,7 +106,7 @@ function getHouses() {
 	];
 }
 document.documentElement.style.setProperty('--houses003', getHouses());
-// array 009 Houses russian
+// Array 009 Exit Russian
 var houses = [
 '"Близко"','"X"','"Выход"','"Дом"','"От"','"Задом"','"Отмена"'
 ];
@@ -116,7 +116,7 @@ function getHouses() {
 	];
 }
 document.documentElement.style.setProperty('--houses004', getHouses());
-// array 010 gradient001
+// Array 010 Gradient
 var gradient001 = [
 "linear-gradient(#F44336, #B71C1C)",
 "linear-gradient(#E91E63, #880E4F)",
@@ -141,8 +141,26 @@ function getGradient001() {
 		Math.floor(Math.random() * gradient001.length)
 	];
 }
-document.documentElement.style.setProperty('--grads001', getGradient001());
-// array 011 radius001
+document.documentElement.style.setProperty('--kannat1', getGradient001());
+document.documentElement.style.setProperty('--kannat2', getGradient001());
+document.documentElement.style.setProperty('--kannat3', getGradient001());
+document.documentElement.style.setProperty('--kannat4', getGradient001());
+document.documentElement.style.setProperty('--kannat5', getGradient001());
+document.documentElement.style.setProperty('--kannat6', getGradient001());
+document.documentElement.style.setProperty('--kannat7', getGradient001());
+document.documentElement.style.setProperty('--kannat8', getGradient001());
+document.documentElement.style.setProperty('--kannat9', getGradient001());
+document.documentElement.style.setProperty('--kannat10', getGradient001());
+document.documentElement.style.setProperty('--kannat11', getGradient001());
+document.documentElement.style.setProperty('--kannat12', getGradient001());
+document.documentElement.style.setProperty('--kannat13', getGradient001());
+document.documentElement.style.setProperty('--kannat14', getGradient001());
+document.documentElement.style.setProperty('--kannat15', getGradient001());
+document.documentElement.style.setProperty('--kannat16', getGradient001());
+document.documentElement.style.setProperty('--kannat17', getGradient001());
+document.documentElement.style.setProperty('--kannat18', getGradient001());
+document.documentElement.style.setProperty('--kannat19', getGradient001());
+// Array 011 Radius
 var radius001 = [
 "0%","10%","25%","50%"];
 function getRadius001() {
@@ -150,7 +168,35 @@ function getRadius001() {
 		Math.floor(Math.random() * radius001.length)
 	];
 }
-document.documentElement.style.setProperty('--radius001', getRadius001());
-document.documentElement.style.setProperty('--radius002', getRadius001());
-document.documentElement.style.setProperty('--radius003', getRadius001());
-document.documentElement.style.setProperty('--radius004', getRadius001());
+document.documentElement.style.setProperty('--giz1', getRadius001());
+document.documentElement.style.setProperty('--giz2', getRadius001());
+document.documentElement.style.setProperty('--giz3', getRadius001());
+document.documentElement.style.setProperty('--giz4', getRadius001());
+document.documentElement.style.setProperty('--giz5', getRadius001());
+document.documentElement.style.setProperty('--giz6', getRadius001());
+document.documentElement.style.setProperty('--giz7', getRadius001());
+document.documentElement.style.setProperty('--giz8', getRadius001());
+// Array 011 Radius
+var dan = [
+"40px 17px 12px auto",
+"40px 12px 12px auto",
+"40px 16px 12px auto",
+"40px 25px 14px auto"
+];
+function getdan() {
+	return dan[
+		Math.floor(Math.random() * dan.length)
+	];
+}
+document.documentElement.style.setProperty('--laav1', getdan());
+document.documentElement.style.setProperty('--laav2', getdan());
+document.documentElement.style.setProperty('--laav3', getdan());
+document.documentElement.style.setProperty('--laav4', getdan());
+
+
+
+
+
+
+
+

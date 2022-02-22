@@ -1,10 +1,11 @@
 span::after{font-family:monospace}
-#yadar{display:flex;padding:unset;margin:unset;border:unset;direction:rtl}
+.a002{display:flex;display:flex}
+span#yadar{direction:rtl}
 textarea.a002{width:-webkit-fill-available;height:-webkit-fill-available;margin:unset;padding:unset;border:unset}
 .f001::after,.f002::after{content:"-"}.f001{color:transparent}.f003::after{content:"-"}
-#halash{display:flex;padding:unset;margin:unset;border:unset;direction:ltr}
+span#halash{direction:ltr}
 hr{border-style:solid}
-span.kaffi{text-shadow:3px 3px var(--theme001),-3px -3px var(--theme001)}
+span.kaffi{text-shadow:2px 2px var(--theme001),-2px -2px var(--theme001)}
 
 .b001::after{content:var(--b001)}.b002::after{content:var(--b002)}.b003::after{content:var(--b003)}
 .b004::after{content:var(--b004)}.b005::after{content:var(--b005)}.b006::after{content:var(--b006)}
