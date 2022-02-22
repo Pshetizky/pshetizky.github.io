@@ -7,3 +7,8 @@ textarea.a002{width:-webkit-fill-available;height:-webkit-fill-available;margin:
 .b004::after{content:var(--b004)}.b005::after{content:var(--b005)}.b006::after{content:var(--b006)}
 .b007::after{content:var(--b007)}.b008::after{content:var(--b008)}.b009::after{content:var(--b009)}
 .b010::after{content:var(--b010)}.b011::after{content:var(--b011)}.b012::after{content:var(--b012)}
+
+.c001::after{content:var(--c001)}.c002::after{content:var(--c002)}.c003::after{content:var(--c003)}
+.c004::after{content:var(--c004)}.c005::after{content:var(--c005)}.c006::after{content:var(--c006)}
+.c007::after{content:var(--c007)}.c008::after{content:var(--c008)}.c009::after{content:var(--c009)}
+.c010::after{content:var(--c010)}.c011::after{content:var(--c011)}.c012::after{content:var(--c012)}
