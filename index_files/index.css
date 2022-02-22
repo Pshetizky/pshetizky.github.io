@@ -3,7 +3,7 @@
 }
 html{background-attachment:local;background-color:var(--color001);background-image:var(--wall001);background-position-y:bottom;background-position-x:center;background-repeat:no-repeat
 }
-a.a003,a.a004,a.a005,a.a006{background-color:var(--color003);position:fixed;bottom:100px;z-index:1
+a.a003,a.a004,a.a005,a.a006{background-color:var(--color003);position:fixed;bottom:100px;z-index:1;font-size:20px;padding:20px;border-radius:var(--giz1)var(--giz2)var(--giz3)var(--giz4)
 }
 a.a003::after{content:var(--houses001)
 }
@@ -13,7 +13,7 @@ a.a005::after{content:var(--houses003)
 }
 a.a006::after{content:var(--houses004)
 }
-.a002{background-color:var(--color002)
+.a002{font-size:16px;max-width:1000px
 }
 div.a001{margin-bottom:1em
 }
@@ -60,9 +60,15 @@ img.kannat19{background-image:var(--kannat19);border-radius:var(--giz3)var(--giz
 }
 snap.a001{position:absolute;margin:308px -190px auto;font-weight:bold;padding:4px
 }
+img.pic001{width:100%
+}
 }
 @media screen and (min-width: 666px), (min-height: 666px){}
 @media screen and (min-width: 999px), (min-height: 999px){}
+
+
+
+
 
 
 
