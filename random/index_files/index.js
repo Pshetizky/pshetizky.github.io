@@ -68,34 +68,34 @@ document.documentElement.style.setProperty('--kaf10', getB001());
 document.documentElement.style.setProperty('--kaf11', getB001());
 document.documentElement.style.setProperty('--kaf12', getB001());
 
-// Array 006 English
+// Array 006 English Big
 var b001 = [
-"'a'","'A'",
-"'b'","'B'",
-"'c'","'C'",
-"'d'","'D'",
-"'e'","'E'",
-"'f'","'F'",
-"'g'","'G'",
-"'h'","'H'",
-"'i'","'I'",
-"'j'","'j'",
-"'k'","'K'",
-"'l'","'L'",
-"'m'","'M'",
-"'n'","'N'",
-"'o'","'O'",
-"'p'","'P'",
-"'q'","'Q'",
-"'r'","'R'",
-"'s'","'S'",
-"'t'","'T'",
-"'u'","'U'",
-"'v'","'V'",
-"'w'","'W'",
-"'x'","'X'",
-"'y'","'Y'",
-"'z'","'Z'"
+"'A'",
+"'B'",
+"'C'",
+"'D'",
+"'E'",
+"'F'",
+"'G'",
+"'H'",
+"'I'",
+"'j'",
+"'K'",
+"'L'",
+"'M'",
+"'N'",
+"'O'",
+"'P'",
+"'Q'",
+"'R'",
+"'S'",
+"'T'",
+"'U'",
+"'V'",
+"'W'",
+"'X'",
+"'Y'",
+"'Z'"
 ];
 function getB001() {
 	return b001[
@@ -103,6 +103,41 @@ function getB001() {
 	];
 }
 document.documentElement.style.setProperty('--yahel1', getB001());
+
+// Array 006.2 English Small
+var b001 = [
+"'a'",
+"'b'",
+"'c'",
+"'d'",
+"'e'",
+"'f'",
+"'g'",
+"'h'",
+"'i'",
+"'j'",
+"'k'",
+"'l'",
+"'m'",
+"'n'",,
+"'o'",
+"'p'",
+"'q'",
+"'r'",
+"'s'",
+"'t'",
+"'u'",
+"'v'",
+"'w'",
+"'x'",
+"'y'",
+"'z'"
+];
+function getB001() {
+	return b001[
+		Math.floor(Math.random() * b001.length)
+	];
+}
 document.documentElement.style.setProperty('--yahel2', getB001());
 document.documentElement.style.setProperty('--yahel3', getB001());
 document.documentElement.style.setProperty('--yahel4', getB001());
@@ -158,42 +193,41 @@ document.documentElement.style.setProperty('--thashat9', getB001());
 document.documentElement.style.setProperty('--thashat10', getB001());
 document.documentElement.style.setProperty('--thashat11', getB001());
 document.documentElement.style.setProperty('--thashat12', getB001());
-// Array 008 Russian
+// Array 008 Russian Big
 var b001 = [
-
-"'а'","'А'",
-"'б'","'Б'",
-"'в'","'В'",
-"'г'","'Г'",
-"'д'","'Д'",
-"'е'","'Е'",
-"'а'","'А'",
-"'ё'","'Ё'",
-"'ж'","'Ж'",
-"'з'","'З'",
-"'и'","'И'",
-"'й'","'Й'",
-"'к'","'К'",
-"'л'","'Л'",
-"'м'","'М'",
-"'н'","'Н'",
-"'о'","'О'",
-"'п'","'П'",
-"'р'","'Р'",
-"'с'","'С'",
-"'т'","'Т'",
-"'у'","'У'",
-"'ф'","'Ф'",
-"'х'","'Х'",
-"'ч'","'Ц'",
-"'ш'","'Ш'",
-"'щ'","'Щ'",
-"'ъ'","'Ъ'",
-"'ы'","'Ы'",
-"'ь'","'Ь'",
-"'э'","'Э'",
-"'ю'","'Ю'",
-"'я'","'Я'"
+"'А'",
+"'Б'",
+"'В'",
+"'Г'",
+"'Д'",
+"'Е'",
+"'А'",
+"'Ё'",
+"'Ж'",
+"'З'",
+"'И'",
+"'Й'",
+"'К'",
+"'Л'",
+"'М'",
+"'Н'",
+"'О'",
+"'П'",
+"'Р'",
+"'С'",
+"'Т'",
+"'У'",
+"'Ф'",
+"'Х'",
+"'Ц'",
+"'Ш'",
+"'Щ'",
+"'Ъ'",
+"'Ы'",
+"'Ь'",
+"'Э'",
+"'Ю'",
+"'Я'"
 ];
 function getB001() {
 	return b001[
@@ -201,6 +235,48 @@ function getB001() {
 	];
 }
 document.documentElement.style.setProperty('--shaii1', getB001());
+
+// Array 008 Russian Small
+var b001 = [
+"'а'",
+"'б'",
+"'в'",
+"'г'",
+"'д'",
+"'е'",
+"'а'",
+"'ё'",
+"'ж'",
+"'з'",
+"'и'",
+"'й'",
+"'к'",
+"'л'",
+"'м'",
+"'н'",
+"'о'",
+"'п'",
+"'р'",
+"'с'",
+"'т'",
+"'у'",
+"'ф'",
+"'х'",
+"'ч'",
+"'ш'",
+"'щ'",
+"'ъ'",
+"'ы'",
+"'ь'",
+"'э'",
+"'ю'",
+"'я'"
+];
+function getB001() {
+	return b001[
+		Math.floor(Math.random() * b001.length)
+	];
+}
 document.documentElement.style.setProperty('--shaii2', getB001());
 document.documentElement.style.setProperty('--shaii3', getB001());
 document.documentElement.style.setProperty('--shaii4', getB001());
@@ -212,3 +288,6 @@ document.documentElement.style.setProperty('--shaii9', getB001());
 document.documentElement.style.setProperty('--shaii10', getB001());
 document.documentElement.style.setProperty('--shaii11', getB001());
 document.documentElement.style.setProperty('--shaii12', getB001());
+
+
+
