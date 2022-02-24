@@ -61,12 +61,12 @@ img.kannat19{background-image:var(--kannat19);border-radius:var(--giz3)var(--giz
 .aciz{
 max-width:1300px
 }
-snap.shabas{font-weight:bold;position:absolute;margin:203px -167px;font-family:sans-serif;font-size:20px
+snap.shabas{font-weight:bold;position:absolute;margin:200px -150px;font-family:sans-serif;font-size:28px
 }
 img.pic001{width:100%
 }
 span.rabbav{
-font-size:32px;font-family:"Segoe UI", "Segoe WP", Arial, Sans-Serif
+font-size:36px;font-family:"Segoe UI", "Segoe WP", Arial, Sans-Serif
 }
 }
 @media screen and (min-width: 666px), (min-height: 666px){}
