@@ -8,7 +8,9 @@ hr{border-style:solid
 }
 span.kaffi{text-shadow:2px 2px var(--theme001),-2px -2px var(--theme001)
 }
-.tsagat{max-width:1300px;font-size:20px;display:flex
+span.yadar,span.tzashi,span.halash{font-size:32px
+}
+.aciz{display:flex
 }
 
 .b001::after{content:var(--b001)}.b002::after{content:var(--b002)}.b003::after{content:var(--b003)
