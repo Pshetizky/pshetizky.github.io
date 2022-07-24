@@ -91,5 +91,37 @@
 		<xhtml:link href="https://pshetizky.github.io/soul/ru/" hreflang="ru" rel="alternate"/>
 	</url>
 
+	<url>
+		<loc>https://www.reddit.com/r/UAP/comments/w72n3j/</loc>
+		<xhtml:link href="https://www.reddit.com/r/UAP/comments/w72n3j/" hreflang="x-default" rel="alternate"/>
+	</url>
+
+	<url>
+		<loc>https://pshetizky.github.io/Madatat/Leesak/</loc>
+		<xhtml:link href="https://pshetizky.github.io/Madatat/Leesak/" hreflang="x-default" rel="alternate"/>
+	</url>
+
+	<url>
+		<loc>https://pshetizky.github.io/servers/</loc>
+		<xhtml:link href="https://pshetizky.github.io/servers/" hreflang="x-default" rel="alternate"/>
+	</url>
+
+	<url>
+		<loc>https://pshetizky.github.io/Tashap/</loc>
+		<xhtml:link href="https://pshetizky.github.io/Tashap/" hreflang="x-default" rel="alternate"/>
+		<xhtml:link href="https://pshetizky.github.io/Tashap/he/" hreflang="he" rel="alternate"/>
+	</url>
+
+	<url>
+		<loc>https://pshetizky.github.io/kpN9jg9YhRjk/</loc>
+		<xhtml:link href="https://pshetizky.github.io/kpN9jg9YhRjk/" hreflang="x-default" rel="alternate"/>
+	</url>
+
+
 </urlset>
+
+
+
+
+
 
