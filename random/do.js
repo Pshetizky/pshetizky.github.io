@@ -4,4 +4,3 @@ sequence = []
 python3 main.py
 node
 .toString(36).slice(-11).split('').map(c => Math.random() < 0.5 ? c.toUpperCase() : c).join('')
-
