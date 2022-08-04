@@ -4,7 +4,9 @@
       <script defer src="https://pyscript.net/latest/pyscript.js"></script>
       <py-env>
          - struct-tools
+         - numpy
       </py-env>
+      <!-- - z3-solver -->
       <title>Random</title>
       </script>
       <style>
@@ -15,11 +17,18 @@
       </div>
       <script>
          var na1 = Array.from(Array(5), Math.random);
-         document.write(na1);
-         
-      </script>
-      <py-script src="main.py">
 
-    </py-script>
+         var na2 = na1.toString(36).slice(-10).split('').map(c => Math.random() < 0.5 ? c.toUpperCase() : c).join('');
+
+         document.write(na2);
+
+      </script>
+      <!-- src="https://pshetizky.github.io/random/main.py" -->
+      <py-script>
+         pdef greetings(name):
+    print(f'Hi, {name}')
+
+greetings('John Doe')
+      </py-script>
    </body>
 </html>
