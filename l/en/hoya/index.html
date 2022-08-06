@@ -1,0 +1,167 @@
+<!---
+Thanks to all support me
+CSS Script https://www.cssscript.com/demo/digital-clock-progress-bar/ Adding a local clock to web page with java script
+And https://www.cssscript.com/demo/digital-clock-countdown-circle/
+KIRUPA https://www.kirupa.com/html5/accessing_your_webcam_in_html5.htm Power on camera on html with the help of java script of course
+Web dev https://web.dev/css-masking/ Masking with PNG everything
+Damon OEHLMAN https://gist.github.com/DamonOehlman/7329833 --use-fake-ui-for-media-stream Enabling permission for camera devices for Twitch Studio and OBS and etc
+--->
+<html>
+   <head>
+      <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+      <meta content="utf-8" http-equiv="encoding">
+      <title>Hoya</title>
+      <style>
+.a001{
+font-family: cursive;
+animation: anim001 10s infinite linear alternate;
+position: absolute;
+margin: 101px 23px;
+font-size: 12px;
+transform: rotateZ(-3deg);
+color: #E8A7A7
+}
+.a002{
+width: 149px;
+animation: anim001 2s infinite linear alternate;
+position: absolute;
+margin: 100px
+}
+@keyframes anim001{
+0%{
+filter: hue-rotate(0deg)
+}
+100%{
+filter: hue-rotate(360deg)
+}
+}
+.a003{
+margin: 0px -3px
+}
+.a004{
+width: 100px;
+position: absolute;
+height: 100px;
+border-radius: 100%;
+margin: 136px 125px
+}
+.a005{
+width: 86px;
+animation: anim001 100s infinite linear alternate;
+position: absolute;
+margin: 201px 63px
+}
+.a006{
+width: 42px;
+animation: anim001 10s infinite linear alternate;
+position: absolute;
+margin: 89px 134px
+}
+.a007{
+width: 134px;
+animation: anim001 10s infinite linear alternate;
+position: absolute;
+margin: 227px 150px
+}
+.a008{
+width: 55px;
+animation: anim001 7s infinite linear alternate;
+position: absolute;
+margin: 114px 206px
+}
+.a0022,.a004{
+display:none
+}
+.a009{
+width: 128px;
+animation: anim001 7s infinite linear alternate;
+position: absolute;
+margin: 96px -1px
+}
+.container{
+width: 149px;
+height: 149px;
+margin: 100px 100px;
+display: block;
+position: absolute
+}
+.container video{
+height: 100%;
+width: 100%;
+object-fit: cover;
+-webkit-mask-size: cover;
+mask-size: cover
+}
+@supports(-webkit-mask-image: url(../../../d/mask.png)) or (mask-image: url(../../../d/mask.png)){
+  /* code that requires mask-image here. */
+.one {
+-webkit-mask-image: url(../../../d/mask.png);
+mask-image: url(../../../d/mask.png)
+}
+}
+      </style>
+   </head>
+   <body>
+      <img class="a002" "../../../d/preview.png">
+      <span class="container">
+      <video autoplay="true" class="one">
+      </video>
+      </span>
+      <img class="a005" src="../../../d/סריקה2.png">
+      <img class="a006" src="../../../d/סריקה3.png">
+      <img class="a007" src="../../../d/סריקה4.png">
+      <img class="a008" src="../../../d/סריקה5.png">
+      <img class="a009" src="../../../d/סריקה6.png">
+      <img class="a004" src="../../../d/WIN_20210306_19_50_44_Pro.jpg">
+      <snap class="a001">
+      <span id="hour">
+13
+      </span>
+      <span class="a003">
+:
+      </span>
+      <span id="minute">
+50
+      </span>
+      <span>
+Pshetizky
+      </span>
+      </snap>
+      <script>
+const hour=document.getElementById('hour');
+const minute=document.getElementById('minute');
+const second=document.getElementById('second');
+const progress=document.getElementById('progress');
+function showCurrentTime(){
+let date=new Date();
+let hr=date.getHours();
+let min=date.getMinutes();
+let sec=date.getSeconds();
+hr=(hr<10)?'0'+hr:hr;
+min=(min<10)?'0'+min:min;
+hour.textContent=hr;
+minute.textContent=min;
+second.textContent=sec;
+progress.style.width=(sec/60)*100+'%'
+}
+setInterval(showCurrentTime,1000)
+</script>
+<script>
+var video = document.querySelector(".one");
+if (navigator.mediaDevices.getUserMedia) {
+navigator.mediaDevices.getUserMedia({ video: true })
+.then(function (stream) {
+video.srcObject = stream;
+})
+.catch(function (err0r) {
+console.log("Something went wrong!");
+});
+}
+      </script>
+      <script>
+navigator.permissions.query({name: "camera"})
+.then(({state}) => console.log(state),
+      e => console.log(e.name +": "+ e.message));
+      </script>
+   </body>
+</html>

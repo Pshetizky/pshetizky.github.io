@@ -1,46 +1,43 @@
-html{background-attachment:local;background-image:var(--wall001);background-position-y:bottom;background-position-x:center;background-repeat:no-repeat}
-
-
-@media (prefers-color-scheme: light) {
-html{background-color:var(--color003)span{color:#e5e5e5}
+@media screen {
+   html {background-attachment:local;background-image:var(--wall001);background-position-y:bottom;background-position-x:center;background-repeat:no-repeat}
+   a.a003,a.a004,a.a005,a.a006{background-color:var(--color003);position:fixed;bottom:100px;z-index:1;font-size:20px;padding:20px;border-radius:var(--giz1)var(--giz2)var(--giz3)var(--giz4);text-decoration:blink;border:solid 1px;font-family:sans-serif
+   }
+   a.a003::after{content:var(--houses001)
+   }
+   a.a004::after{content:var(--houses002)
+   }
+   a.a005::after{content:var(--houses003)
+   }
+   a.a006::after{content:var(--houses004)
+   }
+   .a002{font-size:28px;max-width:1000px
+   }
+   div.a001{margin-bottom:1em
+   }
+   img.kenneth{
+   width:153px;margin:30px 25px;
+   }
+   .aciz{
+   max-width:1300px
+   }
+   span.shabs{font-weight:bold;position:absolute;margin:200px -150px;font-family:sans-serif;font-size:28px
+   }
+   img.pic001{width:100%
+   }
+   span.ravev{
+   font-size:36px;font-family:"Segoe UI", "Segoe WP", Arial, Sans-Serif
+   }
 }
 
+@media screen and (prefers-color-scheme: light) {
+   html {background-color:var(--color003)}span{color:#e5e5e5}
+   a.a003, a.a004, a.a005, a.a006,.ravev, .enaf, span.shabs{color:#000000}
+   a.a003, a.a004, a.a005, a.a006{background-color:var(--color004)}
+}
 
-
-@media (prefers-color-scheme: dark) {
-span{color:white
-}
-html{background-color:var(--color001);
-}
-a.a003,a.a004,a.a005,a.a006{background-color:var(--color003);position:fixed;bottom:100px;z-index:1;font-size:20px;padding:20px;border-radius:var(--giz1)var(--giz2)var(--giz3)var(--giz4);text-decoration:blink;border:solid 1px;font-family:sans-serif
-}
-a.a003::after{content:var(--houses001)
-}
-a.a004::after{content:var(--houses002)
-}
-a.a005::after{content:var(--houses003)
-}
-a.a006::after{content:var(--houses004)
-}
-.a002{font-size:16px;max-width:1000px
-}
-div.a001{margin-bottom:1em
-}
-img.kannat1,img.kannat2,img.kannat3,img.kannat4,img.kannat5,img.kannat6,img.kannat7,img.kannat8,img.kannat9,img.kannat10,img.kannat11,img.kannat12,img.kannat13,img.kannat14,img.kannat15,img.kannat16,img.kannat17,img.kannat18,img.kannat19,img.kannat20{
-width:153px;margin:30px 25px;
-}
-img.kannat1{background-image:var(--kannat1);border-radius:var(--giz1)var(--giz2)var(--giz1)var(--giz2)
-}
-img.kannat2{background-image:var(--kannat2);border-radius:var(--giz2)var(--giz1)var(--giz2)var(--giz1)
-}
-.aciz{
-max-width:1300px
-}
-snap.shabas{font-weight:bold;position:absolute;margin:200px -150px;font-family:sans-serif;font-size:28px
-}
-img.pic001{width:100%
-}
-span.rabbav{
-font-size:36px;font-family:"Segoe UI", "Segoe WP", Arial, Sans-Serif
-}
+@media screen and (prefers-color-scheme: dark) {
+   html {background-color:var(--color001)}
+   a.a003, a.a004, a.a005, a.a006,.ravev, .enaf, span.shabs{color:white}
+   a.a003, a.a004, a.a005, a.a006{background-color:var(--color002)}
+   }
 }

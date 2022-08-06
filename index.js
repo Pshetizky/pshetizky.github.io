@@ -1,5 +1,4 @@
 // DARK COLORS
-
 var colors001 = [
 "#643a3a",
 "#563446"];
@@ -12,7 +11,6 @@ document.documentElement.style.setProperty('--color001', getColors());
 document.documentElement.style.setProperty('--color002', getColors());
 
 // LIGHT COLORS
-
 var colors001 = [
 "#ef9a9a",
 "#f8bbd0"];
@@ -25,8 +23,7 @@ document.documentElement.style.setProperty('--color003', getColors());
 document.documentElement.style.setProperty('--color004', getColors());
 
 // WALLPAPERS
-
-var walls = ["url('../d/wallpaper001.png')","url('../d/wallpaper002.png')"];
+var walls = ["url('https://pshetizky.github.io/d/wallpaper001.png')","url('https://pshetizky.github.io/d/wallpaper002.png')"];
 function getWalls() {
 	return walls[
 		Math.floor(Math.random() * walls.length)
