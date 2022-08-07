@@ -1,6 +1,6 @@
 // DARK COLORS
 var colors001 = [
-"#643a3a",
+"#643a3a","#360d4e","#14045a",
 "#563446"];
 function getColors() {
 	return colors001[
@@ -12,7 +12,7 @@ document.documentElement.style.setProperty('--color002', getColors());
 
 // LIGHT COLORS
 var colors001 = [
-"#ef9a9a",
+"#ef9a9a","#e1bee7","#ede7f6",
 "#f8bbd0"];
 function getColors() {
 	return colors001[
