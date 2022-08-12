@@ -1,6 +1,7 @@
 import string
 import secrets
 length = int(input())
+if length <= 4: length = 5
 alphabet = string.ascii_letters + string.digits
 while True:
    password = ''.join(secrets.choice(alphabet) for i in range(length))

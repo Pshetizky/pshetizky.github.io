@@ -1,123 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-	<url>
-		<loc>https://pshetizky.github.io/</loc>
-		<xhtml:link href="https://pshetizky.github.io/" hreflang="x-default" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/ar/" hreflang="ar" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/he/" hreflang="he" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/ru/" hreflang="ru" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/drive/</loc>
-		<xhtml:link href="https://pshetizky.github.io/drive/" hreflang="x-default" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/drive/ar/" hreflang="ar" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/drive/he/" hreflang="he" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/drive/ru/" hreflang="ru" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/genesis/</loc>
-		<xhtml:link href="https://pshetizky.github.io/genesis/" hreflang="x-default" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/genesis/ar/" hreflang="ar" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/genesis/he/" hreflang="he" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/genesis/ru/" hreflang="ru" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/lmLGQvMunH6I/</loc>
-		<xhtml:link href="https://pshetizky.github.io/lmLGQvMunH6I/" hreflang="x-default" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/maso/</loc>
-		<xhtml:link href="https://pshetizky.github.io/maso/" hreflang="x-default" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/maso/ar/" hreflang="ar" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/maso/he/" hreflang="he" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/maso/ru/" hreflang="ru" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/memo/</loc>
-		<xhtml:link href="https://pshetizky.github.io/memo/" hreflang="x-default" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/memo/ar/" hreflang="ar" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/memo/he/" hreflang="he" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/memo/ru/" hreflang="ru" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/memod/</loc>
-		<xhtml:link href="https://pshetizky.github.io/memod/" hreflang="x-default" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/memod/ar/" hreflang="ar" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/memod/he/" hreflang="he" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/memod/ru/" hreflang="ru" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/num/</loc>
-		<xhtml:link href="https://pshetizky.github.io/num/" hreflang="x-default" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/num/ar/" hreflang="ar" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/num/he/" hreflang="he" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/num/ru/" hreflang="ru" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/p34WSpccfO2/</loc>
-		<xhtml:link href="https://pshetizky.github.io/p34WSpccfO2/" hreflang="x-default" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/p34WSpccfO2/ar/" hreflang="ar" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/p34WSpccfO2/he/" hreflang="he" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/p34WSpccfO2/ru/" hreflang="ru" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/PY42OetxxnO/</loc>
-		<xhtml:link href="https://pshetizky.github.io/PY42OetxxnO/" hreflang="x-default" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/random/</loc>
-		<xhtml:link href="https://pshetizky.github.io/random/" hreflang="x-default" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/random/ar/" hreflang="ar" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/random/he/" hreflang="he" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/random/ru/" hreflang="ru" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/soul/</loc>
-		<xhtml:link href="https://pshetizky.github.io/soul/" hreflang="x-default" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/soul/ar/" hreflang="ar" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/soul/he/" hreflang="he" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/soul/ru/" hreflang="ru" rel="alternate"/>
-	</url>
-
-
-	<url>
-		<loc>https://pshetizky.github.io/Madatat/Leesak/</loc>
-		<xhtml:link href="https://pshetizky.github.io/Madatat/Leesak/" hreflang="x-default" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/servers/</loc>
-		<xhtml:link href="https://pshetizky.github.io/servers/" hreflang="x-default" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/Tashap/</loc>
-		<xhtml:link href="https://pshetizky.github.io/Tashap/" hreflang="x-default" rel="alternate"/>
-		<xhtml:link href="https://pshetizky.github.io/Tashap/he/" hreflang="he" rel="alternate"/>
-	</url>
-
-	<url>
-		<loc>https://pshetizky.github.io/kpN9jg9YhRjk/</loc>
-		<xhtml:link href="https://pshetizky.github.io/kpN9jg9YhRjk/" hreflang="x-default" rel="alternate"/>
-	</url>
-
-
+   <url>
+      <loc>https://pshetizky.github.io/</loc>
+      <xhtml:link href="https://pshetizky.github.io/" hreflang="x-default" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/" hreflang="en" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/art/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/art/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/art/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/art/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/art/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/art/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/drive/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/drive/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/drive/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/drive/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/drive/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/drive/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/genesis/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/genesis/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/genesis/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/genesis/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/genesis/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/genesis/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/hoya/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/hoya/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/hoya/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/hoya/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/hoya/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/hoya/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/lisk/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/lisk/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/lisk/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/lisk/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/lisk/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/lisk/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/mazuz/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/mazuz/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/mazuz/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/mazuz/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/mazuz/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/mazuz/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/memo/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/memo/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/memo/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/memo/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/memo/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/memo/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/memod/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/memod/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/memod/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/memod/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/memod/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/memod/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/num/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/num/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/num/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/num/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/num/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/num/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/random/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/random/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/random/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/random/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/random/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/random/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/server/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/server/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/server/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/server/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/server/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/server/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/soul/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/soul/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/soul/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/soul/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/soul/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/soul/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/thetan/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/thetan/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/thetan/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/thetan/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/thetan/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/thetan/" hreflang="ru" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/l/en/tschap/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/en/tschap/" hreflang="x-default" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ar/tschap/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/tschap/" hreflang="ar" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/he/tschap/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/ru/tschap/" hreflang="ru" rel="alternate"/>
+   </url>
 </urlset>
-
-
-
-
-
-
