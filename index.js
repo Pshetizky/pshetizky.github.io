@@ -22,13 +22,19 @@ function getColors() {
 document.documentElement.style.setProperty('--color003', getColors());
 document.documentElement.style.setProperty('--color004', getColors());
 
-// WALLPAPERS
-var walls = ["url('https://pshetizky.github.io/d/wallpaper001.png')","url('https://pshetizky.github.io/d/wallpaper002.png')"];
+// WALLPAPERS Dark
+var walls = ["url('./d/wallpaper001.png')","url('./d/wallpaper002.png')"];
 function getWalls() {
 	return walls[
 		Math.floor(Math.random() * walls.length)
 	];
 }
 document.documentElement.style.setProperty('--wall001', getWalls());
+// WALLPAPERS Light
+var walls = ["url('./d/wallpaper003.png')","url('./d/wallpaper004.png')"];
+function getWalls() {
+	return walls[
+		Math.floor(Math.random() * walls.length)
+	];
+}
 document.documentElement.style.setProperty('--wall002', getWalls());
-

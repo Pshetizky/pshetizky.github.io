@@ -1,6 +1,6 @@
 @media screen {
-   html {background-attachment:local;background-image:var(--wall001);background-position-y:bottom;background-position-x:center;background-repeat:no-repeat}
-   a.a003,a.a004,a.a005,a.a006{background-color:var(--color003);position:fixed;bottom:100px;z-index:1;font-size:20px;padding:20px;border-radius:var(--giz1)var(--giz2)var(--giz3)var(--giz4);text-decoration:blink;border:solid 1px;font-family:sans-serif
+   html {background-attachment:local;background-position-y:bottom;background-position-x:center;background-repeat:no-repeat}
+   a.a003,a.a004,a.a005,a.a006{background-color:var(--color003);position:fixed;bottom:0px;z-index:1;font-size:20px;padding:20px;border-radius:var(--giz1)var(--giz2)var(--giz3)var(--giz4);text-decoration:blink;border:solid 1px;font-family:sans-serif
    }
    a.a003::after{content:var(--houses001)
    }
@@ -24,19 +24,22 @@
    }
    img.pic001{width:100%
    }
-   span.ravev{
+   .ravev{
    font-size:36px;font-family:"Segoe UI", "Segoe WP", Arial, Sans-Serif
+   }
+   .xhbkf{
+   font-weight:bolder;text-decoration:underline;text-align:center
    }
 }
 
 @media screen and (prefers-color-scheme: light) {
-   html {background-color:var(--color003)}span{color:#e5e5e5}
+   html {background-color:var(--color003);background-image:var(--wall002)}span{color:#e5e5e5}
    a.a003, a.a004, a.a005, a.a006,.ravev, .enaf, span.shabs{color:#000000}
    a.a003, a.a004, a.a005, a.a006{background-color:var(--color004)}
 }
 
 @media screen and (prefers-color-scheme: dark) {
-   html {background-color:var(--color001)}
+   html {background-color:var(--color001);background-image:var(--wall001)}
    a.a003, a.a004, a.a005, a.a006,.ravev, .enaf, span.shabs{color:white}
    a.a003, a.a004, a.a005, a.a006{background-color:var(--color002)}
    }
