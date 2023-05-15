@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./master.css"> 
+    </head>
+    <body>
+        <center>
+        <span class="ohu">
+            <span>Encrypt and unlesh sha256</span>
+        </span>
+        <span class="ngi">
+            <input class="bjg" type="text" id="inputText" placeholder="The Start - text or hash">
+            <input class="bjg" type="text" id="inputPassword" placeholder="Passphrase (Optional)">
+        </span>
+        <br>
+        <span class="ltm">
+            <button class="czq" type="button" onclick="AesDecrypt()">Decrypt</button>
+            <button class="czq" type="button" onclick="AesEncrypt()">Encrypt</button>
+        </span>
+        <span class="uye">
+            <input class="bjg" type="text" id="demo1" name="output" placeholder="Rendered encryption">
+            <input class="bjg" type="text" id="demo2" name="output" placeholder="Unleshed hash">
+        </span>
+        </center>
+        <script src="./master.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    </body>
+</html>

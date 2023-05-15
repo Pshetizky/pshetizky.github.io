@@ -9,12 +9,12 @@ while True:
          and any(c.isupper() for c in password)
          and sum(c.isdigit() for c in password) >= 3):
       break
-print("סיסמה‫:‬ ",password)
+print("كلمة المرور: ",password)
 
 arabic = "ابتثجحخدذرزسشصضطظعغفقكلمنهوي"
 preview_eng = ''.join(secrets.choice(arabic) for i in range(length))
-print(" שמות‫:‬ ",preview_eng)
+print("اسماء: ",preview_eng)
 
 numbers = string.digits
 preview_num = ''.join(secrets.choice(numbers) for i in range(length))
-print(" מספרים‫:‬ ",preview_num," ")
+print("أعداد: ",preview_num," ")

@@ -1,0 +1,16 @@
+pre.py-terminal{
+    font-size: 36px; background-color: transparent; display: inline-block;
+}
+@media screen and (prefers-color-scheme: light) {
+    pre.py-terminal{
+        color: black;
+    }
+}
+@media screen and (prefers-color-scheme: dark) {
+    pre.py-terminal{
+        color: white;
+    }
+}
+.qbp{
+    display: inline-flex;
+}

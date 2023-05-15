@@ -13,8 +13,8 @@ print("Password: ",password)
 
 english = "abcdefghijklmnopqrstuvwxyz"
 preview_eng = ''.join(secrets.choice(english) for i in range(length))
-print(" Names: ",preview_eng)
+print("Names: ",preview_eng)
 
 numbers = string.digits
 preview_num = ''.join(secrets.choice(numbers) for i in range(length))
-print(" Numbers: ",preview_num," ")
+print("Numbers: ",preview_num," ")
