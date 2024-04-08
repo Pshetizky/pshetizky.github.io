@@ -3,89 +3,33 @@
    <url>
       <loc>https://pshetizky.github.io/</loc>
       <xhtml:link href="https://pshetizky.github.io/" hreflang="x-default" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/en/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/" hreflang="he" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/a/</loc>
+      <xhtml:link href="https://pshetizky.github.io/a/" hreflang="x-default" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/a/j/</loc>
+      <xhtml:link href="https://pshetizky.github.io/a/j/" hreflang="x-default" rel="alternate"/>
+   </url>
+   <url>
+      <loc>https://pshetizky.github.io/d/</loc>
+      <xhtml:link href="https://pshetizky.github.io/d/" hreflang="x-default" rel="alternate"/>
+   </url>
+      <url>
+      <loc>https://pshetizky.github.io/l/</loc>
+      <xhtml:link href="https://pshetizky.github.io/l/" hreflang="he" rel="alternate"/>
    </url>
    <url>
       <loc>https://pshetizky.github.io/l/en/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/en/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/" hreflang="he" rel="alternate"/>
-   </url>
-   <url>
-      <loc>https://pshetizky.github.io/l/en/hoya/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/en/hoya/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/hoya/" hreflang="he" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/" hreflang="x-default" rel="alternate"/>
    </url>
    <url>
       <loc>https://pshetizky.github.io/l/en/lisk/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/en/lisk/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/lisk/" hreflang="he" rel="alternate"/>
-   </url>
-      <url>
-      <loc>https://pshetizky.github.io/l/en/matzeb/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/en/matzeb/" hreflang="en" rel="alternate"/>
+      <xhtml:link href="https://pshetizky.github.io/l/en/lisk/" hreflang="x-default" rel="alternate"/>
    </url>
    <url>
-      <loc>https://pshetizky.github.io/l/en/mazuz/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/en/mazuz/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/mazuz/" hreflang="he" rel="alternate"/>
-   </url>
-   <url>
-      <loc>https://pshetizky.github.io/l/en/num/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/en/num/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/num/" hreflang="he" rel="alternate"/>
-   </url>
-   <url>
-      <loc>https://pshetizky.github.io/l/en/random/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/ar/random/" hreflang="ar" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/en/random/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/random/" hreflang="he" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/ru/random/" hreflang="ru" rel="alternate"/>
-   </url>
-   <url>
-      <loc>https://pshetizky.github.io/l/he/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/en/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/" hreflang="he" rel="alternate"/>
-   </url>
-   <url>
-      <loc>https://pshetizky.github.io/l/he/hoya/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/en/hoya/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/hoya/" hreflang="he" rel="alternate"/>
-   </url>
-   <url>
-      <loc>https://pshetizky.github.io/l/he/lisk/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/en/lisk/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/lisk/" hreflang="he" rel="alternate"/>
-   </url>
-   <url>
-      <loc>https://pshetizky.github.io/l/he/mazuz/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/en/mazuz/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/mazuz/" hreflang="he" rel="alternate"/>
-   </url>
-   <url>
-      <loc>https://pshetizky.github.io/l/he/num/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/en/num/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/num/" hreflang="he" rel="alternate"/>
-   </url>
-   <url>
-      <loc>https://pshetizky.github.io/l/he/random/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/ar/random/" hreflang="ar" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/en/random/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/random/" hreflang="he" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/ru/random/" hreflang="ru" rel="alternate"/>
-   </url>
-   <url>
-      <loc>https://pshetizky.github.io/l/ar/random/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/ar/random/" hreflang="ar" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/en/random/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/random/" hreflang="he" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/ru/random/" hreflang="ru" rel="alternate"/>
-   </url>
-   <url>
-      <loc>https://pshetizky.github.io/l/ru/random/</loc>
-      <xhtml:link href="https://pshetizky.github.io/l/ar/random/" hreflang="ar" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/en/random/" hreflang="en" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/he/random/" hreflang="he" rel="alternate"/>
-      <xhtml:link href="https://pshetizky.github.io/l/ru/random/" hreflang="ru" rel="alternate"/>
+      <loc>https://pshetizky.github.io/d/Inado.jpg/</loc>
+      <xhtml:link href="https://pshetizky.github.io/d/Inado.jpg/" hreflang="x-default" rel="alternate"/>
    </url>
 </urlset>

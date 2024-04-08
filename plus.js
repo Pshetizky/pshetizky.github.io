@@ -1,6 +1,6 @@
 // EXITS ENGLISH
 var houses = [
-'"Close"','"X"','"Exit"','"Home"','"Off"','"Backwards"','"Cancel"'
+'"PSHETIZKY"','"EXIT"','"HOME PAGE"'
 ];
 function getHouses() {
 	return houses[

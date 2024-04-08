@@ -1,5 +1,5 @@
 pre.py-terminal{
-    font-size: 36px; background-color: transparent; display: inline-block;
+    font-size:36px;background-color:transparent;display:contents;font-style:italic
 }
 @media screen and (prefers-color-scheme: light) {
     pre.py-terminal{
