@@ -11,7 +11,7 @@ document.documentElement.style.setProperty('--houses001', getHouses());
 
 // EXITS HEBREW
 var houses = [
-'"תסגור"','"X"','"יציאה"','"הביתה"','"לכבות"','"אחורה"','"לבטל"'
+'"תסגור"','"פשטיצקי"','"דף הבית"'
 ];
 function getHouses() {
 	return houses[
