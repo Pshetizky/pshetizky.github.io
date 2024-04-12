@@ -12,32 +12,9 @@ Damon OEHLMAN https://gist.github.com/DamonOehlman/7329833 --use-fake-ui-for-med
 <meta content="utf-8" http-equiv="encoding">
 <title>Hoya</title>
 <style>
-.a001{
-font-family: cursive;
-animation: anim001 10s infinite linear alternate;
-position: absolute;
-font-size: 12px;
-transform: rotateZ(-3deg);
-color: #E8A7A7
-}
-@keyframes anim001{
-0%{
-filter: hue-rotate(0deg)
-}
-100%{
-filter: hue-rotate(360deg)
-}
-}
-.a003{
-margin: 0px -3px
-}
-.a0022,.a004{
-display:none
-}
 .container{
-width: 149px;
-height: 149px;
-margin: 0px 0px 0px 90px;
+width: 240px;
+height: 240px;
 display: block;
 position: absolute
 }
@@ -62,39 +39,6 @@ mask-image: url(../../../d/mask.png)
 <video autoplay="true" class="one">
 </video>
 </span>
-<snap class="a001">
-<span id="hour">
-13
-</span>
-<span class="a003">
-:
-</span>
-<span id="minute">
-50
-</span>
-<span>
-Pshetizky
-</span>
-</snap>
-<script>
-const hour=document.getElementById('hour');
-const minute=document.getElementById('minute');
-const second=document.getElementById('second');
-const progress=document.getElementById('progress');
-function showCurrentTime(){
-      let date=new Date();
-      let hr=date.getHours();
-      let min=date.getMinutes();
-      let sec=date.getSeconds();
-      hr=(hr<10)?'0'+hr:hr;
-      min=(min<10)?'0'+min:min;
-      hour.textContent=hr;
-      minute.textContent=min;
-      second.textContent=sec;
-      progress.style.width=(sec/60)*100+'%'
-}
-setInterval(showCurrentTime,1000)
-</script>
 <script>
 var video = document.querySelector(".one");
 if (navigator.mediaDevices.getUserMedia)
