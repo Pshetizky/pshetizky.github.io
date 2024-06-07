@@ -5,4 +5,4 @@
 /l mazoz
 /l/en hoya
 /l/en/lisk lisk
-/d/Inado.jpg desktop
+/m desktop
