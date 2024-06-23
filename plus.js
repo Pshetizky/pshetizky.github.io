@@ -1,6 +1,6 @@
 // EXITS ENGLISH
 var houses = [
-'"PSHETIZKY"','"EXIT"','"HOME PAGE"'
+'"pshetizky"','"exit"','"homepage"'
 ];
 function getHouses() {
 	return houses[
