@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html style="background-color: rgb(39, 39, 39);"><head><title></title>meshcha<style>
-    @keyframes mazec {100%{transform: translateX(1024px)}}
+<html style="background-color: rgb(39, 39, 39);"><head><title>meshcha</title><style>
+    @keyframes mazec {100%{transform: translateX(1920px)}}
     @keyframes mazed {100%{transform: translateX(0px)}}
     @keyframes maze {100%{transform: translateX(1920px)}}
     @keyframes mazeb {100%{transform: translateX(0px)}}
-    .nopec,.noped,.nope,.nopeb{background-size: contain;position: fixed;filter: blur(2px);}
-</style></head>
+    .nopec,.noped,.nope,.nopeb{background-size: contain;position: fixed;}
+    .nopec,.noped{background-size: 1024px}.nope,.nopeb{background-size: 1920px}
+</style><meta name="description" content="משצה"></head>
 <body>
-    <div class="nopec" style="animation:mazec 1500ms infinite linear;background-image: url('b.png'); height: 1920px; width: 1024px;"></div>
-    <div class="noped" style="animation:mazed 1500ms infinite linear;background-image: url('b.png');height: 1920px; width: 1024px;transform: translateX(-1024px);"></div>
-    <div class="nope" style="animation:maze 1500ms infinite linear;background-image: url('a.png');height: 1920px; width: 1920px;"></div>
-    <div class="nopeb" style="animation:mazeb 1500ms infinite linear;background-image: url('a.png');height: 1920px; width: 1920px;transform: translateX(-1920px);"></div>
+    <div class="nopec" style="animation:mazec 2900ms infinite linear;background-image: url('b.png'); height: 1080px; width: 1920px;"></div>
+    <div class="noped" style="animation:mazed 2900ms infinite linear;background-image: url('b.png');height: 1080px; width: 1920px;transform: translateX(-1920px);background-size: 1024px"></div>
+    <div class="nope" style="animation:maze 2200ms infinite linear;background-image: url('a.png');height: 1080px; width: 1920px;"></div>
+    <div class="nopeb" style="animation:mazeb 2200ms infinite linear;background-image: url('a.png');height: 1080px; width: 1920px;transform: translateX(-1920px);"></div>
 </body></html>
