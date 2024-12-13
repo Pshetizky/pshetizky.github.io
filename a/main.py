@@ -1,27 +1,29 @@
-import string, secrets
 from pyscript import display
-##length = int(input())
-length = int(20)
-alphabet = string.ascii_letters + string.digits + "~!@#$%^&*_+-=.,:"
+import string, secrets
+#length = int(input())
+length = int(12)
+alphabet = string.ascii_letters + string.digits + "~@#$%^&*_+-=:?!"
 while True:
-   password = ''.join(secrets.choice(alphabet) for i in range(length))
-   if (any(c.islower() for c in password)
-         and any(c.isupper() for c in password)
-         and sum(c.isdigit() for c in password) >= 3):
+   random1 = str().join(secrets.choice(alphabet) for i in range(length))
+   if (any(c.islower() for c in random1)
+         and any(c.isupper() for c in random1)
+         and sum(c.isdigit() for c in random1) >= 1):
       break
-display(password)
+display(str(random1))
+random1 = str()
 numbers = string.digits
-preview_num = ''.join(secrets.choice(numbers) for i in range(length))
-display(preview_num)
-english = string.ascii_letters
-preview_eng = ''.join(secrets.choice(english) for i in range(length))
-display(preview_eng)
+display(str().join(secrets.choice(numbers) for i in range(length)))
+english = "abcdefghijklmnopqrstuvwxyz"
+display(str().join(secrets.choice(english) for i in range(length)))
 russian = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
-preview_rus = ''.join(secrets.choice(russian) for i in range(length))
-display(preview_rus)
+display(str().join(secrets.choice(russian) for i in range(length)))
 arabic = "ابتثجحخدذرزسشصضطظعغفقكلمنهوي"
-preview_arb = ''.join(secrets.choice(arabic) for i in range(length))
-display(preview_arb)
+display(str().join(secrets.choice(arabic) for i in range(length)))
 hebrew = "אבגדהוזחטיכלמנסעפצקרשת"
-preview_heb = ''.join(secrets.choice(hebrew) for i in range(length))
-display(preview_heb)
+display(str().join(secrets.choice(hebrew) for i in range(length)))
+random1 = list()
+#for i in range(50):
+#    random2 = str().join(secrets.choice(numbers))
+#    if random2 not in random1:
+#        random1.append(random2)
+#print(str().join(random1))
