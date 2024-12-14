@@ -21,7 +21,6 @@ arabic = "ابتثجحخدذرزسشصضطظعغفقكلمنهوي"
 display(str().join(secrets.choice(arabic) for i in range(length)))
 hebrew = "אבגדהוזחטיכלמנסעפצקרשת"
 display(str().join(secrets.choice(hebrew) for i in range(length)))
-random1 = list()
 #for i in range(50):
 #    random2 = str().join(secrets.choice(numbers))
 #    if random2 not in random1:
