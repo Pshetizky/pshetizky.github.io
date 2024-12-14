@@ -11,21 +11,20 @@
     <body>
         <center>
         <a class="a003" href="../"></a>
-        <span class="ohu">
-            <span>Encrypt and unlesh sha256</span>
-        </span>
+        <span class="ohu">Encrypt and unlesh sha256</span><br>
         <span class="ngi">
-            <input class="bjg" type="text" id="inputText" placeholder="The Start - text or hash">
-            <input class="bjg" type="text" id="inputPassword" placeholder="Passphrase (Optional)">
+            <textarea class="bjg" type="text" id="inputText" placeholder="The Start - text or hash"></textarea>
+            <textarea class="bjg" type="text" id="inputPassword" placeholder="Passphrase (Optional)"></textarea>
         </span>
         <br>
         <span class="ltm">
             <button class="czq" type="button" onclick="AesDecrypt()">Decrypt</button>
             <button class="czq" type="button" onclick="AesEncrypt()">Encrypt</button>
         </span>
+        <br>
         <span class="uye">
-            <input class="bjg" type="text" id="demo1" name="output" placeholder="Rendered encryption">
-            <input class="bjg" type="text" id="demo2" name="output" placeholder="Unleshed hash">
+            <textarea class="bjg" type="text" id="demo1" name="output" placeholder="Rendered encryption"></textarea>
+            <textarea class="bjg" type="text" id="demo2" name="output" placeholder="Unleshed hash"></textarea>
         </span>
         </center>
         <script src="./master.js"></script>
